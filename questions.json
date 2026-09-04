@@ -1,0 +1,5588 @@
+[
+  {
+    "question": "Which planet has the shortest day in the Solar System?",
+    "options": ["Earth", "Jupiter", "Mars", "Mercury"],
+    "answer": "Jupiter",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the capital city of Kazakhstan?",
+    "options": ["Almaty", "Astana", "Tashkent", "Bishkek"],
+    "answer": "Astana",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which element has the chemical symbol W?",
+    "options": ["Tungsten", "Tin", "Titanium", "Tantalum"],
+    "answer": "Tungsten",
+    "category": "Science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who directed the movie Inception?",
+    "options": ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Denis Villeneuve"],
+    "answer": "Christopher Nolan",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has won the most FIFA World Cup titles?",
+    "options": ["Germany", "Argentina", "Brazil", "Italy"],
+    "answer": "Brazil",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest internal organ in the human body?",
+    "options": ["Heart", "Liver", "Lung", "Kidney"],
+    "answer": "Liver",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which African country was formerly known as Abyssinia?",
+    "options": ["Ethiopia", "Eritrea", "Sudan", "Somalia"],
+    "answer": "Ethiopia",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": ["HyperText Transfer Protocol", "High Transfer Text Program", "Hyperlink Transfer Technology Protocol", "HyperText Transmission Program"],
+    "answer": "HyperText Transfer Protocol",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which ocean is the deepest?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which artist released the album Thriller?",
+    "options": ["Prince", "Michael Jackson", "Stevie Wonder", "Lionel Richie"],
+    "answer": "Michael Jackson",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": ["10", "11", "12", "14"],
+    "answer": "12",
+    "category": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the ancient city of Petra?",
+    "options": ["Egypt", "Jordan", "Lebanon", "Syria"],
+    "answer": "Jordan",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which blood type is known as the universal red-cell donor?",
+    "options": ["AB positive", "O positive", "O negative", "A negative"],
+    "answer": "O negative",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is capable of changing the color and texture of its skin?",
+    "options": ["Chameleon", "Cheetah", "Hippopotamus", "Gorilla"],
+    "answer": "Chameleon",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the United States?",
+    "options": ["United Kingdom", "France", "Spain", "Italy"],
+    "answer": "France",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "2",
+    "category": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which gas makes up the largest percentage of Earth's atmosphere?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Nitrogen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which footballer is nicknamed 'The Egyptian King'?",
+    "options": ["Mohamed Salah", "Sadio Mane", "Riyad Mahrez", "Victor Osimhen"],
+    "answer": "Mohamed Salah",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": ["Won", "Yuan", "Yen", "Ringgit"],
+    "answer": "Yen",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which programming language was created by Brendan Eich?",
+    "options": ["Python", "Java", "JavaScript", "C++"],
+    "answer": "JavaScript",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which mammal is capable of true sustained flight?",
+    "options": ["Flying squirrel", "Bat", "Sugar glider", "Colugo"],
+    "answer": "Bat",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who wrote the novel 1984?",
+    "options": ["George Orwell", "Aldous Huxley", "Ernest Hemingway", "J.R.R. Tolkien"],
+    "answer": "George Orwell",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Ag", "Gd", "Au", "Go"],
+    "answer": "Au",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is the world's largest by land area?",
+    "options": ["Canada", "China", "United States", "Russia"],
+    "answer": "Russia",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which sport would you perform a slam dunk?",
+    "options": ["Volleyball", "Basketball", "Handball", "Tennis"],
+    "answer": "Basketball",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organ pumps blood around the human body?",
+    "options": ["Liver", "Brain", "Heart", "Lung"],
+    "answer": "Heart",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which African country has the largest population?",
+    "options": ["Egypt", "Nigeria", "Ethiopia", "South Africa"],
+    "answer": "Nigeria",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the fictional African nation in Black Panther?",
+    "options": ["Genovia", "Wakanda", "Zamunda", "Latveria"],
+    "answer": "Wakanda",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument has 88 keys on a standard modern version?",
+    "options": ["Organ", "Piano", "Accordion", "Harp"],
+    "answer": "Piano",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If all bloops are razzies and all razzies are lazzies, what must be true?",
+    "options": ["All lazzies are bloops", "All bloops are lazzies", "No bloops are lazzies", "Some lazzies are not razzies"],
+    "answer": "All bloops are lazzies",
+    "category": "Logic",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which planet is known for its prominent ring system?",
+    "options": ["Venus", "Mars", "Saturn", "Neptune"],
+    "answer": "Saturn",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "South Korea", "Thailand"],
+    "answer": "Japan",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who played Jack in the movie Titanic?",
+    "options": ["Brad Pitt", "Leonardo DiCaprio", "Matt Damon", "Tom Cruise"],
+    "answer": "Leonardo DiCaprio",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club plays its home matches at Anfield?",
+    "options": ["Manchester United", "Liverpool", "Chelsea", "Arsenal"],
+    "answer": "Liverpool",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the process by which plants convert light energy into chemical energy?",
+    "options": ["Respiration", "Photosynthesis", "Fermentation", "Transpiration"],
+    "answer": "Photosynthesis",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which desert is the largest hot desert in the world?",
+    "options": ["Gobi", "Kalahari", "Sahara", "Atacama"],
+    "answer": "Sahara",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the fictional wizarding school in Harry Potter?",
+    "options": ["Beauxbatons", "Hogwarts", "Durmstrang", "Ilvermorny"],
+    "answer": "Hogwarts",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the song 'Rolling in the Deep'?",
+    "options": ["Adele", "Rihanna", "Beyoncé", "Taylor Swift"],
+    "answer": "Adele",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep remain?",
+    "options": ["8", "9", "17", "0"],
+    "answer": "9",
+    "category": "Fun & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Venus", "Earth", "Mercury", "Mars"],
+    "answer": "Mercury",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which two countries share the longest international land border?",
+    "options": ["United States and Mexico", "Russia and China", "Canada and United States", "Brazil and Argentina"],
+    "answer": "Canada and United States",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+    "answer": "Neil Armstrong",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which programming language is primarily associated with the Django web framework?",
+    "options": ["JavaScript", "Python", "Ruby", "PHP"],
+    "answer": "Python",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the fastest land animal?",
+    "options": ["Lion", "Cheetah", "Leopard", "Gazelle"],
+    "answer": "Cheetah",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country hosted the 2010 FIFA World Cup?",
+    "options": ["Brazil", "South Africa", "Germany", "France"],
+    "answer": "South Africa",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "options": ["Spanish", "Portuguese", "French", "English"],
+    "answer": "Portuguese",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which actress played Hermione Granger in the Harry Potter films?",
+    "options": ["Emma Watson", "Emma Stone", "Keira Knightley", "Natalie Portman"],
+    "answer": "Emma Watson",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which musical symbol indicates that a note should be played at a higher pitch?",
+    "options": ["Flat", "Sharp", "Natural", "Rest"],
+    "answer": "Sharp",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If a clock shows 3:15, what is the smaller angle between the hour and minute hands?",
+    "options": ["0 degrees", "7.5 degrees", "15 degrees", "22.5 degrees"],
+    "answer": "7.5 degrees",
+    "category": "Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which metal is liquid at ordinary room temperature?",
+    "options": ["Mercury", "Aluminium", "Copper", "Iron"],
+    "answer": "Mercury",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is known as the Big Apple?",
+    "options": ["Los Angeles", "Chicago", "New York City", "Boston"],
+    "answer": "New York City",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Vincent van Gogh"],
+    "answer": "Leonardo da Vinci",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company developed the Android operating system?",
+    "options": ["Microsoft", "Google", "Apple", "IBM"],
+    "answer": "Google",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal has three hearts?",
+    "options": ["Shark", "Octopus", "Dolphin", "Crocodile"],
+    "answer": "Octopus",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country won the 2022 FIFA World Cup?",
+    "options": ["France", "Brazil", "Argentina", "Germany"],
+    "answer": "Argentina",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest continent by land area?",
+    "options": ["Africa", "Asia", "Europe", "North America"],
+    "answer": "Asia",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the Marvel universe, what is Thor's hammer called?",
+    "options": ["Stormbreaker", "Mjolnir", "Excalibur", "Gungnir"],
+    "answer": "Mjolnir",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which band released the song 'Bohemian Rhapsody'?",
+    "options": ["The Beatles", "Queen", "Pink Floyd", "The Rolling Stones"],
+    "answer": "Queen",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next: 2, 6, 12, 20, 30, ?",
+    "options": ["36", "40", "42", "44"],
+    "answer": "42",
+    "category": "Logic",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Quartz", "Diamond", "Titanium", "Graphite"],
+    "answer": "Diamond",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which river flows through Egypt and is one of Africa's longest rivers?",
+    "options": ["Congo", "Niger", "Nile", "Zambezi"],
+    "answer": "Nile",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ancient civilization built Machu Picchu?",
+    "options": ["Aztec", "Maya", "Inca", "Roman"],
+    "answer": "Inca",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": ["Central Processing Unit", "Computer Processing Utility", "Central Program Unit", "Computer Primary Unit"],
+    "answer": "Central Processing Unit",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which bird is famous for being unable to fly but is an excellent swimmer?",
+    "options": ["Eagle", "Penguin", "Falcon", "Hawk"],
+    "answer": "Penguin",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In tennis, what is the term for a score of zero?",
+    "options": ["Nil", "Love", "Blank", "Duck"],
+    "answer": "Love",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country contains the city of Barcelona?",
+    "options": ["Portugal", "Spain", "Italy", "France"],
+    "answer": "Spain",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features the character Darth Vader?",
+    "options": ["Star Wars", "Star Trek", "Avatar", "The Matrix"],
+    "answer": "Star Wars",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is often called the 'Queen of Pop'?",
+    "options": ["Whitney Houston", "Madonna", "Mariah Carey", "Celine Dion"],
+    "answer": "Madonna",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If five machines make five items in five minutes, how long would 100 machines take to make 100 items?",
+    "options": ["5 minutes", "20 minutes", "100 minutes", "500 minutes"],
+    "answer": "5 minutes",
+    "category": "Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which part of the cell contains most of its genetic material?",
+    "options": ["Ribosome", "Nucleus", "Cell membrane", "Cytoplasm"],
+    "answer": "Nucleus",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has the city of Marrakech?",
+    "options": ["Morocco", "Algeria", "Tunisia", "Egypt"],
+    "answer": "Morocco",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the first emperor of Rome?",
+    "options": ["Julius Caesar", "Augustus", "Nero", "Constantine"],
+    "answer": "Augustus",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": ["Uniform Resource Locator", "Universal Reference Link", "Uniform Retrieval Link", "Universal Resource Location"],
+    "answer": "Uniform Resource Locator",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is the largest living land animal?",
+    "options": ["White rhinoceros", "African elephant", "Giraffe", "Hippopotamus"],
+    "answer": "African elephant",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many players from one team are on the field at the start of a standard soccer match?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "11",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is shaped roughly like a boot?",
+    "options": ["Greece", "Italy", "Croatia", "Portugal"],
+    "answer": "Italy",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the coffee shop frequently visited by the main characters in Friends?",
+    "options": ["Central Perk", "Monk's Cafe", "Luke's Diner", "MacLaren's Pub"],
+    "answer": "Central Perk",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument is Yo-Yo Ma famous for playing?",
+    "options": ["Violin", "Cello", "Piano", "Flute"],
+    "answer": "Cello",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A man is looking at a photograph. Someone asks, 'Who is in the picture?' He replies, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the photograph?",
+    "options": ["His father", "His son", "His brother", "His uncle"],
+    "answer": "His son",
+    "category": "Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the approximate speed of light in a vacuum?",
+    "options": ["300,000 km/s", "30,000 km/s", "3,000 km/s", "3,000,000 km/s"],
+    "answer": "300,000 km/s",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which is the smallest country in the world by area?",
+    "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+    "answer": "Vatican City",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The ancient city of Troy is located in which modern-day country?",
+    "options": ["Greece", "Turkey", "Italy", "Egypt"],
+    "answer": "Turkey",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which company created the PlayStation?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Sega"],
+    "answer": "Sony",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is famous for having black-and-white stripes?",
+    "options": ["Zebra", "Okapi", "Panda", "Badger"],
+    "answer": "Zebra",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In basketball, how many points is a free throw worth?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "1",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "answer": "Canberra",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which TV series follows a chemistry teacher who becomes a methamphetamine manufacturer?",
+    "options": ["Ozark", "Breaking Bad", "Narcos", "Better Call Saul"],
+    "answer": "Breaking Bad",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which composer continued creating music despite becoming largely deaf?",
+    "options": ["Mozart", "Beethoven", "Bach", "Chopin"],
+    "answer": "Beethoven",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If you overtake the person in second place in a race, what position are you now in?",
+    "options": ["First", "Second", "Third", "Last"],
+    "answer": "Second",
+    "category": "Fun & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which force keeps planets in orbit around the Sun?",
+    "options": ["Magnetism", "Gravity", "Friction", "Electricity"],
+    "answer": "Gravity",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which African country has Accra as its capital?",
+    "options": ["Ghana", "Togo", "Benin", "Liberia"],
+    "answer": "Ghana",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the British Prime Minister during much of World War II?",
+    "options": ["Neville Chamberlain", "Winston Churchill", "Clement Attlee", "Anthony Eden"],
+    "answer": "Winston Churchill",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does RAM stand for in computing?",
+    "options": ["Random Access Memory", "Rapid Application Module", "Read Access Memory", "Random Application Memory"],
+    "answer": "Random Access Memory",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal has the longest neck of any living animal?",
+    "options": ["Giraffe", "Camel", "Ostrich", "Moose"],
+    "answer": "Giraffe",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the tennis tournament Wimbledon?",
+    "options": ["France", "United States", "United Kingdom", "Australia"],
+    "answer": "United Kingdom",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sea separates Europe from Africa?",
+    "options": ["Caribbean Sea", "Mediterranean Sea", "Red Sea", "Baltic Sea"],
+    "answer": "Mediterranean Sea",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In The Lord of the Rings, what creature is Gollum obsessed with?",
+    "options": ["The One Ring", "A sword", "A crown", "A jewel"],
+    "answer": "The One Ring",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer released the album Lemonade?",
+    "options": ["Beyoncé", "Rihanna", "Adele", "Nicki Minaj"],
+    "answer": "Beyoncé",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which number should replace the question mark: 3, 9, 27, 81, ?",
+    "options": ["162", "216", "243", "324"],
+    "answer": "243",
+    "category": "Logic",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which vitamin is mainly produced by the skin in response to sunlight?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "answer": "Vitamin D",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has the most natural lakes?",
+    "options": ["Russia", "Canada", "United States", "Brazil"],
+    "answer": "Canada",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which empire was ruled by Mansa Musa?",
+    "options": ["Mali Empire", "Roman Empire", "Ottoman Empire", "Songhai Empire"],
+    "answer": "Mali Empire",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of Microsoft's gaming console?",
+    "options": ["PlayStation", "Xbox", "Switch", "Dreamcast"],
+    "answer": "Xbox",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which reptile is famous for having one of the strongest bite forces among living animals?",
+    "options": ["Green iguana", "Saltwater crocodile", "Gecko", "Chameleon"],
+    "answer": "Saltwater crocodile",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many Grand Slam tournaments are there in professional tennis each year?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which mountain is the highest above sea level?",
+    "options": ["K2", "Mount Everest", "Kilimanjaro", "Denali"],
+    "answer": "Mount Everest",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1998 and starred Jack Nicholson and Helen Hunt?",
+    "options": ["Titanic", "Good Will Hunting", "As Good as It Gets", "The Full Monty"],
+    "answer": "Titanic",
+    "category": "Movies & TV",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which legendary musician was known as the 'King of Pop'?",
+    "options": ["Elvis Presley", "Michael Jackson", "James Brown", "Prince"],
+    "answer": "Michael Jackson",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A bat and a ball cost $1.10 together. The bat costs $1 more than the ball. How much does the ball cost?",
+    "options": ["$0.05", "$0.10", "$0.15", "$0.20"],
+    "answer": "$0.05",
+    "category": "Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the largest planet in our Solar System?",
+    "options": ["Saturn", "Jupiter", "Neptune", "Earth"],
+    "answer": "Jupiter",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to Mount Kilimanjaro?",
+    "options": ["Kenya", "Tanzania", "Uganda", "Ethiopia"],
+    "answer": "Tanzania",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "options": ["Alexander Fleming", "Louis Pasteur", "Isaac Newton", "Marie Curie"],
+    "answer": "Alexander Fleming",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which historical figure is associated with the theory of relativity?",
+    "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "answer": "Albert Einstein",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has a maple leaf on its national flag?",
+    "options": ["Canada", "Switzerland", "Denmark", "Austria"],
+    "answer": "Canada",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ancient people are credited with developing democracy in Athens?",
+    "options": ["Romans", "Greeks", "Persians", "Phoenicians"],
+    "answer": "Greeks",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": ["HyperText Markup Language", "HighText Machine Language", "Hyperlink Text Management Language", "Home Tool Markup Language"],
+    "answer": "HyperText Markup Language",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal can regenerate lost limbs and is commonly studied for regeneration research?",
+    "options": ["Axolotl", "Eagle", "Elephant", "Cheetah"],
+    "answer": "Axolotl",
+    "category": "Animals",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which country has won the most Olympic gold medals in basketball in the men's competition?",
+    "options": ["Spain", "United States", "Soviet Union", "Argentina"],
+    "answer": "United States",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which African Great Lake is the world's second-largest freshwater lake by surface area?",
+    "options": ["Lake Victoria", "Lake Tanganyika", "Lake Malawi", "Lake Chad"],
+    "answer": "Lake Tanganyika",
+    "category": "Geography",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which fictional detective lives at 221B Baker Street?",
+    "options": ["Hercule Poirot", "Sherlock Holmes", "Miss Marple", "Philip Marlowe"],
+    "answer": "Sherlock Holmes",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which music genre originated in Jamaica during the late 1960s?",
+    "options": ["Reggae", "Disco", "Grunge", "House"],
+    "answer": "Reggae",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you have three apples and take away two, how many apples do you have?",
+    "options": ["1", "2", "3", "0"],
+    "answer": "2",
+    "category": "Fun & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Elon Musk"],
+    "answer": "Neil Armstrong",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is home to the Eiffel Tower?",
+    "options": ["Rome", "Paris", "Madrid", "Berlin"],
+    "answer": "Paris",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company makes the iPhone?",
+    "options": ["Samsung", "Apple", "Google", "Microsoft"],
+    "answer": "Apple",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which footballer is famously known as CR7?",
+    "options": ["Lionel Messi", "Neymar", "Cristiano Ronaldo", "Kylian Mbappé"],
+    "answer": "Cristiano Ronaldo",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+    "answer": "Mars",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which app is famous for short-form videos?",
+    "options": ["TikTok", "LinkedIn", "Gmail", "Wikipedia"],
+    "answer": "TikTok",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the capital of Ghana?",
+    "options": ["Kumasi", "Accra", "Tamale", "Takoradi"],
+    "answer": "Accra",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is often called the king of the jungle?",
+    "options": ["Tiger", "Lion", "Elephant", "Leopard"],
+    "answer": "Lion",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who played Iron Man in the Marvel movies?",
+    "options": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+    "answer": "Robert Downey Jr.",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the Great Wall?",
+    "options": ["Japan", "China", "India", "Thailand"],
+    "answer": "China",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport uses a racket and a shuttlecock?",
+    "options": ["Tennis", "Badminton", "Squash", "Golf"],
+    "answer": "Badminton",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do bees produce?",
+    "options": ["Milk", "Honey", "Wax only", "Silk"],
+    "answer": "Honey",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer released the song 'Shape of You'?",
+    "options": ["Ed Sheeran", "Justin Bieber", "Drake", "Bruno Mars"],
+    "answer": "Ed Sheeran",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the pyramids of Giza?",
+    "options": ["Egypt", "Greece", "Mexico", "Peru"],
+    "answer": "Egypt",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which social media platform uses the bird logo historically associated with its old branding?",
+    "options": ["Instagram", "X", "Snapchat", "Facebook"],
+    "answer": "X",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who is known as the 'King of Pop'?",
+    "options": ["Elvis Presley", "Michael Jackson", "Usher", "Prince"],
+    "answer": "Michael Jackson",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club plays at Old Trafford?",
+    "options": ["Liverpool", "Manchester United", "Chelsea", "Arsenal"],
+    "answer": "Manchester United",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many days are there in a leap year?",
+    "options": ["364", "365", "366", "367"],
+    "answer": "366",
+    "category": "General Knowledge",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organ pumps blood around the human body?",
+    "options": ["Lungs", "Brain", "Heart", "Liver"],
+    "answer": "Heart",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the Taj Mahal?",
+    "options": ["India", "Pakistan", "Nepal", "Bangladesh"],
+    "answer": "India",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "options": ["Spanish", "Portuguese", "French", "English"],
+    "answer": "Portuguese",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which superhero is also known as Bruce Wayne?",
+    "options": ["Superman", "Batman", "Spider-Man", "Iron Man"],
+    "answer": "Batman",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is the fastest land animal?",
+    "options": ["Lion", "Cheetah", "Horse", "Leopard"],
+    "answer": "Cheetah",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country won the 2022 FIFA World Cup?",
+    "options": ["France", "Brazil", "Argentina", "Germany"],
+    "answer": "Argentina",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which streaming service is known for shows such as Stranger Things?",
+    "options": ["Netflix", "Spotify", "YouTube", "Disney+"],
+    "answer": "Netflix",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "options": ["Oxygen", "Water", "Hydrogen", "Salt"],
+    "answer": "Water",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which continent is Ghana located in?",
+    "options": ["Asia", "Africa", "Europe", "South America"],
+    "answer": "Africa",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who played Jack in Titanic?",
+    "options": ["Tom Cruise", "Leonardo DiCaprio", "Brad Pitt", "Matt Damon"],
+    "answer": "Leonardo DiCaprio",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument has black and white keys?",
+    "options": ["Guitar", "Piano", "Drum", "Trumpet"],
+    "answer": "Piano",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which footballer is nicknamed 'The Egyptian King'?",
+    "options": ["Sadio Mané", "Mohamed Salah", "Riyad Mahrez", "Victor Osimhen"],
+    "answer": "Mohamed Salah",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the closest planet to the Sun?",
+    "options": ["Venus", "Earth", "Mercury", "Mars"],
+    "answer": "Mercury",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is shaped roughly like a boot?",
+    "options": ["Italy", "Spain", "Greece", "Portugal"],
+    "answer": "Italy",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is famous for having a long trunk?",
+    "options": ["Giraffe", "Elephant", "Rhino", "Hippo"],
+    "answer": "Elephant",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features the character Harry Potter?",
+    "options": ["Harry Potter and the Philosopher's Stone", "The Hobbit", "Avatar", "Frozen"],
+    "answer": "Harry Potter and the Philosopher's Stone",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for Mount Everest?",
+    "options": ["Nepal", "Brazil", "Australia", "Canada"],
+    "answer": "Nepal",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport is Lionel Messi famous for?",
+    "options": ["Basketball", "Football", "Tennis", "Boxing"],
+    "answer": "Football",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which app is mainly used for music streaming?",
+    "options": ["Spotify", "WhatsApp", "Google Maps", "Zoom"],
+    "answer": "Spotify",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the opposite of 'ancient'?",
+    "options": ["Old", "Modern", "Historic", "Past"],
+    "answer": "Modern",
+    "category": "General Knowledge",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is famous for its prominent rings?",
+    "options": ["Mars", "Saturn", "Venus", "Earth"],
+    "answer": "Saturn",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has the city of Dubai?",
+    "options": ["Qatar", "United Arab Emirates", "Saudi Arabia", "Oman"],
+    "answer": "United Arab Emirates",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which superhero is associated with the shield bearing a star?",
+    "options": ["Thor", "Captain America", "Hulk", "Aquaman"],
+    "answer": "Captain America",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known for changing its skin color to blend with its surroundings?",
+    "options": ["Chameleon", "Zebra", "Kangaroo", "Penguin"],
+    "answer": "Chameleon",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the city of Tokyo?",
+    "options": ["China", "Japan", "South Korea", "Vietnam"],
+    "answer": "Japan",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does USB commonly connect to?",
+    "options": ["Electronic devices", "Cooking equipment", "Shoes", "Food"],
+    "answer": "Electronic devices",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the hit song 'Blinding Lights'?",
+    "options": ["The Weeknd", "Drake", "Post Malone", "Adele"],
+    "answer": "The Weeknd",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport is played at Wimbledon?",
+    "options": ["Football", "Tennis", "Golf", "Cricket"],
+    "answer": "Tennis",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest mammal on Earth?",
+    "options": ["Elephant", "Blue whale", "Giraffe", "Hippopotamus"],
+    "answer": "Blue whale",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the Statue of Liberty?",
+    "options": ["United States", "France", "Canada", "United Kingdom"],
+    "answer": "United States",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company owns YouTube?",
+    "options": ["Apple", "Google", "Microsoft", "Amazon"],
+    "answer": "Google",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which actor played Thor in the Marvel Cinematic Universe?",
+    "options": ["Chris Evans", "Chris Hemsworth", "Chris Pratt", "Tom Holland"],
+    "answer": "Chris Hemsworth",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club is associated with the slogan 'You'll Never Walk Alone'?",
+    "options": ["Liverpool", "Arsenal", "Barcelona", "Chelsea"],
+    "answer": "Liverpool",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which gas do humans need to breathe to survive?",
+    "options": ["Carbon dioxide", "Oxygen", "Hydrogen", "Helium"],
+    "answer": "Oxygen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which African country is famous for the city of Lagos?",
+    "options": ["Ghana", "Nigeria", "Kenya", "Uganda"],
+    "answer": "Nigeria",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known for carrying its baby in a pouch?",
+    "options": ["Kangaroo", "Lion", "Elephant", "Monkey"],
+    "answer": "Kangaroo",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie series features the character Dominic Toretto?",
+    "options": ["Mission: Impossible", "Fast & Furious", "John Wick", "Transformers"],
+    "answer": "Fast & Furious",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which currency is used in Japan?",
+    "options": ["Won", "Yuan", "Yen", "Rupee"],
+    "answer": "Yen",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device is primarily used to measure temperature?",
+    "options": ["Barometer", "Thermometer", "Compass", "Speedometer"],
+    "answer": "Thermometer",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football competition is commonly called the Champions League?",
+    "options": ["UEFA Champions League", "FIFA World Cup", "Europa Conference League", "AFCON"],
+    "answer": "UEFA Champions League",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which platform is widely used for watching online videos?",
+    "options": ["YouTube", "WhatsApp", "Gmail", "Google Drive"],
+    "answer": "YouTube",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the song 'Hello'?",
+    "options": ["Adele", "Rihanna", "Beyoncé", "Taylor Swift"],
+    "answer": "Adele",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is known for the pyramids and the ancient pharaohs?",
+    "options": ["Egypt", "Italy", "Greece", "Turkey"],
+    "answer": "Egypt",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 15 × 4?",
+    "options": ["50", "60", "70", "80"],
+    "answer": "60",
+    "category": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is famous for its black-and-white stripes?",
+    "options": ["Zebra", "Tiger", "Panda", "Skunk"],
+    "answer": "Zebra",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to Hollywood?",
+    "options": ["United States", "Canada", "United Kingdom", "Australia"],
+    "answer": "United States",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which footballer won the 2022 FIFA World Cup with Argentina?",
+    "options": ["Lionel Messi", "Neymar", "Cristiano Ronaldo", "Luka Modrić"],
+    "answer": "Lionel Messi",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the freezing point of water in Celsius?",
+    "options": ["0°C", "10°C", "32°C", "100°C"],
+    "answer": "0°C",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the Leaning Tower of Pisa?",
+    "options": ["Italy", "France", "Spain", "Portugal"],
+    "answer": "Italy",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which social media platform is strongly associated with disappearing photo and video messages?",
+    "options": ["Snapchat", "LinkedIn", "Reddit", "Wikipedia"],
+    "answer": "Snapchat",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal can sleep while standing up?",
+    "options": ["Horse", "Shark", "Octopus", "Rabbit"],
+    "answer": "Horse",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which actor played Spider-Man in the recent Marvel Spider-Man movies?",
+    "options": ["Tom Holland", "Tom Hanks", "Chris Evans", "Andrew Garfield"],
+    "answer": "Tom Holland",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has the city of Barcelona?",
+    "options": ["Italy", "Spain", "Portugal", "France"],
+    "answer": "Spain",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "options": ["Saturn", "Earth", "Jupiter", "Neptune"],
+    "answer": "Jupiter",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which artist is famous for the song 'Uptown Funk'?",
+    "options": ["Bruno Mars", "Ed Sheeran", "Drake", "The Weeknd"],
+    "answer": "Bruno Mars",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for kangaroos?",
+    "options": ["Australia", "New Zealand", "South Africa", "Brazil"],
+    "answer": "Australia",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company developed the Windows operating system?",
+    "options": ["Apple", "Microsoft", "Google", "Samsung"],
+    "answer": "Microsoft",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport uses the terms 'checkmate' and 'check'?",
+    "options": ["Boxing", "Chess", "Football", "Tennis"],
+    "answer": "Chess",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is the capital of the United Kingdom?",
+    "options": ["Manchester", "London", "Liverpool", "Birmingham"],
+    "answer": "London",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest internal organ in the human body?",
+    "options": ["Heart", "Liver", "Lung", "Kidney"],
+    "answer": "Liver",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character says 'I am Iron Man'?",
+    "options": ["Tony Stark", "Steve Rogers", "Peter Parker", "Bruce Banner"],
+    "answer": "Tony Stark",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which African country is famous for the Maasai people and safari tourism?",
+    "options": ["Kenya", "Ghana", "Morocco", "Senegal"],
+    "answer": "Kenya",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which bird is often associated with delivering messages in historical stories?",
+    "options": ["Pigeon", "Eagle", "Ostrich", "Penguin"],
+    "answer": "Pigeon",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which football club plays at Anfield?",
+    "options": ["Liverpool", "Manchester City", "Arsenal", "Chelsea"],
+    "answer": "Liverpool",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does AI stand for?",
+    "options": ["Automatic Internet", "Artificial Intelligence", "Advanced Internet", "Artificial Internet"],
+    "answer": "Artificial Intelligence",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the album '25'?",
+    "options": ["Adele", "Rihanna", "Beyoncé", "Nicki Minaj"],
+    "answer": "Adele",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country is famous for the Eiffel Tower?",
+    "options": ["France", "Germany", "Belgium", "Switzerland"],
+    "answer": "France",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known for having a very long neck?",
+    "options": ["Giraffe", "Elephant", "Zebra", "Camel"],
+    "answer": "Giraffe",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features the blue Na'vi people?",
+    "options": ["Avatar", "Black Panther", "Dune", "Aquaman"],
+    "answer": "Avatar",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for footballers such as Pelé?",
+    "options": ["Brazil", "Argentina", "Portugal", "Spain"],
+    "answer": "Brazil",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet do we live on?",
+    "options": ["Mars", "Earth", "Venus", "Jupiter"],
+    "answer": "Earth",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company owns Instagram?",
+    "options": ["Google", "Meta", "Apple", "Microsoft"],
+    "answer": "Meta",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the song 'Bad Guy'?",
+    "options": ["Billie Eilish", "Ariana Grande", "Dua Lipa", "Sia"],
+    "answer": "Billie Eilish",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which continent is the Sahara Desert located in?",
+    "options": ["Asia", "Africa", "Australia", "Europe"],
+    "answer": "Africa",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is famous for its ability to spray a strong-smelling liquid?",
+    "options": ["Skunk", "Fox", "Wolf", "Rabbit"],
+    "answer": "Skunk",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which superhero uses a hammer called Mjolnir?",
+    "options": ["Thor", "Hulk", "Superman", "Batman"],
+    "answer": "Thor",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club is based at the Santiago Bernabéu?",
+    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Sevilla"],
+    "answer": "Real Madrid",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which part of a plant usually absorbs water from the soil?",
+    "options": ["Flower", "Root", "Leaf", "Fruit"],
+    "answer": "Root",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which search engine is owned by Google?",
+    "options": ["Google Search", "Bing", "Yahoo", "DuckDuckGo"],
+    "answer": "Google Search",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for 'Single Ladies'?",
+    "options": ["Beyoncé", "Rihanna", "Adele", "Taylor Swift"],
+    "answer": "Beyoncé",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ocean lies between Africa and Australia?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "answer": "Indian Ocean",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is the largest land animal?",
+    "options": ["Giraffe", "African elephant", "Rhino", "Hippo"],
+    "answer": "African elephant",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie character is known as the 'Joker'?",
+    "options": ["Batman villain", "Superman villain", "Spider-Man villain", "Thor villain"],
+    "answer": "Batman villain",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many players from one team are on the field in football (soccer) at one time?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "11",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What force keeps us on the ground?",
+    "options": ["Magnetism", "Gravity", "Electricity", "Friction"],
+    "answer": "Gravity",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company makes the Galaxy smartphones?",
+    "options": ["Apple", "Samsung", "Google", "Sony"],
+    "answer": "Samsung",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which music artist is known as 'The Weeknd'?",
+    "options": ["Abel Tesfaye", "Aubrey Graham", "Shawn Carter", "Peter Hernandez"],
+    "answer": "Abel Tesfaye",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country has the capital city of Nairobi?",
+    "options": ["Kenya", "Tanzania", "Uganda", "Rwanda"],
+    "answer": "Kenya",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is famous for saying 'moo'?",
+    "options": ["Cow", "Goat", "Sheep", "Horse"],
+    "answer": "Cow",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which TV series features the characters Walter White and Jesse Pinkman?",
+    "options": ["Breaking Bad", "The Boys", "Prison Break", "Suits"],
+    "answer": "Breaking Bad",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has won the most men's FIFA World Cup titles?",
+    "options": ["Germany", "Brazil", "Argentina", "Italy"],
+    "answer": "Brazil",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "options": ["50°C", "75°C", "100°C", "150°C"],
+    "answer": "100°C",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which messaging app is owned by Meta?",
+    "options": ["WhatsApp", "Telegram", "Signal", "Discord"],
+    "answer": "WhatsApp",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which artist released 'Havana'?",
+    "options": ["Camila Cabello", "Dua Lipa", "Ariana Grande", "Selena Gomez"],
+    "answer": "Camila Cabello",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is directly north of Ghana?",
+    "options": ["Togo", "Burkina Faso", "Nigeria", "Ivory Coast"],
+    "answer": "Burkina Faso",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is known for its black-and-white coloring and eating bamboo?",
+    "options": ["Panda", "Zebra", "Penguin", "Skunk"],
+    "answer": "Panda",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features the fictional country of Wakanda?",
+    "options": ["Black Panther", "Iron Man", "Thor", "Avatar"],
+    "answer": "Black Panther",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In basketball, how many points is a free throw worth?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "1",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which vitamin is commonly associated with sunlight?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "answer": "Vitamin D",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which company developed Android?",
+    "options": ["Google", "Apple", "Microsoft", "Sony"],
+    "answer": "Google",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which artist is known for the song 'Flowers'?",
+    "options": ["Miley Cyrus", "Ariana Grande", "Dua Lipa", "Sia"],
+    "answer": "Miley Cyrus",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the city of Marrakech?",
+    "options": ["Morocco", "Egypt", "Tunisia", "Algeria"],
+    "answer": "Morocco",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is known for having eight arms?",
+    "options": ["Squid", "Octopus", "Starfish", "Crab"],
+    "answer": "Octopus",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie series features Ethan Hunt?",
+    "options": ["Mission: Impossible", "Fast & Furious", "John Wick", "The Bourne Series"],
+    "answer": "Mission: Impossible",
+    "category": "Movies & TV",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country is Lionel Messi from?",
+    "options": ["Brazil", "Argentina", "Spain", "Portugal"],
+    "answer": "Argentina",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which blood cells help fight infections?",
+    "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+    "answer": "White blood cells",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does GPS help you determine?",
+    "options": ["Your location", "Your blood type", "Your height", "Your temperature"],
+    "answer": "Your location",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is famous for the song 'Poker Face'?",
+    "options": ["Lady Gaga", "Katy Perry", "Rihanna", "Adele"],
+    "answer": "Lady Gaga",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the Amazon rainforest's largest share?",
+    "options": ["Brazil", "Peru", "Colombia", "Bolivia"],
+    "answer": "Brazil",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is known for its distinctive black-and-white face and is native to Australia?",
+    "options": ["Koala", "Panda", "Penguin", "Lemur"],
+    "answer": "Koala",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which series follows a group of survivors facing zombies?",
+    "options": ["The Walking Dead", "Suits", "Friends", "Wednesday"],
+    "answer": "The Walking Dead",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country hosted the 2010 FIFA World Cup?",
+    "options": ["South Africa", "Brazil", "Germany", "France"],
+    "answer": "South Africa",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which part of the body is primarily responsible for thinking?",
+    "options": ["Heart", "Brain", "Lungs", "Stomach"],
+    "answer": "Brain",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device lets you speak to someone over a mobile network?",
+    "options": ["Smartphone", "Television", "Microwave", "Refrigerator"],
+    "answer": "Smartphone",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is famous for the song 'Umbrella'?",
+    "options": ["Rihanna", "Beyoncé", "Adele", "Nicki Minaj"],
+    "answer": "Rihanna",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which African country is famous for the ancient city of Timbuktu?",
+    "options": ["Mali", "Ghana", "Nigeria", "Senegal"],
+    "answer": "Mali",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is known for moving very slowly and hanging from trees?",
+    "options": ["Sloth", "Monkey", "Koala", "Lemur"],
+    "answer": "Sloth",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features the character Jack Sparrow?",
+    "options": ["Pirates of the Caribbean", "The Hobbit", "Avatar", "Indiana Jones"],
+    "answer": "Pirates of the Caribbean",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club is known as 'The Gunners'?",
+    "options": ["Arsenal", "Chelsea", "Liverpool", "Tottenham"],
+    "answer": "Arsenal",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which gas do plants take in during photosynthesis?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"],
+    "answer": "Carbon dioxide",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which website is commonly used to search for information online?",
+    "options": ["Google", "Spotify", "Netflix", "WhatsApp"],
+    "answer": "Google",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which artist is known for the song 'As It Was'?",
+    "options": ["Harry Styles", "Ed Sheeran", "Shawn Mendes", "Justin Bieber"],
+    "answer": "Harry Styles",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the city of Paris?",
+    "options": ["France", "Belgium", "Italy", "Austria"],
+    "answer": "France",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known as man's best friend?",
+    "options": ["Cat", "Dog", "Horse", "Rabbit"],
+    "answer": "Dog",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet has the shortest day in the Solar System?",
+    "options": ["Earth", "Jupiter", "Mars", "Mercury"],
+    "answer": "Jupiter",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the capital city of Kazakhstan?",
+    "options": ["Almaty", "Astana", "Tashkent", "Bishkek"],
+    "answer": "Astana",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which element has the chemical symbol W?",
+    "options": ["Tungsten", "Tin", "Titanium", "Tantalum"],
+    "answer": "Tungsten",
+    "category": "Science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who directed the movie Inception?",
+    "options": ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Denis Villeneuve"],
+    "answer": "Christopher Nolan",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has won the most FIFA World Cup titles?",
+    "options": ["Germany", "Argentina", "Brazil", "Italy"],
+    "answer": "Brazil",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest internal organ in the human body?",
+    "options": ["Heart", "Liver", "Lung", "Kidney"],
+    "answer": "Liver",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which African country was formerly known as Abyssinia?",
+    "options": ["Ethiopia", "Eritrea", "Sudan", "Somalia"],
+    "answer": "Ethiopia",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": ["HyperText Transfer Protocol", "High Transfer Text Program", "Hyperlink Transfer Technology Protocol", "HyperText Transmission Program"],
+    "answer": "HyperText Transfer Protocol",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which ocean is the deepest?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which artist released the album Thriller?",
+    "options": ["Prince", "Michael Jackson", "Stevie Wonder", "Lionel Richie"],
+    "answer": "Michael Jackson",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": ["10", "11", "12", "14"],
+    "answer": "12",
+    "category": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the ancient city of Petra?",
+    "options": ["Egypt", "Jordan", "Lebanon", "Syria"],
+    "answer": "Jordan",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which blood type is known as the universal red-cell donor?",
+    "options": ["AB positive", "O positive", "O negative", "A negative"],
+    "answer": "O negative",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is capable of changing the color and texture of its skin?",
+    "options": ["Chameleon", "Cheetah", "Hippopotamus", "Gorilla"],
+    "answer": "Chameleon",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the United States?",
+    "options": ["United Kingdom", "France", "Spain", "Italy"],
+    "answer": "France",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "2",
+    "category": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which gas makes up the largest percentage of Earth's atmosphere?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Nitrogen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which footballer is nicknamed 'The Egyptian King'?",
+    "options": ["Mohamed Salah", "Sadio Mane", "Riyad Mahrez", "Victor Osimhen"],
+    "answer": "Mohamed Salah",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": ["Won", "Yuan", "Yen", "Ringgit"],
+    "answer": "Yen",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which programming language was created by Brendan Eich?",
+    "options": ["Python", "Java", "JavaScript", "C++"],
+    "answer": "JavaScript",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which mammal is capable of true sustained flight?",
+    "options": ["Flying squirrel", "Bat", "Sugar glider", "Colugo"],
+    "answer": "Bat",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who wrote the novel 1984?",
+    "options": ["George Orwell", "Aldous Huxley", "Ernest Hemingway", "J.R.R. Tolkien"],
+    "answer": "George Orwell",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Ag", "Gd", "Au", "Go"],
+    "answer": "Au",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is the world's largest by land area?",
+    "options": ["Canada", "China", "United States", "Russia"],
+    "answer": "Russia",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which sport would you perform a slam dunk?",
+    "options": ["Volleyball", "Basketball", "Handball", "Tennis"],
+    "answer": "Basketball",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organ pumps blood around the human body?",
+    "options": ["Liver", "Brain", "Heart", "Lung"],
+    "answer": "Heart",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which African country has the largest population?",
+    "options": ["Egypt", "Nigeria", "Ethiopia", "South Africa"],
+    "answer": "Nigeria",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the fictional African nation in Black Panther?",
+    "options": ["Genovia", "Wakanda", "Zamunda", "Latveria"],
+    "answer": "Wakanda",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument has 88 keys on a standard modern version?",
+    "options": ["Organ", "Piano", "Accordion", "Harp"],
+    "answer": "Piano",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If all bloops are razzies and all razzies are lazzies, what must be true?",
+    "options": ["All lazzies are bloops", "All bloops are lazzies", "No bloops are lazzies", "Some lazzies are not razzies"],
+    "answer": "All bloops are lazzies",
+    "category": "Logic",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which planet is known for its prominent ring system?",
+    "options": ["Venus", "Mars", "Saturn", "Neptune"],
+    "answer": "Saturn",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "South Korea", "Thailand"],
+    "answer": "Japan",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who played Jack in the movie Titanic?",
+    "options": ["Brad Pitt", "Leonardo DiCaprio", "Matt Damon", "Tom Cruise"],
+    "answer": "Leonardo DiCaprio",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club plays its home matches at Anfield?",
+    "options": ["Manchester United", "Liverpool", "Chelsea", "Arsenal"],
+    "answer": "Liverpool",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the process by which plants convert light energy into chemical energy?",
+    "options": ["Respiration", "Photosynthesis", "Fermentation", "Transpiration"],
+    "answer": "Photosynthesis",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which desert is the largest hot desert in the world?",
+    "options": ["Gobi", "Kalahari", "Sahara", "Atacama"],
+    "answer": "Sahara",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the fictional wizarding school in Harry Potter?",
+    "options": ["Beauxbatons", "Hogwarts", "Durmstrang", "Ilvermorny"],
+    "answer": "Hogwarts",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the song 'Rolling in the Deep'?",
+    "options": ["Adele", "Rihanna", "Beyoncé", "Taylor Swift"],
+    "answer": "Adele",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep remain?",
+    "options": ["8", "9", "17", "0"],
+    "answer": "9",
+    "category": "Fun & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Venus", "Earth", "Mercury", "Mars"],
+    "answer": "Mercury",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which two countries share the longest international land border?",
+    "options": ["United States and Mexico", "Russia and China", "Canada and United States", "Brazil and Argentina"],
+    "answer": "Canada and United States",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+    "answer": "Neil Armstrong",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which programming language is primarily associated with the Django web framework?",
+    "options": ["JavaScript", "Python", "Ruby", "PHP"],
+    "answer": "Python",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the fastest land animal?",
+    "options": ["Lion", "Cheetah", "Leopard", "Gazelle"],
+    "answer": "Cheetah",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country hosted the 2010 FIFA World Cup?",
+    "options": ["Brazil", "South Africa", "Germany", "France"],
+    "answer": "South Africa",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "options": ["Spanish", "Portuguese", "French", "English"],
+    "answer": "Portuguese",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which actress played Hermione Granger in the Harry Potter films?",
+    "options": ["Emma Watson", "Emma Stone", "Keira Knightley", "Natalie Portman"],
+    "answer": "Emma Watson",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which musical symbol indicates that a note should be played at a higher pitch?",
+    "options": ["Flat", "Sharp", "Natural", "Rest"],
+    "answer": "Sharp",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If a clock shows 3:15, what is the smaller angle between the hour and minute hands?",
+    "options": ["0 degrees", "7.5 degrees", "15 degrees", "22.5 degrees"],
+    "answer": "7.5 degrees",
+    "category": "Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which metal is liquid at ordinary room temperature?",
+    "options": ["Mercury", "Aluminium", "Copper", "Iron"],
+    "answer": "Mercury",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is known as the Big Apple?",
+    "options": ["Los Angeles", "Chicago", "New York City", "Boston"],
+    "answer": "New York City",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Vincent van Gogh"],
+    "answer": "Leonardo da Vinci",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company developed the Android operating system?",
+    "options": ["Microsoft", "Google", "Apple", "IBM"],
+    "answer": "Google",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal has three hearts?",
+    "options": ["Shark", "Octopus", "Dolphin", "Crocodile"],
+    "answer": "Octopus",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country won the 2022 FIFA World Cup?",
+    "options": ["France", "Brazil", "Argentina", "Germany"],
+    "answer": "Argentina",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest continent by land area?",
+    "options": ["Africa", "Asia", "Europe", "North America"],
+    "answer": "Asia",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the Marvel universe, what is Thor's hammer called?",
+    "options": ["Stormbreaker", "Mjolnir", "Excalibur", "Gungnir"],
+    "answer": "Mjolnir",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which band released the song 'Bohemian Rhapsody'?",
+    "options": ["The Beatles", "Queen", "Pink Floyd", "The Rolling Stones"],
+    "answer": "Queen",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next: 2, 6, 12, 20, 30, ?",
+    "options": ["36", "40", "42", "44"],
+    "answer": "42",
+    "category": "Logic",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Quartz", "Diamond", "Titanium", "Graphite"],
+    "answer": "Diamond",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which river flows through Egypt and is one of Africa's longest rivers?",
+    "options": ["Congo", "Niger", "Nile", "Zambezi"],
+    "answer": "Nile",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ancient civilization built Machu Picchu?",
+    "options": ["Aztec", "Maya", "Inca", "Roman"],
+    "answer": "Inca",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": ["Central Processing Unit", "Computer Processing Utility", "Central Program Unit", "Computer Primary Unit"],
+    "answer": "Central Processing Unit",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which bird is famous for being unable to fly but is an excellent swimmer?",
+    "options": ["Eagle", "Penguin", "Falcon", "Hawk"],
+    "answer": "Penguin",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In tennis, what is the term for a score of zero?",
+    "options": ["Nil", "Love", "Blank", "Duck"],
+    "answer": "Love",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country contains the city of Barcelona?",
+    "options": ["Portugal", "Spain", "Italy", "France"],
+    "answer": "Spain",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features the character Darth Vader?",
+    "options": ["Star Wars", "Star Trek", "Avatar", "The Matrix"],
+    "answer": "Star Wars",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is often called the 'Queen of Pop'?",
+    "options": ["Whitney Houston", "Madonna", "Mariah Carey", "Celine Dion"],
+    "answer": "Madonna",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If five machines make five items in five minutes, how long would 100 machines take to make 100 items?",
+    "options": ["5 minutes", "20 minutes", "100 minutes", "500 minutes"],
+    "answer": "5 minutes",
+    "category": "Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which part of the cell contains most of its genetic material?",
+    "options": ["Ribosome", "Nucleus", "Cell membrane", "Cytoplasm"],
+    "answer": "Nucleus",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has the city of Marrakech?",
+    "options": ["Morocco", "Algeria", "Tunisia", "Egypt"],
+    "answer": "Morocco",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the first emperor of Rome?",
+    "options": ["Julius Caesar", "Augustus", "Nero", "Constantine"],
+    "answer": "Augustus",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": ["Uniform Resource Locator", "Universal Reference Link", "Uniform Retrieval Link", "Universal Resource Location"],
+    "answer": "Uniform Resource Locator",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is the largest living land animal?",
+    "options": ["White rhinoceros", "African elephant", "Giraffe", "Hippopotamus"],
+    "answer": "African elephant",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many players from one team are on the field at the start of a standard soccer match?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "11",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is shaped roughly like a boot?",
+    "options": ["Greece", "Italy", "Croatia", "Portugal"],
+    "answer": "Italy",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the coffee shop frequently visited by the main characters in Friends?",
+    "options": ["Central Perk", "Monk's Cafe", "Luke's Diner", "MacLaren's Pub"],
+    "answer": "Central Perk",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument is Yo-Yo Ma famous for playing?",
+    "options": ["Violin", "Cello", "Piano", "Flute"],
+    "answer": "Cello",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A man is looking at a photograph. Someone asks, 'Who is in the picture?' He replies, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the photograph?",
+    "options": ["His father", "His son", "His brother", "His uncle"],
+    "answer": "His son",
+    "category": "Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the approximate speed of light in a vacuum?",
+    "options": ["300,000 km/s", "30,000 km/s", "3,000 km/s", "3,000,000 km/s"],
+    "answer": "300,000 km/s",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which is the smallest country in the world by area?",
+    "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+    "answer": "Vatican City",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The ancient city of Troy is located in which modern-day country?",
+    "options": ["Greece", "Turkey", "Italy", "Egypt"],
+    "answer": "Turkey",
+    "category": "History",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which company created the PlayStation?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Sega"],
+    "answer": "Sony",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is famous for having black-and-white stripes?",
+    "options": ["Zebra", "Okapi", "Panda", "Badger"],
+    "answer": "Zebra",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In basketball, how many points is a free throw worth?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "1",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "answer": "Canberra",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which TV series follows a chemistry teacher who becomes a methamphetamine manufacturer?",
+    "options": ["Ozark", "Breaking Bad", "Narcos", "Better Call Saul"],
+    "answer": "Breaking Bad",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which composer continued creating music despite becoming largely deaf?",
+    "options": ["Mozart", "Beethoven", "Bach", "Chopin"],
+    "answer": "Beethoven",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If you overtake the person in second place in a race, what position are you now in?",
+    "options": ["First", "Second", "Third", "Last"],
+    "answer": "Second",
+    "category": "Fun & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which force keeps planets in orbit around the Sun?",
+    "options": ["Magnetism", "Gravity", "Friction", "Electricity"],
+    "answer": "Gravity",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which African country has Accra as its capital?",
+    "options": ["Ghana", "Togo", "Benin", "Liberia"],
+    "answer": "Ghana",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the British Prime Minister during much of World War II?",
+    "options": ["Neville Chamberlain", "Winston Churchill", "Clement Attlee", "Anthony Eden"],
+    "answer": "Winston Churchill",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does RAM stand for in computing?",
+    "options": ["Random Access Memory", "Rapid Application Module", "Read Access Memory", "Random Application Memory"],
+    "answer": "Random Access Memory",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal has the longest neck of any living animal?",
+    "options": ["Giraffe", "Camel", "Ostrich", "Moose"],
+    "answer": "Giraffe",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the tennis tournament Wimbledon?",
+    "options": ["France", "United States", "United Kingdom", "Australia"],
+    "answer": "United Kingdom",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sea separates Europe from Africa?",
+    "options": ["Caribbean Sea", "Mediterranean Sea", "Red Sea", "Baltic Sea"],
+    "answer": "Mediterranean Sea",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In The Lord of the Rings, what creature is Gollum obsessed with?",
+    "options": ["The One Ring", "A sword", "A crown", "A jewel"],
+    "answer": "The One Ring",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer released the album Lemonade?",
+    "options": ["Beyoncé", "Rihanna", "Adele", "Nicki Minaj"],
+    "answer": "Beyoncé",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which number should replace the question mark: 3, 9, 27, 81, ?",
+    "options": ["162", "216", "243", "324"],
+    "answer": "243",
+    "category": "Logic",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which vitamin is mainly produced by the skin in response to sunlight?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "answer": "Vitamin D",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has the most natural lakes?",
+    "options": ["Russia", "Canada", "United States", "Brazil"],
+    "answer": "Canada",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which empire was ruled by Mansa Musa?",
+    "options": ["Mali Empire", "Roman Empire", "Ottoman Empire", "Songhai Empire"],
+    "answer": "Mali Empire",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of Microsoft's gaming console?",
+    "options": ["PlayStation", "Xbox", "Switch", "Dreamcast"],
+    "answer": "Xbox",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which reptile is famous for having one of the strongest bite forces among living animals?",
+    "options": ["Green iguana", "Saltwater crocodile", "Gecko", "Chameleon"],
+    "answer": "Saltwater crocodile",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many Grand Slam tournaments are there in professional tennis each year?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which mountain is the highest above sea level?",
+    "options": ["K2", "Mount Everest", "Kilimanjaro", "Denali"],
+    "answer": "Mount Everest",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1998 and starred Jack Nicholson and Helen Hunt?",
+    "options": ["Titanic", "Good Will Hunting", "As Good as It Gets", "The Full Monty"],
+    "answer": "Titanic",
+    "category": "Movies & TV",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which legendary musician was known as the 'King of Pop'?",
+    "options": ["Elvis Presley", "Michael Jackson", "James Brown", "Prince"],
+    "answer": "Michael Jackson",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A bat and a ball cost $1.10 together. The bat costs $1 more than the ball. How much does the ball cost?",
+    "options": ["$0.05", "$0.10", "$0.15", "$0.20"],
+    "answer": "$0.05",
+    "category": "Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the largest planet in our Solar System?",
+    "options": ["Saturn", "Jupiter", "Neptune", "Earth"],
+    "answer": "Jupiter",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to Mount Kilimanjaro?",
+    "options": ["Kenya", "Tanzania", "Uganda", "Ethiopia"],
+    "answer": "Tanzania",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "options": ["Alexander Fleming", "Louis Pasteur", "Isaac Newton", "Marie Curie"],
+    "answer": "Alexander Fleming",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which historical figure is associated with the theory of relativity?",
+    "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "answer": "Albert Einstein",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has a maple leaf on its national flag?",
+    "options": ["Canada", "Switzerland", "Denmark", "Austria"],
+    "answer": "Canada",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ancient people are credited with developing democracy in Athens?",
+    "options": ["Romans", "Greeks", "Persians", "Phoenicians"],
+    "answer": "Greeks",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": ["HyperText Markup Language", "HighText Machine Language", "Hyperlink Text Management Language", "Home Tool Markup Language"],
+    "answer": "HyperText Markup Language",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal can regenerate lost limbs and is commonly studied for regeneration research?",
+    "options": ["Axolotl", "Eagle", "Elephant", "Cheetah"],
+    "answer": "Axolotl",
+    "category": "Animals",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which country has won the most Olympic gold medals in basketball in the men's competition?",
+    "options": ["Spain", "United States", "Soviet Union", "Argentina"],
+    "answer": "United States",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which African Great Lake is the world's second-largest freshwater lake by surface area?",
+    "options": ["Lake Victoria", "Lake Tanganyika", "Lake Malawi", "Lake Chad"],
+    "answer": "Lake Tanganyika",
+    "category": "Geography",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which fictional detective lives at 221B Baker Street?",
+    "options": ["Hercule Poirot", "Sherlock Holmes", "Miss Marple", "Philip Marlowe"],
+    "answer": "Sherlock Holmes",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which music genre originated in Jamaica during the late 1960s?",
+    "options": ["Reggae", "Disco", "Grunge", "House"],
+    "answer": "Reggae",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you have three apples and take away two, how many apples do you have?",
+    "options": ["1", "2", "3", "0"],
+    "answer": "2",
+    "category": "Fun & Trick",
+    "difficulty": "easy"
+  },
+ {
+    "question": "If you overtake the person in second place, what position are you in?",
+    "options": ["First", "Second", "Third", "Last"],
+    "answer": "Second",
+    "category": "Trick Questions",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What gets wetter the more it dries?",
+    "options": ["A towel", "A sponge", "A cloud", "Sand"],
+    "answer": "A towel",
+    "category": "Trick Questions",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What has many keys but cannot open a single door?",
+    "options": ["A piano", "A house", "A lock", "A keyboard keycard"],
+    "answer": "A piano",
+    "category": "Fun & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you have 3 apples and take away 2, how many apples do you have?",
+    "options": ["1", "2", "3", "5"],
+    "answer": "2",
+    "category": "Trick Questions",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What can you catch but never throw?",
+    "options": ["A ball", "A cold", "A stick", "A stone"],
+    "answer": "A cold",
+    "category": "Fun & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What disappears as soon as you say its name?",
+    "options": ["Darkness", "Silence", "A shadow", "A secret"],
+    "answer": "Silence",
+    "category": "Fun & Trick",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal can taste using its feet?",
+    "options": ["Butterfly", "Dog", "Elephant", "Frog"],
+    "answer": "Butterfly",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which mammal is capable of true sustained flight?",
+    "options": ["Flying squirrel", "Bat", "Eagle", "Monkey"],
+    "answer": "Bat",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal has fingerprints that can look surprisingly similar to human fingerprints?",
+    "options": ["Koala", "Tiger", "Penguin", "Giraffe"],
+    "answer": "Koala",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal has three hearts?",
+    "options": ["Shark", "Octopus", "Dolphin", "Crocodile"],
+    "answer": "Octopus",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known for laughing-like vocalizations?",
+    "options": ["Hyena", "Elephant", "Zebra", "Rhino"],
+    "answer": "Hyena",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal cannot jump?",
+    "options": ["Elephant", "Kangaroo", "Frog", "Rabbit"],
+    "answer": "Elephant",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal has a tongue that can be longer than its body?",
+    "options": ["Chameleon", "Lion", "Horse", "Crocodile"],
+    "answer": "Chameleon",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is famous for having a pouch for carrying its young?",
+    "options": ["Kangaroo", "Cheetah", "Gorilla", "Zebra"],
+    "answer": "Kangaroo",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known for playing dead when threatened?",
+    "options": ["Opossum", "Lion", "Horse", "Eagle"],
+    "answer": "Opossum",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal has a bite powerful enough to crush bones and is native to Australia?",
+    "options": ["Dingo", "Saltwater crocodile", "Koala", "Kangaroo"],
+    "answer": "Saltwater crocodile",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which sea creature is famous for changing its skin color and texture?",
+    "options": ["Octopus", "Whale", "Shark", "Dolphin"],
+    "answer": "Octopus",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is famous for building dams?",
+    "options": ["Beaver", "Otter", "Hippo", "Seal"],
+    "answer": "Beaver",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which bird is famous for being unable to fly but being an excellent swimmer?",
+    "options": ["Penguin", "Eagle", "Parrot", "Hawk"],
+    "answer": "Penguin",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal can rotate its head dramatically farther than humans can?",
+    "options": ["Owl", "Eagle", "Parrot", "Penguin"],
+    "answer": "Owl",
+    "category": "Animals",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which footballer is famous for the 'Siuuu' celebration?",
+    "options": ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Kylian Mbappé"],
+    "answer": "Cristiano Ronaldo",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which footballer is widely known by the nickname 'The Pharaoh'?",
+    "options": ["Mohamed Salah", "Sadio Mané", "Riyad Mahrez", "Victor Osimhen"],
+    "answer": "Mohamed Salah",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has produced football legends such as Pelé and Ronaldinho?",
+    "options": ["Argentina", "Brazil", "Portugal", "Spain"],
+    "answer": "Brazil",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In football, what happens if a player receives two yellow cards in the same match?",
+    "options": ["Nothing", "They are sent off", "They get a penalty", "The match ends"],
+    "answer": "They are sent off",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In football, what is a hat-trick?",
+    "options": ["Three assists", "Three goals by one player", "Three yellow cards", "Three saves"],
+    "answer": "Three goals by one player",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the football club FC Barcelona?",
+    "options": ["Italy", "Spain", "France", "Portugal"],
+    "answer": "Spain",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club is known as the Red Devils?",
+    "options": ["Liverpool", "Manchester United", "Arsenal", "Chelsea"],
+    "answer": "Manchester United",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club is commonly called the Gunners?",
+    "options": ["Arsenal", "Chelsea", "Liverpool", "Everton"],
+    "answer": "Arsenal",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club is known as the Citizens?",
+    "options": ["Manchester City", "Leicester City", "Chelsea", "West Ham"],
+    "answer": "Manchester City",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which African country won the 2021 Africa Cup of Nations?",
+    "options": ["Egypt", "Senegal", "Nigeria", "Ghana"],
+    "answer": "Senegal",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which African country is famous for the football star Sadio Mané?",
+    "options": ["Senegal", "Ghana", "Nigeria", "Cameroon"],
+    "answer": "Senegal",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What color card means a player is sent off in football?",
+    "options": ["Blue", "Red", "Green", "Black"],
+    "answer": "Red",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are normally played in a football match before added time?",
+    "options": ["60", "80", "90", "120"],
+    "answer": "90",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport uses a 'slam dunk'?",
+    "options": ["Tennis", "Basketball", "Football", "Volleyball"],
+    "answer": "Basketball",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport uses the term 'love' for a score of zero?",
+    "options": ["Tennis", "Basketball", "Boxing", "Golf"],
+    "answer": "Tennis",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport is Tiger Woods famous for?",
+    "options": ["Golf", "Tennis", "Football", "Baseball"],
+    "answer": "Golf",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which boxer was nicknamed 'The Greatest'?",
+    "options": ["Mike Tyson", "Muhammad Ali", "Floyd Mayweather", "Manny Pacquiao"],
+    "answer": "Muhammad Ali",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is associated with sumo wrestling?",
+    "options": ["China", "Japan", "South Korea", "Thailand"],
+    "answer": "Japan",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport uses a puck?",
+    "options": ["Ice hockey", "Cricket", "Baseball", "Rugby"],
+    "answer": "Ice hockey",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which superhero's real name is Peter Parker?",
+    "options": ["Superman", "Spider-Man", "Batman", "Flash"],
+    "answer": "Spider-Man",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which superhero's real name is Clark Kent?",
+    "options": ["Batman", "Superman", "Thor", "Iron Man"],
+    "answer": "Superman",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which superhero is associated with the fictional city of Gotham?",
+    "options": ["Batman", "Spider-Man", "Superman", "Iron Man"],
+    "answer": "Batman",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which superhero is associated with the fictional city of Metropolis?",
+    "options": ["Batman", "Superman", "Hulk", "Thor"],
+    "answer": "Superman",
+    "category": "Movies & TV",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the name of Thor's famous hammer?",
+    "options": ["Stormbreaker", "Mjolnir", "Excalibur", "Andúril"],
+    "answer": "Mjolnir",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of Captain America's shield made from?",
+    "options": ["Vibranium", "Adamantium", "Titanium", "Steel"],
+    "answer": "Vibranium",
+    "category": "Movies & TV",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which Marvel character is known for the phrase 'Wakanda Forever'?",
+    "options": ["Black Panther", "Iron Man", "Thor", "Hulk"],
+    "answer": "Black Panther",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features a character named Jack Sparrow?",
+    "options": ["Pirates of the Caribbean", "Avatar", "The Matrix", "Gladiator"],
+    "answer": "Pirates of the Caribbean",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which actor played Jack Sparrow?",
+    "options": ["Johnny Depp", "Brad Pitt", "Tom Cruise", "Leonardo DiCaprio"],
+    "answer": "Johnny Depp",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features the quote 'May the Force be with you'?",
+    "options": ["Star Wars", "Star Trek", "Avatar", "The Matrix"],
+    "answer": "Star Wars",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fictional school does Harry Potter attend?",
+    "options": ["Hogwarts", "Nevermore", "Oxford", "Ravenclaw Academy"],
+    "answer": "Hogwarts",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Harry Potter's scar shaped like?",
+    "options": ["A star", "A lightning bolt", "A circle", "A snake"],
+    "answer": "A lightning bolt",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which series features a character named Wednesday Addams?",
+    "options": ["Wednesday", "Stranger Things", "Riverdale", "The Boys"],
+    "answer": "Wednesday",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which series features Eleven?",
+    "options": ["Stranger Things", "Wednesday", "The Witcher", "The Boys"],
+    "answer": "Stranger Things",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Eleven's favorite food in Stranger Things?",
+    "options": ["Pizza", "Waffles", "Burgers", "Ice cream"],
+    "answer": "Waffles",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which series follows Walter White?",
+    "options": ["Breaking Bad", "Suits", "Prison Break", "The Walking Dead"],
+    "answer": "Breaking Bad",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Walter White's nickname in Breaking Bad?",
+    "options": ["Heisenberg", "Ghost", "The Professor", "Blue"],
+    "answer": "Heisenberg",
+    "category": "Movies & TV",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which movie series features Dominic Toretto?",
+    "options": ["Fast & Furious", "Mission: Impossible", "John Wick", "Transformers"],
+    "answer": "Fast & Furious",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Dominic Toretto especially obsessed with?",
+    "options": ["Family", "Money", "Magic", "Politics"],
+    "answer": "Family",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie character is famous for saying 'I'll be back'?",
+    "options": ["The Terminator", "Rocky", "John Wick", "Rambo"],
+    "answer": "The Terminator",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which actor played the main character in the John Wick movies?",
+    "options": ["Keanu Reeves", "Tom Cruise", "Jason Statham", "Brad Pitt"],
+    "answer": "Keanu Reeves",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features a blue alien-like population called the Na'vi?",
+    "options": ["Avatar", "Dune", "Star Wars", "Guardians of the Galaxy"],
+    "answer": "Avatar",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the hit 'Thriller'?",
+    "options": ["Michael Jackson", "Prince", "Usher", "Bruno Mars"],
+    "answer": "Michael Jackson",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the song 'Umbrella'?",
+    "options": ["Rihanna", "Adele", "Beyoncé", "Sia"],
+    "answer": "Rihanna",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer released 'Blinding Lights'?",
+    "options": ["The Weeknd", "Drake", "Bruno Mars", "Post Malone"],
+    "answer": "The Weeknd",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer released 'Shape of You'?",
+    "options": ["Ed Sheeran", "Justin Bieber", "Harry Styles", "Shawn Mendes"],
+    "answer": "Ed Sheeran",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for 'Single Ladies'?",
+    "options": ["Beyoncé", "Rihanna", "Adele", "Nicki Minaj"],
+    "answer": "Beyoncé",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the song 'Flowers'?",
+    "options": ["Miley Cyrus", "Taylor Swift", "Ariana Grande", "Dua Lipa"],
+    "answer": "Miley Cyrus",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for 'Bad Guy'?",
+    "options": ["Billie Eilish", "Dua Lipa", "Sia", "Ariana Grande"],
+    "answer": "Billie Eilish",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which artist is known for the song 'Havana'?",
+    "options": ["Camila Cabello", "Selena Gomez", "Dua Lipa", "Ariana Grande"],
+    "answer": "Camila Cabello",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is famous for the song 'Poker Face'?",
+    "options": ["Lady Gaga", "Katy Perry", "Rihanna", "Sia"],
+    "answer": "Lady Gaga",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for 'As It Was'?",
+    "options": ["Harry Styles", "Ed Sheeran", "Shawn Mendes", "The Weeknd"],
+    "answer": "Harry Styles",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Nigerian artist released 'Calm Down' with Selena Gomez?",
+    "options": ["Rema", "Wizkid", "Davido", "Burnaboy"],
+    "answer": "Rema",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Nigerian artist is known for the hit 'Fall'?",
+    "options": ["Davido", "Rema", "Fireboy DML", "Omah Lay"],
+    "answer": "Davido",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which Ghanaian artist is known for the song 'Second Sermon'?",
+    "options": ["Black Sherif", "Sarkodie", "Stonebwoy", "Shatta Wale"],
+    "answer": "Black Sherif",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Ghanaian artist is famous for the song 'Dancehall King'?",
+    "options": ["Shatta Wale", "Stonebwoy", "Sarkodie", "King Promise"],
+    "answer": "Shatta Wale",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Ghanaian artist is known for the song 'Into the Future'?",
+    "options": ["King Promise", "Black Sherif", "Sarkodie", "Stonebwoy"],
+    "answer": "King Promise",
+    "category": "Music",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which rapper is known as 'The Rap Doctor' in Ghana?",
+    "options": ["Sarkodie", "Shatta Wale", "Stonebwoy", "Black Sherif"],
+    "answer": "Sarkodie",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which app became famous worldwide for short videos and viral trends?",
+    "options": ["TikTok", "LinkedIn", "Gmail", "Google Maps"],
+    "answer": "TikTok",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which app is primarily used for messaging and voice/video calls?",
+    "options": ["WhatsApp", "Spotify", "Netflix", "Google Maps"],
+    "answer": "WhatsApp",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which platform is famous for professional networking?",
+    "options": ["LinkedIn", "TikTok", "Snapchat", "Spotify"],
+    "answer": "LinkedIn",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company owns Instagram and WhatsApp?",
+    "options": ["Meta", "Google", "Apple", "Microsoft"],
+    "answer": "Meta",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company owns YouTube?",
+    "options": ["Google", "Meta", "Microsoft", "Apple"],
+    "answer": "Google",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company created the iPhone?",
+    "options": ["Apple", "Samsung", "Google", "Sony"],
+    "answer": "Apple",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company makes the PlayStation?",
+    "options": ["Sony", "Microsoft", "Nintendo", "Apple"],
+    "answer": "Sony",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company makes Xbox?",
+    "options": ["Microsoft", "Sony", "Nintendo", "Sega"],
+    "answer": "Microsoft",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company makes the Nintendo Switch?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Sega"],
+    "answer": "Nintendo",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Minecraft, what creature famously explodes when it gets close to you?",
+    "options": ["Creeper", "Zombie", "Skeleton", "Spider"],
+    "answer": "Creeper",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which game features characters such as Mario and Luigi?",
+    "options": ["Super Mario", "Minecraft", "Fortnite", "Call of Duty"],
+    "answer": "Super Mario",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which game is famous for the battle royale mode called Warzone?",
+    "options": ["Call of Duty", "FIFA", "Minecraft", "Fortnite"],
+    "answer": "Call of Duty",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which game is famous for building structures while fighting opponents?",
+    "options": ["Fortnite", "FIFA", "Minecraft Story Mode", "Tetris"],
+    "answer": "Fortnite",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which game franchise features Pikachu?",
+    "options": ["Pokémon", "Digimon", "Minecraft", "Mario"],
+    "answer": "Pokémon",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of creature is Pikachu?",
+    "options": ["Pokémon", "Robot", "Dragon", "Human"],
+    "answer": "Pokémon",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the city of Dubai?",
+    "options": ["United Arab Emirates", "Qatar", "Saudi Arabia", "Oman"],
+    "answer": "United Arab Emirates",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is famous for the Burj Khalifa?",
+    "options": ["Dubai", "Abu Dhabi", "Doha", "Riyadh"],
+    "answer": "Dubai",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is famous for Times Square?",
+    "options": ["New York City", "London", "Paris", "Los Angeles"],
+    "answer": "New York City",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is famous for the Colosseum?",
+    "options": ["Rome", "Paris", "Athens", "Madrid"],
+    "answer": "Rome",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the city of Rio de Janeiro?",
+    "options": ["Brazil", "Argentina", "Colombia", "Peru"],
+    "answer": "Brazil",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the city of Cape Town?",
+    "options": ["South Africa", "Kenya", "Ghana", "Nigeria"],
+    "answer": "South Africa",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the city of Lagos?",
+    "options": ["Nigeria", "Ghana", "Kenya", "Cameroon"],
+    "answer": "Nigeria",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the city of Kumasi?",
+    "options": ["Ghana", "Nigeria", "Togo", "Benin"],
+    "answer": "Ghana",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Ghanaian city is known for its famous Cape Coast Castle?",
+    "options": ["Cape Coast", "Kumasi", "Tamale", "Ho"],
+    "answer": "Cape Coast",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Ghanaian city is famous for Lake Bosomtwe being nearby?",
+    "options": ["Kumasi", "Tamale", "Accra", "Takoradi"],
+    "answer": "Kumasi",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country is directly east of Ghana?",
+    "options": ["Togo", "Nigeria", "Ivory Coast", "Burkina Faso"],
+    "answer": "Togo",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is directly west of Ghana?",
+    "options": ["Togo", "Ivory Coast", "Nigeria", "Benin"],
+    "answer": "Ivory Coast",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is directly north of Ghana?",
+    "options": ["Burkina Faso", "Togo", "Nigeria", "Mali"],
+    "answer": "Burkina Faso",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If you are facing north, which direction is behind you?",
+    "options": ["East", "South", "West", "North"],
+    "answer": "South",
+    "category": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If today is Monday, what day will it be two days from now?",
+    "options": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+    "answer": "Wednesday",
+    "category": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A clock shows exactly 3:00. What angle is between the hour and minute hands?",
+    "options": ["45°", "90°", "120°", "180°"],
+    "answer": "90°",
+    "category": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you have 10 Ghana cedis and spend 4, how much remains?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "6",
+    "category": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A farmer has 10 sheep. All but 3 run away. How many remain?",
+    "options": ["3", "7", "10", "0"],
+    "answer": "3",
+    "category": "Trick Questions",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If there are 5 people in a room and everyone shakes hands with everyone else once, how many handshakes happen?",
+    "options": ["5", "10", "15", "20"],
+    "answer": "10",
+    "category": "Logic",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which is heavier: 1 kilogram of feathers or 1 kilogram of gold?",
+    "options": ["Gold", "Feathers", "They weigh the same", "It depends"],
+    "answer": "They weigh the same",
+    "category": "Trick Questions",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If a rooster lays an egg on top of a roof, which side will the egg roll down?",
+    "options": ["Left", "Right", "Front", "Roosters don't lay eggs"],
+    "answer": "Roosters don't lay eggs",
+    "category": "Trick Questions",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many months have at least 28 days?",
+    "options": ["1", "2", "6", "12"],
+    "answer": "12",
+    "category": "Trick Questions",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    "options": ["The letter M", "The letter A", "The number 1", "The letter T"],
+    "answer": "The letter M",
+    "category": "Riddles",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What has a face and two hands but no arms or legs?",
+    "options": ["A clock", "A statue", "A robot", "A mirror"],
+    "answer": "A clock",
+    "category": "Riddles",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What has a neck but no head?",
+    "options": ["A bottle", "A shirt", "A guitar", "A tree"],
+    "answer": "A bottle",
+    "category": "Riddles",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What has one eye but cannot see?",
+    "options": ["A needle", "A camera", "A potato", "A storm"],
+    "answer": "A needle",
+    "category": "Riddles",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What has teeth but cannot bite?",
+    "options": ["A comb", "A dog", "A shark", "A crocodile"],
+    "answer": "A comb",
+    "category": "Riddles",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What has cities but no houses, rivers but no water, and roads but no cars?",
+    "options": ["A map", "A dream", "A painting", "A book"],
+    "answer": "A map",
+    "category": "Riddles",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What can travel around the world while staying in one corner?",
+    "options": ["A stamp", "A plane", "A cloud", "A satellite"],
+    "answer": "A stamp",
+    "category": "Riddles",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What belongs to you but other people use it more than you do?",
+    "options": ["Your name", "Your phone", "Your shoes", "Your house"],
+    "answer": "Your name",
+    "category": "Riddles",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What has hands but cannot clap?",
+    "options": ["A clock", "A person", "A tree", "A robot"],
+    "answer": "A clock",
+    "category": "Riddles",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What has a bed but never sleeps?",
+    "options": ["A river", "A person", "A dog", "A hotel"],
+    "answer": "A river",
+    "category": "Riddles",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What has words but never speaks?",
+    "options": ["A book", "A person", "A radio", "A phone call"],
+    "answer": "A book",
+    "category": "Riddles",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What goes up but never comes down?",
+    "options": ["Your age", "A balloon", "Rain", "Smoke"],
+    "answer": "Your age",
+    "category": "Riddles",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which came first?",
+    "options": ["YouTube", "Facebook", "Instagram", "TikTok"],
+    "answer": "YouTube",
+    "category": "Internet & Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these was released first?",
+    "options": ["PlayStation 2", "Xbox 360", "Nintendo Wii", "PlayStation 4"],
+    "answer": "PlayStation 2",
+    "category": "Gaming",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which is older?",
+    "options": ["Google", "Facebook", "Instagram", "TikTok"],
+    "answer": "Google",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company was founded first?",
+    "options": ["Apple", "Microsoft", "Google", "Meta"],
+    "answer": "Apple",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which one of these is NOT a social media platform?",
+    "options": ["Instagram", "TikTok", "Spotify", "Facebook"],
+    "answer": "Spotify",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which one is primarily a music streaming service?",
+    "options": ["Spotify", "Netflix", "Google Maps", "WhatsApp"],
+    "answer": "Spotify",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which one is primarily a video streaming service?",
+    "options": ["Netflix", "Spotify", "WhatsApp", "Google Drive"],
+    "answer": "Netflix",
+    "category": "Internet & Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company developed the Android operating system?",
+    "options": ["Google", "Apple", "Sony", "Nintendo"],
+    "answer": "Google",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device is commonly used to take selfies?",
+    "options": ["Smartphone", "Router", "Printer", "Projector"],
+    "answer": "Smartphone",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Wi-Fi allow devices to do?",
+    "options": ["Connect wirelessly to a network", "Print money", "Charge without electricity", "Increase screen size"],
+    "answer": "Connect wirelessly to a network",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which technology is commonly used to unlock phones with your face?",
+    "options": ["Facial recognition", "Bluetooth", "GPS", "NFC"],
+    "answer": "Facial recognition",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these is usually used to scan a QR code?",
+    "options": ["A camera", "A speaker", "A microphone", "A calculator"],
+    "answer": "A camera",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'LOL' commonly mean online?",
+    "options": ["Lots of Love", "Laughing Out Loud", "Live Online Login", "Love Our Life"],
+    "answer": "Laughing Out Loud",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'DM' commonly mean on social media?",
+    "options": ["Direct Message", "Digital Money", "Daily Media", "Download Mode"],
+    "answer": "Direct Message",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'POV' commonly stand for online?",
+    "options": ["Point Of View", "Power Of Video", "Picture Of Victory", "Post On Video"],
+    "answer": "Point Of View",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'GOAT' commonly mean in sports discussions?",
+    "options": ["Greatest Of All Time", "Game Of All Teams", "Greatest On A Team", "Goal Of All Time"],
+    "answer": "Greatest Of All Time",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says a video 'went viral', what usually happened?",
+    "options": ["It spread rapidly online", "It was deleted", "It became private", "It stopped getting views"],
+    "answer": "It spread rapidly online",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your phone is at 1% battery, what is the most dangerous thing you can do?",
+    "options": ["Open the camera", "Look at the time", "Turn on airplane mode", "Put it down"],
+    "answer": "Open the camera",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the first thing many people do after saying 'I'm not hungry'?",
+    "options": ["Sleep", "Eat from someone else's food", "Go jogging", "Drink water"],
+    "answer": "Eat from someone else's food",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says 'I won't laugh', what usually happens next?",
+    "options": ["They laugh", "They sleep", "They leave", "They become serious"],
+    "answer": "They laugh",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which object mysteriously becomes impossible to find when you are already late?",
+    "options": ["Your keys", "The ceiling", "Your shoes after wearing them", "Your bed"],
+    "answer": "Your keys",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when someone says 'Don't think about it'?",
+    "options": ["You immediately think about it", "You forget everything", "You fall asleep", "You start running"],
+    "answer": "You immediately think about it",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "You hear your name called from another room. What is the first question most people ask?",
+    "options": ["Who is there?", "Why?", "What?", "Where are you?"],
+    "answer": "What?",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the universal response when someone says 'Guess what?'",
+    "options": ["What?", "Goodbye", "Run", "I don't know you"],
+    "answer": "What?",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What becomes extremely interesting when you are supposed to be studying?",
+    "options": ["The ceiling", "Your phone", "Your homework", "The textbook"],
+    "answer": "Your phone",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do people often say after accidentally sending a message to the wrong person?",
+    "options": ["Oops", "Congratulations", "Good morning", "Welcome"],
+    "answer": "Oops",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which notification can make someone grab their phone faster than almost anything?",
+    "options": ["A message", "Low storage", "Software update", "Battery optimization"],
+    "answer": "A message",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most suspicious sentence someone can say before borrowing your phone?",
+    "options": ["'Let me just check something'", "'Good morning'", "'Nice phone'", "'What time is it?'"],
+    "answer": "'Let me just check something'",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What do people often do immediately after forgetting why they entered a room?",
+    "options": ["Stand there thinking", "Start dancing", "Leave the house", "Call the police"],
+    "answer": "Stand there thinking",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When someone says 'I have something to tell you', what usually happens to your curiosity?",
+    "options": ["It increases", "It disappears", "You fall asleep", "You start eating"],
+    "answer": "It increases",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is usually the worst time for someone to call you?",
+    "options": ["When your phone is beside you", "When you are sleeping", "When you are awake", "At lunchtime"],
+    "answer": "When you are sleeping",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do people often say when they are caught doing something they said they weren't doing?",
+    "options": ["'It's not what it looks like'", "'Thank you'", "'Good job'", "'I planned this'"],
+    "answer": "'It's not what it looks like'",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the classic excuse for being late?",
+    "options": ["Traffic", "I was too early", "I finished yesterday", "The sun was bright"],
+    "answer": "Traffic",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your friend says 'Don't tell anyone', what does the sentence secretly create?",
+    "options": ["A secret", "A password", "A contract", "A meal"],
+    "answer": "A secret",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What usually happens when someone says 'This will only take five minutes'?",
+    "options": ["It takes longer", "It takes exactly five minutes", "It takes one second", "They disappear"],
+    "answer": "It takes longer",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do you suddenly remember when you are trying to fall asleep?",
+    "options": ["Random things from years ago", "Nothing", "Your homework only", "Tomorrow's weather only"],
+    "answer": "Random things from years ago",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the fastest way to make someone suddenly remember something?",
+    "options": ["Say 'Never mind'", "Say hello", "Give them water", "Turn off the light"],
+    "answer": "Say 'Never mind'",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If you drop your phone on your face while lying in bed, what hurts first?",
+    "options": ["Your face", "The Wi-Fi", "Your charger", "Your wallpaper"],
+    "answer": "Your face",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most dangerous place to put your phone when you are eating?",
+    "options": ["Near the edge of the table", "In your pocket", "On a shelf", "Beside your plate"],
+    "answer": "Near the edge of the table",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you accidentally make eye contact with someone across a room?",
+    "options": ["You both suddenly look away", "You become best friends", "You start running", "The room goes silent"],
+    "answer": "You both suddenly look away",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is one thing people often check even though they already know the answer?",
+    "options": ["Their phone", "Their birthday", "Their name", "Their height"],
+    "answer": "Their phone",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you try to open a quiet snack packet in a silent room?",
+    "options": ["It sounds extremely loud", "It becomes silent", "It disappears", "It opens itself"],
+    "answer": "It sounds extremely loud",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which food can cause an argument over who gets the last piece?",
+    "options": ["Pizza", "Ice", "Water", "Salt"],
+    "answer": "Pizza",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the first thing many people say after tasting extremely hot food?",
+    "options": ["'Water!'", "'Congratulations!'", "'Again!'", "'Perfect temperature!'"],
+    "answer": "'Water!'",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you tell someone 'Don't touch my food'?",
+    "options": ["They suddenly become interested in it", "They forget food exists", "They leave forever", "They start cooking"],
+    "answer": "They suddenly become interested in it",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which food is especially dangerous to wear while eating because of its sauce?",
+    "options": ["Spaghetti", "Rice", "Bread", "Banana"],
+    "answer": "Spaghetti",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the universal reaction when someone drops food on the floor?",
+    "options": ["Look at it in disbelief", "Celebrate", "Go to sleep", "Call a referee"],
+    "answer": "Look at it in disbelief",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your friend says 'Take one', what do you secretly hope they mean?",
+    "options": ["Take more than one", "Take nothing", "Take the whole plate", "Leave immediately"],
+    "answer": "Take more than one",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which kitchen item is most likely to disappear when you need it urgently?",
+    "options": ["A spoon", "The refrigerator", "The plate", "The table"],
+    "answer": "A spoon",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when someone says 'I'm just going to lie down for five minutes'?",
+    "options": ["They may fall asleep", "They start running", "They cook dinner", "They clean the house"],
+    "answer": "They may fall asleep",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the hardest thing to do when you are extremely comfortable in bed?",
+    "options": ["Get up", "Blink", "Breathe", "Think"],
+    "answer": "Get up",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What suddenly feels much colder when you need to get out of bed?",
+    "options": ["The room", "Your pillow", "Your blanket", "Your phone"],
+    "answer": "The room",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is usually the biggest enemy of a person trying to wake up early?",
+    "options": ["The snooze button", "The calendar", "The window", "The pillowcase"],
+    "answer": "The snooze button",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do people often promise themselves before going to sleep?",
+    "options": ["'Tomorrow I'll wake up early'", "'Tomorrow I'll never sleep'", "'Tomorrow I'll eat nothing'", "'Tomorrow I'll become invisible'"],
+    "answer": "'Tomorrow I'll wake up early'",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the first thing many people do after waking up?",
+    "options": ["Check their phone", "Run 10 km", "Read a dictionary", "Clean the roof"],
+    "answer": "Check their phone",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sound is especially annoying when you are trying to sleep?",
+    "options": ["A mosquito buzzing", "Rain", "A quiet fan", "Soft music"],
+    "answer": "A mosquito buzzing",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do you usually do when a mosquito lands near your ear?",
+    "options": ["Try to hit it", "Thank it", "Invite it to dinner", "Ignore all sound"],
+    "answer": "Try to hit it",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which household item can become terrifying when you see it moving in the dark?",
+    "options": ["A curtain", "A spoon", "A plate", "A pillow"],
+    "answer": "A curtain",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What do you suddenly become when you hear a strange noise at night?",
+    "options": ["A detective", "A chef", "A teacher", "A footballer"],
+    "answer": "A detective",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you hear a noise downstairs at midnight, what is the most common first thought?",
+    "options": ["'Who is there?'", "'Time for breakfast'", "'Let's dance'", "'The sun is rising'"],
+    "answer": "'Who is there?'",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do people often do when they think someone is watching them?",
+    "options": ["Act normal while becoming less normal", "Start sleeping", "Run immediately", "Turn into a robot"],
+    "answer": "Act normal while becoming less normal",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What happens when you try to act natural after tripping in public?",
+    "options": ["You pretend nothing happened", "You celebrate", "You lie down", "You start singing"],
+    "answer": "You pretend nothing happened",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "After almost falling in public, what do people often do?",
+    "options": ["Look around to see who noticed", "Applaud themselves", "Go home immediately", "Start dancing"],
+    "answer": "Look around to see who noticed",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most embarrassing thing to do when your headphones are connected but you think they aren't?",
+    "options": ["Play music loudly", "Sit quietly", "Drink water", "Check the weather"],
+    "answer": "Play music loudly",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What do people often do after sending a message and seeing 'seen' with no reply?",
+    "options": ["Check the chat again", "Throw away the phone", "Call the police", "Delete the internet"],
+    "answer": "Check the chat again",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most dangerous button to press when you are angry?",
+    "options": ["Send", "Home", "Volume", "Brightness"],
+    "answer": "Send",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What often happens after you type a long angry message?",
+    "options": ["You delete it or rethink it", "You frame it", "You print it", "You eat it"],
+    "answer": "You delete it or rethink it",
+    "category": "Internet Culture",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which message can instantly make you nervous?",
+    "options": ["'We need to talk'", "'Good morning'", "'Nice weather'", "'Send me a meme'"],
+    "answer": "'We need to talk'",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which phrase can make your heart beat faster for no obvious reason?",
+    "options": ["'Can I call you?'", "'Good morning'", "'What's your favorite color?'", "'Nice shoes'"],
+    "answer": "'Can I call you?'",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the classic response when someone asks 'Are you sleeping?'",
+    "options": ["'No'", "'Yes, obviously'", "'I am a pillow'", "'Who are you?'"],
+    "answer": "'No'",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says 'I'm fine' in an obviously unhappy voice, what does it usually mean?",
+    "options": ["They're probably not fine", "They're extremely happy", "They are hungry only", "They want to dance"],
+    "answer": "They're probably not fine",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does someone usually mean when they say 'I'm on my way' while they haven't left yet?",
+    "options": ["They're probably still getting ready", "They are already there", "They are flying", "They are asleep"],
+    "answer": "They're probably still getting ready",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What happens when someone says 'Don't worry, I know the way' and they clearly don't?",
+    "options": ["Everyone becomes nervous", "Everyone sleeps", "The road disappears", "They become a pilot"],
+    "answer": "Everyone becomes nervous",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the universal reaction when someone says 'Who ate my food?'",
+    "options": ["Sudden silence", "Everyone cheers", "Everyone dances", "The lights go off"],
+    "answer": "Sudden silence",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What usually happens when someone says 'I won't tell anyone'?",
+    "options": ["You become suspicious", "You forget the secret", "You start singing", "You leave immediately"],
+    "answer": "You become suspicious",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one of the fastest ways to make a group chat become active?",
+    "options": ["Mention food", "Say nothing", "Leave the group", "Send a blank message"],
+    "answer": "Mention food",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What usually happens when someone sends '😂' in a group chat?",
+    "options": ["Someone asks what happened", "Everyone goes offline", "The group closes", "The phone rings"],
+    "answer": "Someone asks what happened",
+    "category": "Internet Culture",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the classic excuse for not answering a call?",
+    "options": ["'I didn't see it'", "'My phone was too loud'", "'I was holding the phone'", "'The screen was working'"],
+    "answer": "'I didn't see it'",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when your phone falls and lands screen-down?",
+    "options": ["Your heart stops for a second", "You immediately celebrate", "You start laughing", "Nothing happens emotionally"],
+    "answer": "Your heart stops for a second",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the first thing you usually check after dropping your phone?",
+    "options": ["The screen", "The weather", "Your contacts", "Your wallpaper color"],
+    "answer": "The screen",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which phrase is most likely to make you check your bank balance?",
+    "options": ["'How much did you spend?'", "'What's your favorite movie?'", "'Are you hungry?'", "'Nice shoes'"],
+    "answer": "'How much did you spend?'",
+    "category": "Money",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you check your bank account after a weekend of spending?",
+    "options": ["You may suddenly become very quiet", "You become richer automatically", "Your phone turns off", "You start dancing"],
+    "answer": "You may suddenly become very quiet",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence is most dangerous before someone shows you their online shopping cart?",
+    "options": ["'I only bought a few things'", "'I saved money'", "'Look at my shoes'", "'I drank water'"],
+    "answer": "'I only bought a few things'",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'I'll pay you back tomorrow' usually mean in a joke about friends?",
+    "options": ["Tomorrow may become next week", "They already paid", "They will pay immediately", "They forgot your name"],
+    "answer": "Tomorrow may become next week",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What happens when you lend your favorite clothes to a friend?",
+    "options": ["You may never see them again", "They return them immediately", "They disappear from Earth", "They become smaller instantly"],
+    "answer": "You may never see them again",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the first thing many people do when they hear someone say 'free food'?",
+    "options": ["Become interested", "Go to sleep", "Leave the area", "Hide"],
+    "answer": "Become interested",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which word can instantly make students nervous?",
+    "options": ["Exam", "Holiday", "Food", "Weekend"],
+    "answer": "Exam",
+    "category": "School Life",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a student's favorite sentence after an exam?",
+    "options": ["'Finally, it's over'", "'Give us another one'", "'I want more homework'", "'Can we start again?'"],
+    "answer": "'Finally, it's over'",
+    "category": "School Life",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What usually happens when a teacher says 'This will not be in the exam'?",
+    "options": ["Everyone relaxes", "Everyone studies it harder", "Everyone leaves", "Everyone starts dancing"],
+    "answer": "Everyone relaxes",
+    "category": "School Life",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when a teacher says 'This is important'?",
+    "options": ["Students suddenly start writing", "Everyone sleeps", "The class ends", "Everyone eats"],
+    "answer": "Students suddenly start writing",
+    "category": "School Life",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most dangerous sentence to hear during an exam?",
+    "options": ["'You have 5 minutes left'", "'Good morning'", "'Take your seats'", "'Write your name'"],
+    "answer": "'You have 5 minutes left'",
+    "category": "School Life",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you study all night before an exam?",
+    "options": ["You may be extremely tired", "You automatically get 100%", "You never need sleep again", "You become a professor"],
+    "answer": "You may be extremely tired",
+    "category": "School Life",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a student usually look at when the teacher asks a question nobody knows?",
+    "options": ["Their classmates", "The ceiling", "Their shoes", "The door only"],
+    "answer": "Their classmates",
+    "category": "School Life",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when everyone in a class suddenly becomes quiet?",
+    "options": ["Something probably happened", "Everyone became invisible", "The school closed", "Lunch arrived"],
+    "answer": "Something probably happened",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the fastest way to make a sleeping student suddenly look awake?",
+    "options": ["Say their name", "Open a book", "Turn on a fan", "Mention the weather"],
+    "answer": "Say their name",
+    "category": "School Life",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when someone says 'I have one question' during a group discussion?",
+    "options": ["It may become many questions", "The meeting ends", "Everyone leaves", "The internet stops"],
+    "answer": "It may become many questions",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the first thing people often do when they hear their favorite song?",
+    "options": ["Sing along", "Turn off the sound", "Leave the room", "Go to sleep"],
+    "answer": "Sing along",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when your favorite song comes on but you are driving?",
+    "options": ["You may start singing", "You stop the car immediately", "You turn off the radio", "You fall asleep"],
+    "answer": "You may start singing",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most suspicious thing to hear after someone breaks something?",
+    "options": ["'It wasn't me'", "'Nice weather'", "'I'm hungry'", "'Good morning'"],
+    "answer": "'It wasn't me'",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says 'Trust me' before doing something risky, what should you probably expect?",
+    "options": ["Something risky", "A birthday cake", "A lecture", "A nap"],
+    "answer": "Something risky",
+    "category": "Funny & Trick",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is usually the first thing someone does after hearing a loud crash in another room?",
+    "options": ["Go check what happened", "Start cooking", "Go back to sleep", "Turn up the music"],
+    "answer": "Go check what happened",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you wave back at someone who wasn't waving at you?",
+    "options": ["Instant embarrassment", "Everyone applauds", "You become famous", "Nothing feels awkward"],
+    "answer": "Instant embarrassment",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the safest response when you don't understand someone's joke?",
+    "options": ["Laugh and hope for the best", "Start crying", "Leave the country", "Call your lawyer"],
+    "answer": "Laugh and hope for the best",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What happens when someone tells a joke and nobody laughs?",
+    "options": ["Awkward silence", "Everyone starts dancing", "The lights turn off", "The joke becomes funnier"],
+    "answer": "Awkward silence",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do people often do after telling a joke they think is hilarious?",
+    "options": ["Laugh at their own joke", "Walk away silently", "Start sleeping", "Turn off their phone"],
+    "answer": "Laugh at their own joke",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your friend says 'I have a crazy idea', what should you expect?",
+    "options": ["Something unusual", "A math lesson", "A bedtime story", "Nothing at all"],
+    "answer": "Something unusual",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you try to whisper while laughing?",
+    "options": ["You struggle to stay quiet", "You become silent instantly", "You fall asleep", "You forget how to laugh"],
+    "answer": "You struggle to stay quiet",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the hardest thing about trying not to laugh when someone else is laughing?",
+    "options": ["Not laughing", "Breathing", "Standing", "Blinking"],
+    "answer": "Not laughing",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What usually happens when you tell someone 'Don't look behind you'?",
+    "options": ["They look behind them", "They close their eyes", "They run home", "They start sleeping"],
+    "answer": "They look behind them",
+    "category": "Funny & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone tells you 'Don't press that button', what suddenly becomes very tempting?",
+    "options": ["Pressing the button", "Walking away", "Sleeping", "Eating"],
+    "answer": "Pressing the button",
+    "category": "Funny & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when someone says 'Whatever you do, don't laugh'?",
+    "options": ["You suddenly want to laugh", "You become serious forever", "You fall asleep", "You forget how to smile"],
+    "answer": "You suddenly want to laugh",
+    "category": "Funny & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the funniest thing about a person saying 'I never get embarrassed'?",
+    "options": ["They may get embarrassed soon", "They become invisible", "They stop talking", "They become famous"],
+    "answer": "They may get embarrassed soon",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What happens when you confidently walk into the wrong room?",
+    "options": ["You pretend you meant to go there", "You start dancing", "You sit down immediately", "You fall asleep"],
+    "answer": "You pretend you meant to go there",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the first thing you do when you realize you have been talking to someone who wasn't listening?",
+    "options": ["Ask if they heard you", "Keep talking forever", "Start singing", "Leave without speaking"],
+    "answer": "Ask if they heard you",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which situation makes almost everyone suddenly walk faster?",
+    "options": ["Being followed by a barking dog", "Seeing a rainbow", "Hearing music", "Seeing a flower"],
+    "answer": "Being followed by a barking dog",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the classic reaction after hearing a mosquito near your ear at night?",
+    "options": ["Slap the air", "Applaud", "Smile", "Say thank you"],
+    "answer": "Slap the air",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you finally find the thing you were searching for after 20 minutes?",
+    "options": ["It was somewhere obvious", "It disappears again", "You throw it away", "You forget why you needed it"],
+    "answer": "It was somewhere obvious",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the classic phrase after someone finds something you couldn't find?",
+    "options": ["'It was right there!'", "'I knew that'", "'I didn't need it'", "'Where did you get it?'"],
+    "answer": "'It was right there!'",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you search everywhere for your phone while holding it?",
+    "options": ["You feel ridiculous", "You become a detective", "You celebrate", "You buy another phone"],
+    "answer": "You feel ridiculous",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most embarrassing thing to discover after taking many selfies?",
+    "options": ["Your camera was on the wrong mode", "Your phone has a screen", "You have a face", "The camera works"],
+    "answer": "Your camera was on the wrong mode",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What happens when you accidentally turn on the front camera unexpectedly?",
+    "options": ["You see yourself suddenly", "The phone explodes", "The camera disappears", "The screen goes black forever"],
+    "answer": "You see yourself suddenly",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the first thing people often do when their internet becomes slow?",
+    "options": ["Check the router", "Check the fridge", "Check the weather", "Check their shoes"],
+    "answer": "Check the router",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the classic solution people try first when a device stops working?",
+    "options": ["Turn it off and on", "Buy a new house", "Call a celebrity", "Throw it away immediately"],
+    "answer": "Turn it off and on",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when your Wi-Fi stops working during an important moment?",
+    "options": ["You suddenly become a network engineer", "You start dancing", "You go to sleep", "You forget the internet exists"],
+    "answer": "You suddenly become a network engineer",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the most suspicious phrase when someone wants your Wi-Fi password?",
+    "options": ["'What's the password?'", "'Nice weather'", "'Do you have food?'", "'Where is the bathroom?'"],
+    "answer": "'What's the password?'",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when your phone says 'Storage Almost Full'?",
+    "options": ["You start deleting random photos", "You buy more shoes", "You turn off the lights", "You call your friends"],
+    "answer": "You start deleting random photos",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which file is surprisingly hard for many people to delete?",
+    "options": ["A photo from years ago", "A blank document", "A calculator result", "A weather report"],
+    "answer": "A photo from years ago",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What happens when your phone accidentally autocorrects a serious message into something ridiculous?",
+    "options": ["You panic before sending it", "You become famous", "You stop using language", "The phone apologizes"],
+    "answer": "You panic before sending it",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the fastest way to make someone say 'Ei!'?",
+    "options": ["Give them unexpected news", "Give them water", "Show them a blank page", "Say hello normally"],
+    "answer": "Give them unexpected news",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when someone says 'Wait, I have tea' in a group chat?",
+    "options": ["Everyone becomes interested", "Everyone leaves", "The chat closes", "Nobody cares"],
+    "answer": "Everyone becomes interested",
+    "category": "Internet Culture",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Ghanaian slang, what does 'Chale' commonly express?",
+    "options": ["Friendship or emphasis", "A type of food", "A football club", "A place"],
+    "answer": "Friendship or emphasis",
+    "category": "Ghana",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a common Ghanaian reaction when food is extremely delicious?",
+    "options": ["'Chale!'", "'Goodbye!'", "'Stop!'", "'Sleep!'" ],
+    "answer": "'Chale!'",
+    "category": "Ghana",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is likely to happen when someone says 'There is no light' in a Ghanaian house?",
+    "options": ["Someone checks the electricity", "Everyone starts swimming", "The TV gets louder", "The fridge starts dancing"],
+    "answer": "Someone checks the electricity",
+    "category": "Ghana",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a common first reaction when the electricity suddenly goes off during a movie?",
+    "options": ["'Ei!'", "'Happy birthday!'", "'Good night!'", "'Goal!'"],
+    "answer": "'Ei!'",
+    "category": "Ghana",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says 'I'll be there in 5 minutes', what should you probably ask?",
+    "options": ["'Are you already on the way?'", "'What's your shoe size?'", "'Did you eat?'", "'What's your favorite movie?'"],
+    "answer": "'Are you already on the way?'",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the classic reaction when your friend says they have finished the food you were saving?",
+    "options": ["Shock", "Applause", "Sleep", "Dance"],
+    "answer": "Shock",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when someone says 'Don't worry, I won't tell anyone'?",
+    "options": ["You immediately become worried", "You fall asleep", "You forget everything", "You start laughing"],
+    "answer": "You immediately become worried",
+    "category": "Funny & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you are trying not to laugh in a serious situation, what becomes harder?",
+    "options": ["Not laughing", "Blinking", "Standing", "Breathing normally"],
+    "answer": "Not laughing",
+    "category": "Funny & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you tell yourself 'Just one more episode'?",
+    "options": ["You may watch another episode", "The TV turns off forever", "You immediately sleep", "The series ends"],
+    "answer": "You may watch another episode",
+    "category": "Movies & TV",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most dangerous phrase when you're trying to save money?",
+    "options": ["'It's on sale'", "'I don't need it'", "'I'll wait'", "'I have enough'"],
+    "answer": "'It's on sale'",
+    "category": "Money",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when someone says 'This is the last time' after doing something silly?",
+    "options": ["They may do it again", "They disappear", "They become serious forever", "They stop talking"],
+    "answer": "They may do it again",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the universal reaction when someone says 'I know a shortcut' and you end up lost?",
+    "options": ["Regret", "Celebration", "Sleep", "Applause"],
+    "answer": "Regret",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you confidently give directions and then realize you are wrong?",
+    "options": ["You pretend to reconsider the route", "You start dancing", "You disappear", "You blame the sun"],
+    "answer": "You pretend to reconsider the route",
+    "category": "Funny & Relatable",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the first thing many people do when they hear their favorite person's name mentioned?",
+    "options": ["Pay attention", "Leave the room", "Sleep", "Look at the ceiling"],
+    "answer": "Pay attention",
+    "category": "Funny & Relatable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you say 'I'm not going to laugh' while someone is already laughing?",
+    "options": ["You probably laugh", "You become silent forever", "You leave the country", "You fall asleep"],
+    "answer": "You probably laugh",
+    "category": "Funny & Trick",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which app is famous for the disappearing Snapchat messages?",
+    "options": ["Instagram", "Snapchat", "Facebook", "LinkedIn"],
+    "answer": "Snapchat",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your phone says 1% battery, which activity suddenly becomes the most important thing in the world?",
+    "options": ["Taking a screenshot", "Finding a charger", "Changing wallpaper", "Checking the weather"],
+    "answer": "Finding a charger",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football position usually wears gloves even when it is not cold?",
+    "options": ["Striker", "Goalkeeper", "Midfielder", "Winger"],
+    "answer": "Goalkeeper",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does LOL usually mean in a text message?",
+    "options": ["Lots of Love", "Laughing Out Loud", "Leave Online Later", "Look Over Later"],
+    "answer": "Laughing Out Loud",
+    "category": "Internet",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which superhero is also known as the Dark Knight?",
+    "options": ["Superman", "Batman", "Spider-Man", "Iron Man"],
+    "answer": "Batman",
+    "category": "Movies",
+    "difficulty": "easy"
+  },
+  {
+    "question": "You walk into a room and forget why you entered. What is the most likely problem?",
+    "options": ["The room deleted your memory", "You forgot what you wanted to do", "The lights are too bright", "The door distracted you"],
+    "answer": "You forgot what you wanted to do",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company makes the PlayStation?",
+    "options": ["Microsoft", "Sony", "Nintendo", "Sega"],
+    "answer": "Sony",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says 'Don't panic,' what do many people immediately start doing?",
+    "options": ["Sleeping", "Panicking", "Laughing", "Eating"],
+    "answer": "Panicking",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the Eiffel Tower?",
+    "options": ["Italy", "France", "Spain", "Germany"],
+    "answer": "France",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which footballer is famously associated with the nickname 'CR7'?",
+    "options": ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Kylian Mbappé"],
+    "answer": "Cristiano Ronaldo",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What usually happens when you press the snooze button 'one more time'?",
+    "options": ["You become more awake", "You risk sleeping longer", "Your phone charges", "Your alarm disappears forever"],
+    "answer": "You risk sleeping longer",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is famous for saying 'meow'?",
+    "options": ["Dog", "Cat", "Cow", "Goat"],
+    "answer": "Cat",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which streaming service is strongly associated with the phrase 'Netflix and chill'?",
+    "options": ["Netflix", "Spotify", "YouTube", "Twitch"],
+    "answer": "Netflix",
+    "category": "Entertainment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says 'I have good news and bad news,' which one do people often want first?",
+    "options": ["Bad news", "Good news", "Neither", "Both at exactly the same time"],
+    "answer": "Good news",
+    "category": "Funny",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which planet is famous for its large visible rings?",
+    "options": ["Mars", "Saturn", "Venus", "Mercury"],
+    "answer": "Saturn",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the yellow character from Pokémon who says its own name?",
+    "options": ["Charmander", "Pikachu", "Squirtle", "Eevee"],
+    "answer": "Pikachu",
+    "category": "Entertainment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do you usually need before you can unlock a phone protected by a fingerprint?",
+    "options": ["Your fingerprint", "A television", "A passport", "A headphone"],
+    "answer": "Your fingerprint",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport uses a racket and a shuttlecock?",
+    "options": ["Tennis", "Badminton", "Golf", "Baseball"],
+    "answer": "Badminton",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the first thing many people do after hearing their phone vibrate?",
+    "options": ["Check it", "Throw it away", "Wash it", "Turn off the lights"],
+    "answer": "Check it",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which continent is Ghana located in?",
+    "options": ["Asia", "Africa", "Europe", "South America"],
+    "answer": "Africa",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fruit is famous for having a crown-like top?",
+    "options": ["Apple", "Pineapple", "Orange", "Banana"],
+    "answer": "Pineapple",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you send a message and immediately see 'typing...', what usually happens to your attention?",
+    "options": ["You stop caring", "You stare at the screen", "You sleep", "You turn off your phone"],
+    "answer": "You stare at the screen",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie character famously says 'I'll be back'?",
+    "options": ["The Terminator", "Harry Potter", "Rocky", "Forrest Gump"],
+    "answer": "The Terminator",
+    "category": "Movies",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main ingredient in traditional popcorn?",
+    "options": ["Rice", "Corn", "Wheat", "Potato"],
+    "answer": "Corn",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which social media platform is especially known for short-form videos and trends?",
+    "options": ["TikTok", "LinkedIn", "Gmail", "Wikipedia"],
+    "answer": "TikTok",
+    "category": "Internet",
+    "difficulty": "easy"
+  },
+  {
+    "question": "You hear your name called in a crowded place. What do you usually do first?",
+    "options": ["Look around", "Start dancing", "Close your eyes", "Run away"],
+    "answer": "Look around",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the Great Wall?",
+    "options": ["China", "Japan", "India", "Thailand"],
+    "answer": "China",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is commonly called man's best friend?",
+    "options": ["Cat", "Dog", "Horse", "Rabbit"],
+    "answer": "Dog",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does GPS help you do?",
+    "options": ["Cook food", "Find locations and directions", "Charge phones", "Play music"],
+    "answer": "Find locations and directions",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone tells you 'this is confidential,' what are you being asked to do?",
+    "options": ["Share it everywhere", "Keep it private", "Post it online", "Forget your name"],
+    "answer": "Keep it private",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football competition is known as the World Cup?",
+    "options": ["FIFA World Cup", "NBA Cup", "Super Bowl", "Wimbledon"],
+    "answer": "FIFA World Cup",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which drink is commonly made from roasted coffee beans?",
+    "options": ["Coffee", "Lemonade", "Milkshake", "Coconut water"],
+    "answer": "Coffee",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What usually happens when you accidentally send a message to the wrong person?",
+    "options": ["Instant confidence", "Instant panic", "You become invisible", "Your phone explodes"],
+    "answer": "Instant panic",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the city of Tokyo?",
+    "options": ["China", "Japan", "South Korea", "Vietnam"],
+    "answer": "Japan",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which famous singer is known as the 'King of Pop'?",
+    "options": ["Michael Jackson", "Drake", "Bruno Mars", "Ed Sheeran"],
+    "answer": "Michael Jackson",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your friend says 'I know a shortcut,' what should you be prepared for?",
+    "options": ["A guaranteed faster route", "Possible confusion", "A free meal", "A football match"],
+    "answer": "Possible confusion",
+    "category": "Funny",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which organ pumps blood around the human body?",
+    "options": ["Liver", "Heart", "Lungs", "Stomach"],
+    "answer": "Heart",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do you call a person who watches a movie without knowing anything about it beforehand?",
+    "options": ["A spoiler", "A blind viewer", "An unprepared viewer", "A director"],
+    "answer": "An unprepared viewer",
+    "category": "Funny",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which company created the Windows operating system?",
+    "options": ["Apple", "Microsoft", "Google", "Sony"],
+    "answer": "Microsoft",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is famous for its long neck?",
+    "options": ["Giraffe", "Elephant", "Zebra", "Lion"],
+    "answer": "Giraffe",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says 'Don't look,' what does curiosity often make you want to do?",
+    "options": ["Look", "Sleep", "Leave", "Sing"],
+    "answer": "Look",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer released the song 'Shape of You'?",
+    "options": ["Ed Sheeran", "The Weeknd", "Justin Bieber", "Adele"],
+    "answer": "Ed Sheeran",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city is famous for the Statue of Liberty?",
+    "options": ["New York City", "Los Angeles", "Chicago", "Miami"],
+    "answer": "New York City",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when you put your phone on silent?",
+    "options": ["It cannot receive messages", "It usually stops making notification sounds", "It turns off completely", "It loses internet"],
+    "answer": "It usually stops making notification sounds",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which superhero carries a shield with a star?",
+    "options": ["Thor", "Captain America", "Hulk", "Flash"],
+    "answer": "Captain America",
+    "category": "Movies",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you open the fridge three times and still find nothing you want, what has probably changed?",
+    "options": ["The fridge", "Your hunger", "Nothing", "The weather"],
+    "answer": "Nothing",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport is played at Wimbledon?",
+    "options": ["Football", "Tennis", "Basketball", "Cricket"],
+    "answer": "Tennis",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is shaped somewhat like a boot?",
+    "options": ["Italy", "Brazil", "Canada", "Egypt"],
+    "answer": "Italy",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the opposite of 'borrow'?",
+    "options": ["Keep", "Lend", "Take", "Hide"],
+    "answer": "Lend",
+    "category": "General Knowledge",
+    "difficulty": "easy"
+  },
+  {
+    "question": "You accidentally make eye contact with a stranger. What is the classic next move?",
+    "options": ["Start a speech", "Look away", "Ask for money", "Take a selfie"],
+    "answer": "Look away",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Mars", "Jupiter", "Neptune", "Saturn"],
+    "answer": "Mars",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which app is primarily associated with music streaming?",
+    "options": ["Spotify", "Google Maps", "WhatsApp", "Zoom"],
+    "answer": "Spotify",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which food is traditionally made by fermenting cassava in parts of West Africa?",
+    "options": ["Gari", "Pizza", "Sushi", "Tacos"],
+    "answer": "Gari",
+    "category": "Food",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If someone replies 'K' to your long emotional message, what might you feel?",
+    "options": ["Relieved", "Annoyed", "Hungry", "Sleepy"],
+    "answer": "Annoyed",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club plays its home matches at Camp Nou?",
+    "options": ["Real Madrid", "Barcelona", "Liverpool", "Arsenal"],
+    "answer": "Barcelona",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you hear a strange noise downstairs at midnight, what does your imagination often turn you into?",
+    "options": ["A detective", "A chef", "A teacher", "A referee"],
+    "answer": "A detective",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument has black and white keys and is commonly found in many bands?",
+    "options": ["Piano", "Drum", "Flute", "Trumpet"],
+    "answer": "Piano",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company owns Instagram?",
+    "options": ["Meta", "Sony", "Netflix", "Nintendo"],
+    "answer": "Meta",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "options": ["Spanish", "Portuguese", "French", "English"],
+    "answer": "Portuguese",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says 'I won't tell anyone,' what often happens next in a funny situation?",
+    "options": ["Nobody becomes curious", "Everyone suddenly wants to know", "Everyone falls asleep", "The internet disappears"],
+    "answer": "Everyone suddenly wants to know",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie series features Hogwarts?",
+    "options": ["Harry Potter", "Fast & Furious", "Transformers", "Toy Story"],
+    "answer": "Harry Potter",
+    "category": "Movies",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known for changing its skin color to help camouflage itself?",
+    "options": ["Chameleon", "Horse", "Penguin", "Elephant"],
+    "answer": "Chameleon",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'DM' usually mean on social media?",
+    "options": ["Direct Message", "Daily Music", "Digital Money", "Don't Mention"],
+    "answer": "Direct Message",
+    "category": "Internet",
+    "difficulty": "easy"
+  },
+  {
+    "question": "You are watching a movie and someone asks, 'Who is that?' What are you most likely to say if you don't know?",
+    "options": ["I know exactly", "I don't know", "That's the director", "That's the villain"],
+    "answer": "I don't know",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country won the 2022 FIFA World Cup?",
+    "options": ["France", "Argentina", "Brazil", "Germany"],
+    "answer": "Argentina",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which food is usually associated with a birthday cake?",
+    "options": ["Candles", "Ice cubes", "Pepper", "Soy sauce"],
+    "answer": "Candles",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your internet suddenly becomes slow while watching something important, what do you usually blame first?",
+    "options": ["The Wi-Fi", "The moon", "Your shoes", "The television remote"],
+    "answer": "The Wi-Fi",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which search engine is represented by a multicolored 'G' logo?",
+    "options": ["Google", "Bing", "Yahoo", "DuckDuckGo"],
+    "answer": "Google",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the pyramids of Giza?",
+    "options": ["Egypt", "Greece", "Mexico", "India"],
+    "answer": "Egypt",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do football fans usually celebrate when their team scores?",
+    "options": ["A goal", "A timeout", "A strike", "A touchdown"],
+    "answer": "A goal",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "You say 'I'm just going to check one notification.' What is the dangerous possibility?",
+    "options": ["You put the phone away immediately", "You end up scrolling for a long time", "The phone cooks dinner", "The notification disappears from Earth"],
+    "answer": "You end up scrolling for a long time",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which famous fictional detective lives at 221B Baker Street?",
+    "options": ["Sherlock Holmes", "Batman", "James Bond", "Harry Potter"],
+    "answer": "Sherlock Holmes",
+    "category": "Books",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which African country is famous for the Serengeti National Park?",
+    "options": ["Tanzania", "Ghana", "Senegal", "Morocco"],
+    "answer": "Tanzania",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If someone says 'Guess what?' what is the most natural response?",
+    "options": ["What?", "Goodbye", "Thank you", "Run"],
+    "answer": "What?",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which superhero is famous for using a hammer called Mjolnir?",
+    "options": ["Thor", "Batman", "Iron Man", "Spider-Man"],
+    "answer": "Thor",
+    "category": "Movies",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the galaxy containing Earth?",
+    "options": ["Andromeda", "Milky Way", "Whirlpool", "Sombrero"],
+    "answer": "Milky Way",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which sport uses the terms 'checkmate' and 'king'?",
+    "options": ["Chess", "Football", "Tennis", "Boxing"],
+    "answer": "Chess",
+    "category": "Games",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What usually happens when someone says 'Don't press that button'?",
+    "options": ["Curiosity increases", "Everyone leaves", "The button disappears", "People fall asleep"],
+    "answer": "Curiosity increases",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which singer is known for the album 'Thriller'?",
+    "options": ["Michael Jackson", "Drake", "Beyoncé", "Usher"],
+    "answer": "Michael Jackson",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the city of Dubai?",
+    "options": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait"],
+    "answer": "United Arab Emirates",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your friend says 'I have something to tell you' and then pauses, what usually happens?",
+    "options": ["You become curious", "You fall asleep", "You forget your name", "You start cooking"],
+    "answer": "You become curious",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which company is behind the Xbox gaming console?",
+    "options": ["Microsoft", "Sony", "Nintendo", "Apple"],
+    "answer": "Microsoft",
+    "category": "Gaming",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is the fastest land animal?",
+    "options": ["Cheetah", "Lion", "Horse", "Leopard"],
+    "answer": "Cheetah",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you are told 'the food is not spicy,' what might you discover after one bite?",
+    "options": ["It is actually spicy", "It is frozen", "It is sweet water", "It is chocolate"],
+    "answer": "It is actually spicy",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which football club is associated with the nickname 'The Reds'?",
+    "options": ["Liverpool", "Chelsea", "Barcelona", "Juventus"],
+    "answer": "Liverpool",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does Wi-Fi allow devices to do wirelessly?",
+    "options": ["Connect to a network", "Grow batteries", "Print money", "Change screen size"],
+    "answer": "Connect to a network",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ocean lies between Africa and Australia?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "answer": "Indian Ocean",
+    "category": "Geography",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What do people often say after accidentally walking into the wrong room?",
+    "options": ["Oops", "Goal!", "Charge!", "Dinner!"],
+    "answer": "Oops",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which famous wizard has a lightning-shaped scar?",
+    "options": ["Harry Potter", "Gandalf", "Merlin", "Dumbledore"],
+    "answer": "Harry Potter",
+    "category": "Movies",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which metal is commonly used in electrical wiring because it conducts electricity well?",
+    "options": ["Copper", "Gold", "Iron", "Lead"],
+    "answer": "Copper",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If someone says 'I am not hungry' and then starts eating your food, what has probably happened?",
+    "options": ["They changed their mind", "They became invisible", "They forgot how to eat", "The food called them"],
+    "answer": "They changed their mind",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for Mount Fuji?",
+    "options": ["Japan", "China", "Nepal", "India"],
+    "answer": "Japan",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which platform is most associated with professional networking?",
+    "options": ["LinkedIn", "TikTok", "Snapchat", "Instagram"],
+    "answer": "LinkedIn",
+    "category": "Internet",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the trick in the question 'How many months have 28 days?'",
+    "options": ["Only February", "All 12 months", "Six months", "None"],
+    "answer": "All 12 months",
+    "category": "Trick Questions",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If you drop your phone on your face while lying in bed, what usually happens?",
+    "options": ["It hurts", "You win a prize", "The phone becomes lighter", "Nothing ever happens"],
+    "answer": "It hurts",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the Taj Mahal?",
+    "options": ["India", "Pakistan", "Bangladesh", "Nepal"],
+    "answer": "India",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known for having a pouch for carrying its young?",
+    "options": ["Kangaroo", "Lion", "Elephant", "Giraffe"],
+    "answer": "Kangaroo",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you say 'I'm going to bed early tonight' and then start watching videos, what is the likely result?",
+    "options": ["You sleep earlier", "You sleep later", "You wake up immediately", "You stop needing sleep"],
+    "answer": "You sleep later",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the pyramids of Giza and the Nile River?",
+    "options": ["Egypt", "Kenya", "Ghana", "Ethiopia"],
+    "answer": "Egypt",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which game is played with a cue and balls on a table?",
+    "options": ["Chess", "Pool", "Football", "Badminton"],
+    "answer": "Pool",
+    "category": "Games",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most dangerous phrase for someone trying to save money: 'It's only...'",
+    "options": ["Free", "A little money", "Expensive", "Sold out"],
+    "answer": "A little money",
+    "category": "Funny",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which footballer is strongly associated with Argentina and the number 10?",
+    "options": ["Lionel Messi", "Mohamed Salah", "Erling Haaland", "Harry Kane"],
+    "answer": "Lionel Messi",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens when someone says 'Don't laugh' during a serious moment?",
+    "options": ["It can suddenly become harder not to laugh", "Everyone falls asleep", "Nobody hears them", "The room gets colder"],
+    "answer": "It can suddenly become harder not to laugh",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which technology is commonly used to unlock some phones with your face?",
+    "options": ["Facial recognition", "Bluetooth", "GPS", "FM radio"],
+    "answer": "Facial recognition",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is often associated with saying 'moo'?",
+    "options": ["Cow", "Goat", "Sheep", "Horse"],
+    "answer": "Cow",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you tell someone 'I have one question,' what often happens next?",
+    "options": ["Only one question is asked", "There may be several questions", "Nobody speaks", "Everyone leaves"],
+    "answer": "There may be several questions",
+    "category": "Funny",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which city is known as the Big Apple?",
+    "options": ["New York City", "London", "Paris", "Toronto"],
+    "answer": "New York City",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movie features the character Jack Sparrow?",
+    "options": ["Pirates of the Caribbean", "Avatar", "Titanic", "The Matrix"],
+    "answer": "Pirates of the Caribbean",
+    "category": "Movies",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your friend says 'Trust me' immediately before doing something questionable, what should you expect?",
+    "options": ["Something completely predictable", "Possible trouble", "A math lesson", "A weather report"],
+    "answer": "Possible trouble",
+    "category": "Funny",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which country is famous for the city of Paris?",
+    "options": ["France", "Belgium", "Italy", "Switzerland"],
+    "answer": "France",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does pressing Ctrl+C usually do on a computer?",
+    "options": ["Copy", "Close", "Cut", "Cancel"],
+    "answer": "Copy",
+    "category": "Technology",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which food is made from milk and often comes in flavors like chocolate and vanilla?",
+    "options": ["Ice cream", "Rice", "Bread", "Pasta"],
+    "answer": "Ice cream",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you tell yourself 'I won't check my phone,' what often happens?",
+    "options": ["You become more tempted to check it", "You forget phones exist", "Your phone disappears", "You fall asleep instantly"],
+    "answer": "You become more tempted to check it",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is home to the city of Accra?",
+    "options": ["Ghana", "Nigeria", "Kenya", "Uganda"],
+    "answer": "Ghana",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the football move where a player kicks the ball over an opponent's head?",
+    "options": ["Chip", "Tackle", "Corner", "Throw-in"],
+    "answer": "Chip",
+    "category": "Sports",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which social media feature lets you react quickly to a message with a small symbol?",
+    "options": ["Reaction emoji", "Calculator", "Bookmark", "Wallpaper"],
+    "answer": "Reaction emoji",
+    "category": "Internet",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you hear 'we need to talk,' what usually happens to your confidence for a moment?",
+    "options": ["It increases", "It disappears", "It becomes a superpower", "Nothing changes"],
+    "answer": "It disappears",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sport uses a hoop and a basketball?",
+    "options": ["Basketball", "Tennis", "Cricket", "Golf"],
+    "answer": "Basketball",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which famous company is known for the iPhone?",
+    "options": ["Apple", "Samsung", "Microsoft", "Sony"],
+    "answer": "Apple",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If someone says 'It will only take five minutes,' what is the funny possibility?",
+    "options": ["It actually takes five seconds", "It takes much longer", "It happens before they finish speaking", "It never starts"],
+    "answer": "It takes much longer",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has the city of Lagos?",
+    "options": ["Nigeria", "Ghana", "Kenya", "Cameroon"],
+    "answer": "Nigeria",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which animal is known for its black-and-white stripes?",
+    "options": ["Zebra", "Lion", "Giraffe", "Cheetah"],
+    "answer": "Zebra",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What usually happens when you hear your favorite song start playing?",
+    "options": ["You may start singing or moving", "You immediately sleep", "You turn off the music", "You forget the song"],
+    "answer": "You may start singing or moving",
+    "category": "Music",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which famous fictional character lives in a pineapple under the sea?",
+    "options": ["SpongeBob SquarePants", "Tom", "Shrek", "Mickey Mouse"],
+    "answer": "SpongeBob SquarePants",
+    "category": "Entertainment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If your friend says 'I didn't touch your food,' what might make you suspicious?",
+    "options": ["They are eating it while saying it", "They are sleeping", "They are outside", "They are cooking rice"],
+    "answer": "They are eating it while saying it",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Mercury", "Venus", "Earth", "Mars"],
+    "answer": "Mercury",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the currency used in Ghana?",
+    "options": ["Naira", "Cedi", "Rand", "Shilling"],
+    "answer": "Cedi",
+    "category": "Ghana",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you accidentally like an old photo while scrolling someone's profile, what is the usual reaction?",
+    "options": ["Instant panic", "Celebration", "Sleep", "Nothing"],
+    "answer": "Instant panic",
+    "category": "Internet",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the city of London?",
+    "options": ["United Kingdom", "France", "Ireland", "Germany"],
+    "answer": "United Kingdom",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the classic trick in 'What gets wetter as it dries?'",
+    "options": ["A towel", "A sponge", "Rain", "Soap"],
+    "answer": "A towel",
+    "category": "Trick Questions",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which football club is famous for playing at Old Trafford?",
+    "options": ["Manchester United", "Manchester City", "Arsenal", "Chelsea"],
+    "answer": "Manchester United",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do you usually do when you realize you have been searching for your phone while holding it?",
+    "options": ["Laugh at yourself", "Call the police", "Buy another phone", "Go to sleep"],
+    "answer": "Laugh at yourself",
+    "category": "Funny",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fruit is usually yellow when ripe and has a curved shape?",
+    "options": ["Banana", "Apple", "Watermelon", "Grape"],
+    "answer": "Banana",
+    "category": "Food",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which app is widely used for instant messaging and voice/video calls?",
+    "options": ["WhatsApp", "Google Maps", "Spotify", "Calculator"],
+    "answer": "WhatsApp",
+    "category": "Technology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If a person says 'I am five minutes away' while still at home, what is the likely problem?",
+    "options": ["Their definition of five minutes", "Their GPS is broken", "They are already there", "They are invisible"],
+    "answer": "Their definition of five minutes",
+    "category": "Funny",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which animal is known for its powerful roar?",
+    "options": ["Lion", "Rabbit", "Chicken", "Goat"],
+    "answer": "Lion",
+    "category": "Animals",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country is famous for the city of Madrid?",
+    "options": ["Spain", "Portugal", "Italy", "France"],
+    "answer": "Spain",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a referee usually use to stop or control a football match?",
+    "options": ["Whistle", "Keyboard", "Hammer", "Bell"],
+    "answer": "Whistle",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If you hear someone say 'Don't worry, I got this' before a risky idea, what should you prepare for?",
+    "options": ["Something unpredictable", "A guaranteed success", "A nap", "A mathematics exam"],
+    "answer": "Something unpredictable",
+    "category": "Funny",
+    "difficulty": "medium"
+  }
+]

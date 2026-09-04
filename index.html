@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Brain Battle — a fast, competitive 60-second quiz game. Think faster, improve your score and challenge your friends."
+    >
+
+    <meta name="theme-color" content="#fff8ef">
+
+    <title>Brain Battle — Think Faster</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         TOP BAR
+    ====================================================== -->
+
+    <header class="topbar">
+
+        <div class="brand" id="brandHome">
+
+            <div class="brand-icon">
+                🧠
+            </div>
+
+            <div class="brand-name">
+                Brain Battle
+            </div>
+
+        </div>
+
+        <div class="player-level" id="playerLevel">
+            LEVEL 1
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HOME SCREEN
+        ================================================== -->
+
+        <section id="homeScreen" class="screen active">
+
+            <div class="hero">
+
+                <div class="hero-icon">
+                    🧠
+                </div>
+
+                <span class="eyebrow">
+                    60 SECOND BRAIN GAME
+                </span>
+
+                <h1>
+                    Think Faster.
+                </h1>
+
+                <p class="hero-text">
+                    Give your brain a daily workout. Play every day,
+                    improve your score and keep climbing the levels.
+                </p>
+
+                <div class="hero-actions">
+
+                    <button
+                        id="startBtn"
+                        class="btn btn-primary"
+                        type="button"
+                    >
+                        ⚡ Start Game
+                    </button>
+
+                    <button
+                        id="progressBtn"
+                        class="btn btn-secondary"
+                        type="button"
+                    >
+                        🏆 My Progress
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- HOME STATS -->
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        🏆
+                    </div>
+
+                    <div>
+                        <small>BEST SCORE</small>
+                        <strong id="homeBest">0</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        🔥
+                    </div>
+
+                    <div>
+                        <small>STREAK</small>
+                        <strong id="homeStreak">0</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        🎮
+                    </div>
+
+                    <div>
+                        <small>BATTLES</small>
+                        <strong id="homeBattles">0</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        ⚡
+                    </div>
+
+                    <div>
+                        <small>LEVEL</small>
+                        <strong id="homeLevel">1</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- XP CARD -->
+
+            <div class="xp-card">
+
+                <div class="xp-top">
+
+                    <div>
+
+                        <span class="level-label" id="homeLevelLabel">
+                            LEVEL 1
+                        </span>
+
+                        <h3 id="homeLevelTitle">
+                            ROOKIE
+                        </h3>
+
+                    </div>
+
+                    <strong id="homeXPText">
+                        0 / 100 XP
+                    </strong>
+
+                </div>
+
+                <div class="xp-bar">
+                    <div id="homeXPBar"></div>
+                </div>
+
+                <p id="homeNextUnlock">
+                    Keep playing to unlock new modes.
+                </p>
+
+            </div>
+
+
+            <!-- DAILY CARD -->
+
+            <div class="daily-card">
+
+                <div class="daily-left">
+
+                    <div class="daily-icon">
+                        📅
+                    </div>
+
+                    <div>
+
+                        <span class="eyebrow">
+                            DAILY CHALLENGE
+                        </span>
+
+                        <h2>
+                            Today's Battle
+                        </h2>
+
+                        <p>
+                            Same questions for everyone. Can you beat your best?
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <button
+                    id="dailyBtn"
+                    class="btn btn-dark"
+                    type="button"
+                >
+                    Play Daily
+                </button>
+
+            </div>
+
+
+            <!-- FEATURES -->
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    BRAIN BATTLE
+                </span>
+
+                <h2>
+                    Play. Improve. Compete.
+                </h2>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+
+                    <span>
+                        ⚔️
+                    </span>
+
+                    <h3>
+                        Challenge Friends
+                    </h3>
+
+                    <p>
+                        Set a score and send your challenge link.
+                        See who can think faster.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <span>
+                        🏅
+                    </span>
+
+                    <h3>
+                        Earn Achievements
+                    </h3>
+
+                    <p>
+                        Keep playing, build combos and unlock
+                        achievements as you improve.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <span>
+                        🚀
+                    </span>
+
+                    <h3>
+                        Level Up
+                    </h3>
+
+                    <p>
+                        Earn XP from every battle and unlock
+                        harder game modes.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             GAME SCREEN
+        ================================================== -->
+
+        <section id="gameScreen" class="screen">
+
+
+            <!-- GAME TOP -->
+
+            <div class="game-top">
+
+                <div class="game-stat">
+
+                    <small>
+                        SCORE
+                    </small>
+
+                    <strong id="score">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div
+                    class="timer-box"
+                    id="timerBox"
+                >
+
+                    <strong id="timer">
+                        60
+                    </strong>
+
+                    <span>
+                        s
+                    </span>
+
+                </div>
+
+
+                <div class="game-stat right">
+
+                    <small>
+                        COMBO
+                    </small>
+
+                    <strong id="combo">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- GAME PROGRESS -->
+
+            <div class="game-progress">
+
+                <div id="gameProgressFill"></div>
+
+            </div>
+
+
+            <!-- SOUND CONTROL -->
+
+            <div
+                class="game-sound-control"
+                id="gameSoundControl"
+            >
+
+                <button
+                    id="soundToggleBtn"
+                    class="sound-toggle"
+                    type="button"
+                    aria-label="Mute game sounds"
+                    title="Mute game sounds"
+                >
+                    🔊
+                </button>
+
+            </div>
+
+
+            <!-- CHALLENGE BANNER -->
+
+            <div id="challengeBanner"></div>
+
+
+            <!-- QUESTION META -->
+
+            <div class="question-meta">
+
+                <span id="questionCategory">
+                    General
+                </span>
+
+                <span id="questionNumber">
+                    Question 1
+                </span>
+
+            </div>
+
+
+            <!-- QUESTION -->
+
+            <div class="question-card">
+
+                <h1 id="questionText">
+                    Loading question...
+                </h1>
+
+            </div>
+
+
+            <!-- ANSWERS -->
+
+            <div class="answers">
+
+                <button
+                    class="answer-btn"
+                    type="button"
+                >
+
+                    <span class="answer-letter">
+                        A
+                    </span>
+
+                    <span class="answer-text">
+                        Answer
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="answer-btn"
+                    type="button"
+                >
+
+                    <span class="answer-letter">
+                        B
+                    </span>
+
+                    <span class="answer-text">
+                        Answer
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="answer-btn"
+                    type="button"
+                >
+
+                    <span class="answer-letter">
+                        C
+                    </span>
+
+                    <span class="answer-text">
+                        Answer
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="answer-btn"
+                    type="button"
+                >
+
+                    <span class="answer-letter">
+                        D
+                    </span>
+
+                    <span class="answer-text">
+                        Answer
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <p class="game-tip">
+                Think fast. Don't overthink it.
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             RESULT SCREEN
+        ================================================== -->
+
+        <section id="resultScreen" class="screen">
+
+            <div class="result-card">
+
+                <div
+                    class="result-icon"
+                    id="resultIcon"
+                >
+                    🧠
+                </div>
+
+                <span class="eyebrow">
+                    BATTLE COMPLETE
+                </span>
+
+                <h1 id="resultMessage">
+                    Nice battle!
+                </h1>
+
+
+                <!-- FINAL SCORE -->
+
+                <div class="final-score">
+
+                    <span>
+                        YOUR SCORE
+                    </span>
+
+                    <strong id="finalScore">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <!-- NEW BEST -->
+
+                <div
+                    id="newBest"
+                    class="new-best hidden"
+                >
+                    🏆 NEW PERSONAL BEST
+                </div>
+
+
+                <!-- CHALLENGE RESULT -->
+
+                <div
+                    id="challengeResultBox"
+                    class="challenge-result hidden"
+                >
+                </div>
+
+
+                <!-- CHALLENGE CREATOR MESSAGE -->
+
+                <div
+                    id="challengeCreatorBox"
+                    class="challenge-creator-box hidden"
+                >
+
+                    <div class="challenge-creator-icon">
+                        ⚔️
+                    </div>
+
+                    <div class="challenge-creator-content">
+
+                        <strong>
+                            Challenge created!
+                        </strong>
+
+                        <p id="challengeCreatorText">
+                            Send this link to a friend for a challenge,
+                            or show them your score.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RESULT STATS -->
+
+                <div class="result-stats">
+
+                    <div>
+
+                        <span>
+                            CORRECT
+                        </span>
+
+                        <strong id="resultCorrect">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            ANSWERED
+                        </span>
+
+                        <strong id="resultAnswered">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            BEST COMBO
+                        </span>
+
+                        <strong id="resultBestCombo">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            XP EARNED
+                        </span>
+
+                        <strong id="resultXP">
+                            +0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RESULT ACTIONS -->
+
+                <div class="result-actions">
+
+                    <button
+                        id="shareBtn"
+                        class="btn btn-primary"
+                        type="button"
+                    >
+                        📤 Share My Score
+                    </button>
+
+
+                    <button
+                        id="copyChallengeBtn"
+                        class="btn btn-secondary hidden"
+                        type="button"
+                    >
+                        🔗 Copy Challenge Link
+                    </button>
+
+
+                    <button
+                        id="challengeHomeBtn"
+                        class="btn btn-dark"
+                        type="button"
+                    >
+                        ⚔️ Challenge Someone
+                    </button>
+
+
+                    <button
+                        id="playAgainBtn"
+                        class="btn btn-secondary"
+                        type="button"
+                    >
+                        🔄 Play Again
+                    </button>
+
+
+                    <button
+                        id="resultHomeBtn"
+                        class="text-btn"
+                        type="button"
+                    >
+                        ← Back Home
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PROGRESS SCREEN
+        ================================================== -->
+
+        <section id="progressScreen" class="screen">
+
+            <div class="page-header">
+
+                <button
+                    id="progressBackBtn"
+                    class="back-btn"
+                    type="button"
+                    aria-label="Back"
+                >
+                    ←
+                </button>
+
+                <div>
+
+                    <span class="eyebrow">
+                        YOUR PROGRESS
+                    </span>
+
+                    <h1>
+                        Level Up
+                    </h1>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROFILE LEVEL -->
+
+            <div class="profile-level-card">
+
+                <div class="profile-level-icon">
+                    🧠
+                </div>
+
+                <div>
+
+                    <span id="progressLevelLabel">
+                        LEVEL 1
+                    </span>
+
+                    <h2 id="progressLevelTitle">
+                        ROOKIE
+                    </h2>
+
+                    <p id="progressLevelDescription">
+                        Keep playing to become a faster thinker.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- XP -->
+
+            <div class="big-xp-card">
+
+                <div class="xp-top">
+
+                    <div>
+
+                        <span class="level-label">
+                            EXPERIENCE
+                        </span>
+
+                        <h3>
+                            XP Progress
+                        </h3>
+
+                    </div>
+
+                    <strong id="progressXPText">
+                        0 / 100 XP
+                    </strong>
+
+                </div>
+
+                <div class="xp-bar">
+                    <div id="progressXPBar"></div>
+                </div>
+
+                <p id="progressNextUnlock">
+                    Keep playing to unlock new modes.
+                </p>
+
+            </div>
+
+
+            <!-- PROGRESS STATS -->
+
+            <div class="progress-stat-grid">
+
+                <div class="progress-stat">
+
+                    <span>
+                        🎮
+                    </span>
+
+                    <small>
+                        BATTLES
+                    </small>
+
+                    <strong id="progressBattles">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="progress-stat">
+
+                    <span>
+                        🎯
+                    </span>
+
+                    <small>
+                        CORRECT ANSWERS
+                    </small>
+
+                    <strong id="progressCorrect">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="progress-stat">
+
+                    <span>
+                        ⚡
+                    </span>
+
+                    <small>
+                        BEST COMBO
+                    </small>
+
+                    <strong id="progressBestCombo">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="progress-stat">
+
+                    <span>
+                        🔥
+                    </span>
+
+                    <small>
+                        CURRENT STREAK
+                    </small>
+
+                    <strong id="progressStreak">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="progress-stat">
+
+                    <span>
+                        ❓
+                    </span>
+
+                    <small>
+                        QUESTIONS
+                    </small>
+
+                    <strong id="progressQuestions">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="progress-stat">
+
+                    <span>
+                        🏆
+                    </span>
+
+                    <small>
+                        BEST SCORE
+                    </small>
+
+                    <strong id="progressBest">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- MODES -->
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    GAME MODES
+                </span>
+
+                <h2>
+                    Unlock New Battles
+                </h2>
+
+            </div>
+
+
+            <div class="mode-list">
+
+
+                <div class="mode-card">
+
+                    <div class="mode-icon">
+                        🧠
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Classic
+                        </h3>
+
+                        <p>
+                            The original 60-second Brain Battle.
+                        </p>
+
+                    </div>
+
+                    <span class="mode-status">
+                        UNLOCKED
+                    </span>
+
+                </div>
+
+
+                <div class="mode-card">
+
+                    <div class="mode-icon">
+                        🔥
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Hard Mode
+                        </h3>
+
+                        <p>
+                            Tougher questions for sharper minds.
+                        </p>
+
+                    </div>
+
+                    <span class="mode-status">
+                        LEVEL 5
+                    </span>
+
+                </div>
+
+
+                <div class="mode-card">
+
+                    <div class="mode-icon">
+                        ⚡
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Speed Mode
+                        </h3>
+
+                        <p>
+                            Faster thinking. Less room for mistakes.
+                        </p>
+
+                    </div>
+
+                    <span class="mode-status">
+                        LEVEL 7
+                    </span>
+
+                </div>
+
+
+                <div class="mode-card">
+
+                    <div class="mode-icon">
+                        💡
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Genius Mode
+                        </h3>
+
+                        <p>
+                            For players ready for serious brain battles.
+                        </p>
+
+                    </div>
+
+                    <span class="mode-status">
+                        LEVEL 10
+                    </span>
+
+                </div>
+
+
+                <div class="mode-card">
+
+                    <div class="mode-icon">
+                        🏆
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Elite Mode
+                        </h3>
+
+                        <p>
+                            Only the strongest thinkers make it here.
+                        </p>
+
+                    </div>
+
+                    <span class="mode-status">
+                        LEVEL 15
+                    </span>
+
+                </div>
+
+
+                <div class="mode-card">
+
+                    <div class="mode-icon">
+                        👑
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Legendary Mode
+                        </h3>
+
+                        <p>
+                            The ultimate Brain Battle.
+                        </p>
+
+                    </div>
+
+                    <span class="mode-status">
+                        LEVEL 20
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             ACHIEVEMENTS SCREEN
+        ================================================== -->
+
+        <section id="achievementsScreen" class="screen">
+
+            <div class="page-header">
+
+                <button
+                    id="achievementsBackBtn"
+                    class="back-btn"
+                    type="button"
+                    aria-label="Back"
+                >
+                    ←
+                </button>
+
+                <div>
+
+                    <span class="eyebrow">
+                        ACHIEVEMENTS
+                    </span>
+
+                    <h1>
+                        Your Trophies
+                    </h1>
+
+                </div>
+
+            </div>
+
+
+            <div class="achievement-summary">
+
+                <div>
+
+                    <strong id="achievementCount">
+                        0
+                    </strong>
+
+                    <span>
+                        UNLOCKED
+                    </span>
+
+                </div>
+
+                <div>
+
+                    <strong>
+                        10
+                    </strong>
+
+                    <span>
+                        TOTAL
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="achievement-list">
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="first_game"
+                >
+
+                    <div class="achievement-icon">
+                        🎮
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            First Battle
+                        </h3>
+
+                        <p>
+                            Complete your first Brain Battle.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="double_digits"
+                >
+
+                    <div class="achievement-icon">
+                        🔟
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Double Digits
+                        </h3>
+
+                        <p>
+                            Score 10 points in a battle.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="sharp"
+                >
+
+                    <div class="achievement-icon">
+                        🎯
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Sharp Mind
+                        </h3>
+
+                        <p>
+                            Score 20 points in a battle.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="storm"
+                >
+
+                    <div class="achievement-icon">
+                        🌪️
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Brain Storm
+                        </h3>
+
+                        <p>
+                            Score 25 points in a battle.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="streak3"
+                >
+
+                    <div class="achievement-icon">
+                        🔥
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            On Fire
+                        </h3>
+
+                        <p>
+                            Build a 3-day playing streak.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="streak7"
+                >
+
+                    <div class="achievement-icon">
+                        🔥
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Week Warrior
+                        </h3>
+
+                        <p>
+                            Build a 7-day playing streak.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="combo5"
+                >
+
+                    <div class="achievement-icon">
+                        ⚡
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Combo Master
+                        </h3>
+
+                        <p>
+                            Reach a 5-answer combo.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="level5"
+                >
+
+                    <div class="achievement-icon">
+                        🚀
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Level 5
+                        </h3>
+
+                        <p>
+                            Reach level 5.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="level10"
+                >
+
+                    <div class="achievement-icon">
+                        💎
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Genius
+                        </h3>
+
+                        <p>
+                            Reach level 10.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="achievement-card"
+                    data-achievement="games25"
+                >
+
+                    <div class="achievement-icon">
+                        🏆
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Battle Veteran
+                        </h3>
+
+                        <p>
+                            Complete 25 battles.
+                        </p>
+
+                    </div>
+
+                    <span class="achievement-status">
+                        🔒
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             DAILY SCREEN
+        ================================================== -->
+
+        <section id="dailyScreen" class="screen">
+
+            <div class="page-header">
+
+                <button
+                    id="dailyBackBtn"
+                    class="back-btn"
+                    type="button"
+                    aria-label="Back"
+                >
+                    ←
+                </button>
+
+                <div>
+
+                    <span class="eyebrow">
+                        DAILY BATTLE
+                    </span>
+
+                    <h1>
+                        Today's Challenge
+                    </h1>
+
+                </div>
+
+            </div>
+
+
+            <div class="daily-hero">
+
+                <div class="daily-big-icon">
+                    📅
+                </div>
+
+                <span class="eyebrow">
+                    ONE BATTLE. ONE CHANCE.
+                </span>
+
+                <h2>
+                    Can you beat today's score?
+                </h2>
+
+                <p>
+                    Everyone gets the same daily question set.
+                    Come back tomorrow for a new battle.
+                </p>
+
+                <div
+                    class="daily-date"
+                    id="dailyDate"
+                >
+                    Today
+                </div>
+
+                <br>
+
+                <button
+                    id="startDailyBtn"
+                    class="btn btn-dark"
+                    type="button"
+                >
+                    ⚡ Start Daily Battle
+                </button>
+
+            </div>
+
+
+            <div class="daily-info-grid">
+
+                <div>
+
+                    <span>
+                        🔥
+                    </span>
+
+                    <strong id="dailyStreak">
+                        0
+                    </strong>
+
+                    <small>
+                        DAY STREAK
+                    </small>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        🏆
+                    </span>
+
+                    <strong id="dailyBest">
+                        0
+                    </strong>
+
+                    <small>
+                        TODAY'S BEST
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         TOAST
+    ====================================================== -->
+
+    <div
+        id="toast"
+        class="toast"
+        role="status"
+        aria-live="polite"
+    >
+
+        <span id="toastIcon">
+            ✓
+        </span>
+
+        <span id="toastMessage">
+            Done
+        </span>
+
+    </div>
+
+
+    <!-- =====================================================
+         LEVEL UP MODAL
+    ====================================================== -->
+
+    <div
+        id="levelUpModal"
+        class="modal hidden"
+    >
+
+        <div class="modal-card">
+
+            <div class="level-up-icon">
+                🚀
+            </div>
+
+            <span class="eyebrow">
+                LEVEL UP
+            </span>
+
+            <h2>
+                You got stronger!
+            </h2>
+
+            <div class="level-up-number">
+
+                <span>
+                    NEW LEVEL
+                </span>
+
+                <strong id="levelUpNumber">
+                    2
+                </strong>
+
+            </div>
+
+            <p id="levelUpTitle">
+                QUICK THINKER
+            </p>
+
+            <button
+                id="closeLevelUpBtn"
+                class="btn btn-primary"
+                type="button"
+            >
+                Continue
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         CHALLENGE MODAL
+    ====================================================== -->
+
+    <div
+        id="challengeModal"
+        class="modal hidden"
+    >
+
+        <div class="modal-card">
+
+            <div class="challenge-modal-icon">
+                ⚔️
+            </div>
+
+            <span class="eyebrow">
+                BRAIN BATTLE CHALLENGE
+            </span>
+
+            <h2>
+                Can you beat this score?
+            </h2>
+
+            <p>
+                Someone thinks you can't beat their Brain Battle score.
+            </p>
+
+            <div class="challenge-score-display">
+
+                <span>
+                    TARGET SCORE
+                </span>
+
+                <strong id="challengeTargetScore">
+                    0
+                </strong>
+
+            </div>
+
+            <div class="modal-actions">
+
+                <button
+                    id="acceptChallengeBtn"
+                    class="btn btn-primary"
+                    type="button"
+                >
+                    ⚔️ Accept Challenge
+                </button>
+
+                <button
+                    id="declineChallengeBtn"
+                    class="text-btn"
+                    type="button"
+                >
+                    Maybe later
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         SCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
