@@ -1,6 +1,8 @@
 /* =========================================================
-   BRAIN BATTLE — GAME ENGINE
+   BRAIN BATTLE — COMPLETE GAME ENGINE
+   Clean rebuild matched to the current index.html
 ========================================================= */
+
 
 /* =========================================================
    GAME SETTINGS
@@ -84,27 +86,25 @@ const homeStreak = document.getElementById("homeStreak");
 const homeBattles = document.getElementById("homeBattles");
 const homeLevel = document.getElementById("homeLevel");
 
-const headerLevel = document.getElementById("headerLevel");
+const playerLevel = document.getElementById("playerLevel");
 
+const homeLevelLabel = document.getElementById("homeLevelLabel");
 const homeLevelTitle = document.getElementById("homeLevelTitle");
-const xpCurrentLevel = document.getElementById("xpCurrentLevel");
-const xpText = document.getElementById("xpText");
-const xpFill = document.getElementById("xpFill");
-const nextUnlockText = document.getElementById("nextUnlockText");
+const homeXPText = document.getElementById("homeXPText");
+const homeXPBar = document.getElementById("homeXPBar");
+const homeNextUnlock = document.getElementById("homeNextUnlock");
 
-const progressLevel = document.getElementById("progressLevel");
+const progressLevelLabel = document.getElementById("progressLevelLabel");
 const progressLevelTitle = document.getElementById("progressLevelTitle");
-const progressXP = document.getElementById("progressXP");
 const progressXPText = document.getElementById("progressXPText");
-const progressXPFill = document.getElementById("progressXPFill");
+const progressXPBar = document.getElementById("progressXPBar");
 const progressNextUnlock = document.getElementById("progressNextUnlock");
 
 const progressBest = document.getElementById("progressBest");
 const progressBattles = document.getElementById("progressBattles");
 const progressCorrect = document.getElementById("progressCorrect");
 const progressStreak = document.getElementById("progressStreak");
-const progressBestCombo = document.getElementById("progressBestCombo");
-const progressTotalXP = document.getElementById("progressTotalXP");
+const progressQuestions = document.getElementById("progressQuestions");
 
 const achievementCount = document.getElementById("achievementCount");
 
@@ -119,7 +119,6 @@ const toastMessage = document.getElementById("toastMessage");
 const levelUpModal = document.getElementById("levelUpModal");
 const levelUpNumber = document.getElementById("levelUpNumber");
 const levelUpTitle = document.getElementById("levelUpTitle");
-const levelUpClose = document.getElementById("levelUpClose");
 
 const challengeModal = document.getElementById("challengeModal");
 const challengeTargetScore = document.getElementById("challengeTargetScore");
@@ -129,15 +128,12 @@ const declineChallengeBtn = document.getElementById("declineChallengeBtn");
 const challengeBanner = document.getElementById("challengeBanner");
 const challengeResultBox = document.getElementById("challengeResultBox");
 
+const challengeCreatorBox = document.getElementById("challengeCreatorBox");
+const challengeCreatorText = document.getElementById("challengeCreatorText");
+
 const answerButtons = document.querySelectorAll(".answer-btn");
 
-
-/* =========================================================
-   OPTIONAL SOUND BUTTON
-========================================================= */
-
-const soundToggleBtn =
-    document.getElementById("soundToggleBtn");
+const soundToggleBtn = document.getElementById("soundToggleBtn");
 
 
 /* =========================================================
@@ -159,28 +155,20 @@ const DEFAULT_PLAYER = {
     achievements: []
 };
 
-let player = loadPlayer();
-
-
 function loadPlayer() {
 
     try {
 
         const saved =
-            localStorage.getItem(
-                "brainBattlePlayer"
-            );
+            localStorage.getItem("brainBattlePlayer");
 
         if (!saved) {
             return { ...DEFAULT_PLAYER };
         }
 
-        const parsed =
-            JSON.parse(saved);
-
         return {
             ...DEFAULT_PLAYER,
-            ...parsed
+            ...JSON.parse(saved)
         };
 
     } catch (error) {
@@ -196,13 +184,25 @@ function loadPlayer() {
     }
 }
 
+let player = loadPlayer();
+
 
 function savePlayer() {
 
-    localStorage.setItem(
-        "brainBattlePlayer",
-        JSON.stringify(player)
-    );
+    try {
+
+        localStorage.setItem(
+            "brainBattlePlayer",
+            JSON.stringify(player)
+        );
+
+    } catch (error) {
+
+        console.warn(
+            "Could not save player data.",
+            error
+        );
+    }
 }
 
 
@@ -211,7 +211,6 @@ function savePlayer() {
 ========================================================= */
 
 let questions = [];
-
 let currentQuestions = [];
 let currentQuestionIndex = 0;
 
@@ -230,21 +229,32 @@ let timerInterval = null;
 let currentMode = "classic";
 let isDailyGame = false;
 
+
+/* =========================================================
+   CHALLENGE VARIABLES
+========================================================= */
+
 let challengeTarget = null;
 let challengeActive = false;
 
-let toastTimeout = null;
+/*
+ * creatorMode means:
+ * "I am the person who created the challenge."
+ *
+ * challengeActive means:
+ * "I am currently playing against somebody else's score."
+ */
+let creatorMode = false;
 
 
 /* =========================================================
-   SOUND SYSTEM
+   AUDIO SYSTEM
 ========================================================= */
 
 let audioContext = null;
+
 let soundEnabled =
-    localStorage.getItem(
-        "brainBattleSound"
-    ) !== "off";
+    localStorage.getItem("brainBattleSound") !== "off";
 
 
 function initAudio() {
@@ -270,8 +280,7 @@ function initAudio() {
         }
 
         if (
-            audioContext.state ===
-            "suspended"
+            audioContext.state === "suspended"
         ) {
 
             audioContext.resume();
@@ -280,7 +289,7 @@ function initAudio() {
     } catch (error) {
 
         console.warn(
-            "Audio could not be initialized.",
+            "Audio initialization failed.",
             error
         );
     }
@@ -313,43 +322,34 @@ function playTone(
         const gain =
             audioContext.createGain();
 
-        oscillator.type = type;
+        const startTime =
+            audioContext.currentTime + delay;
 
-        oscillator.frequency.value =
-            frequency;
+        oscillator.type = type;
+        oscillator.frequency.value = frequency;
 
         gain.gain.setValueAtTime(
             0,
-            audioContext.currentTime + delay
+            startTime
         );
 
         gain.gain.linearRampToValueAtTime(
             volume,
-            audioContext.currentTime +
-                delay +
-                0.01
+            startTime + 0.01
         );
 
         gain.gain.exponentialRampToValueAtTime(
             0.001,
-            audioContext.currentTime +
-                delay +
-                duration
+            startTime + duration
         );
 
         oscillator.connect(gain);
         gain.connect(audioContext.destination);
 
-        oscillator.start(
-            audioContext.currentTime +
-                delay
-        );
+        oscillator.start(startTime);
 
         oscillator.stop(
-            audioContext.currentTime +
-                delay +
-                duration +
-                0.02
+            startTime + duration + 0.02
         );
 
     } catch (error) {
@@ -400,16 +400,16 @@ function playWrongSound() {
 }
 
 
-function playComboSound(comboValue) {
+function playComboSound(value) {
 
-    if (comboValue < 3) {
+    if (value < 3) {
         return;
     }
 
     const base =
         Math.min(
             1200,
-            500 + comboValue * 45
+            500 + value * 45
         );
 
     playTone(
@@ -537,23 +537,35 @@ function updateSoundButton() {
 
     soundToggleBtn.textContent =
         soundEnabled
-            ? "🔊 Sound On"
-            : "🔇 Sound Off";
+            ? "🔊"
+            : "🔇";
 
     soundToggleBtn.setAttribute(
-        "aria-pressed",
-        String(soundEnabled)
+        "aria-label",
+        soundEnabled
+            ? "Mute game sounds"
+            : "Turn game sounds on"
+    );
+
+    soundToggleBtn.setAttribute(
+        "title",
+        soundEnabled
+            ? "Mute game sounds"
+            : "Turn game sounds on"
     );
 }
 
 
 function toggleSound() {
 
-    soundEnabled = !soundEnabled;
+    soundEnabled =
+        !soundEnabled;
 
     localStorage.setItem(
         "brainBattleSound",
-        soundEnabled ? "on" : "off"
+        soundEnabled
+            ? "on"
+            : "off"
     );
 
     updateSoundButton();
@@ -592,8 +604,11 @@ async function loadQuestions() {
 
     try {
 
-        questionText.textContent =
-            "Loading questions...";
+        if (questionText) {
+
+            questionText.textContent =
+                "Loading questions...";
+        }
 
         const response =
             await fetch("questions.json");
@@ -601,7 +616,7 @@ async function loadQuestions() {
         if (!response.ok) {
 
             throw new Error(
-                `Question file returned ${response.status}`
+                `questions.json returned ${response.status}`
             );
         }
 
@@ -611,7 +626,7 @@ async function loadQuestions() {
         if (!Array.isArray(data)) {
 
             throw new Error(
-                "questions.json must contain an array of questions."
+                "questions.json must contain an array."
             );
         }
 
@@ -627,7 +642,7 @@ async function loadQuestions() {
                 );
             });
 
-        if (questions.length === 0) {
+        if (!questions.length) {
 
             throw new Error(
                 "No valid questions found."
@@ -635,17 +650,26 @@ async function loadQuestions() {
         }
 
         console.log(
-            `Brain Battle loaded ${questions.length} questions.`
+            `🧠 Loaded ${questions.length} questions.`
         );
 
         updateAllUI();
+
+        /*
+         * Check for an incoming challenge only
+         * after the game has loaded.
+         */
+        readChallengeFromURL();
 
     } catch (error) {
 
         console.error(error);
 
-        questionText.textContent =
-            "Could not load questions. Make sure questions.json is in the same folder and run the game with Live Server.";
+        if (questionText) {
+
+            questionText.textContent =
+                "Could not load questions. Make sure questions.json is in the same folder.";
+        }
 
         showToast(
             "⚠️",
@@ -673,6 +697,7 @@ function showScreen(screenId) {
     screens.forEach(screen => {
 
         if (screen) {
+
             screen.classList.remove(
                 "active"
             );
@@ -714,8 +739,8 @@ function xpRequiredForLevel(level) {
 function getLevelTitle(level) {
 
     if (
-        level <=
-        LEVEL_NAMES.length
+        level >= 1 &&
+        level <= LEVEL_NAMES.length
     ) {
 
         return LEVEL_NAMES[
@@ -727,10 +752,32 @@ function getLevelTitle(level) {
 }
 
 
+function calculateLevelFromXP() {
+
+    let remainingXP =
+        Math.max(0, player.xp);
+
+    let level = 1;
+
+    while (
+        remainingXP >=
+        xpRequiredForLevel(level)
+    ) {
+
+        remainingXP -=
+            xpRequiredForLevel(level);
+
+        level++;
+    }
+
+    return level;
+}
+
+
 function getCurrentLevelXP() {
 
     let remainingXP =
-        player.xp;
+        Math.max(0, player.xp);
 
     let level = 1;
 
@@ -751,28 +798,6 @@ function getCurrentLevelXP() {
         requiredXP:
             xpRequiredForLevel(level)
     };
-}
-
-
-function calculateLevelFromXP() {
-
-    let remainingXP =
-        player.xp;
-
-    let level = 1;
-
-    while (
-        remainingXP >=
-        xpRequiredForLevel(level)
-    ) {
-
-        remainingXP -=
-            xpRequiredForLevel(level);
-
-        level++;
-    }
-
-    return level;
 }
 
 
@@ -816,81 +841,23 @@ function showLevelUp(level) {
         return;
     }
 
-    levelUpNumber.textContent =
-        level;
+    if (levelUpNumber) {
 
-    levelUpTitle.textContent =
-        getLevelTitle(level);
+        levelUpNumber.textContent =
+            level;
+    }
+
+    if (levelUpTitle) {
+
+        levelUpTitle.textContent =
+            getLevelTitle(level);
+    }
 
     levelUpModal.classList.remove(
         "hidden"
     );
 
     playLevelUpSound();
-
-    checkAchievements();
-
-    updateAllUI();
-}
-
-
-/* =========================================================
-   LEVEL UNLOCKS
-========================================================= */
-
-function getNextUnlock() {
-
-    const unlockLevels =
-        Object.keys(
-            LEVEL_UNLOCKS
-        )
-        .map(Number)
-        .sort(
-            (a, b) => a - b
-        );
-
-    for (
-        const unlockLevel
-        of unlockLevels
-    ) {
-
-        if (
-            player.level <
-            unlockLevel
-        ) {
-
-            return {
-                level: unlockLevel,
-                name:
-                    LEVEL_UNLOCKS[
-                        unlockLevel
-                    ]
-            };
-        }
-    }
-
-    return null;
-}
-
-
-function isModeUnlocked(mode) {
-
-    const requirements = {
-        classic: 1,
-        hard: 5,
-        speed: 7,
-        genius: 10,
-        elite: 15,
-        legendary: 20
-    };
-
-    const requiredLevel =
-        requirements[mode] || 1;
-
-    return (
-        player.level >=
-        requiredLevel
-    );
 }
 
 
@@ -933,7 +900,7 @@ function yesterdayKey() {
 
 
 /* =========================================================
-   STREAK SYSTEM
+   STREAK
 ========================================================= */
 
 function updateStreak() {
@@ -942,8 +909,7 @@ function updateStreak() {
         dateKey();
 
     if (
-        player.lastPlayedDate ===
-        today
+        player.lastPlayedDate === today
     ) {
         return;
     }
@@ -968,7 +934,7 @@ function updateStreak() {
 
 
 /* =========================================================
-   QUESTION SHUFFLING
+   SHUFFLING
 ========================================================= */
 
 function shuffleArray(array) {
@@ -1080,7 +1046,7 @@ function getDailyQuestions() {
 
 
 /* =========================================================
-   PREPARE GAME
+   PREPARE QUESTIONS
 ========================================================= */
 
 function prepareQuestions() {
@@ -1108,19 +1074,7 @@ function prepareQuestions() {
             );
     }
 
-    if (
-        !currentQuestions.length
-    ) {
-
-        showToast(
-            "⚠️",
-            "No questions available."
-        );
-
-        return false;
-    }
-
-    return true;
+    return currentQuestions.length > 0;
 }
 
 
@@ -1148,7 +1102,8 @@ function startGame(
 
     initAudio();
 
-    currentMode = mode;
+    currentMode =
+        mode;
 
     isDailyGame =
         mode === "daily";
@@ -1168,11 +1123,13 @@ function startGame(
     answerLocked = false;
     gameRunning = true;
 
-    scoreElement.textContent =
-        "0";
+    if (scoreElement) {
+        scoreElement.textContent = "0";
+    }
 
-    comboElement.textContent =
-        "0";
+    if (comboElement) {
+        comboElement.textContent = "0";
+    }
 
     showChallengeBanner();
 
@@ -1199,15 +1156,24 @@ function startTimer() {
         timerInterval
     );
 
-    timerElement.textContent =
-        GAME_TIME;
+    if (timerElement) {
 
-    timerBox.classList.remove(
-        "warning"
-    );
+        timerElement.textContent =
+            GAME_TIME;
+    }
 
-    gameProgressFill.style.width =
-        "100%";
+    if (timerBox) {
+
+        timerBox.classList.remove(
+            "warning"
+        );
+    }
+
+    if (gameProgressFill) {
+
+        gameProgressFill.style.width =
+            "100%";
+    }
 
     let lastWarningSecond =
         GAME_TIME + 1;
@@ -1242,28 +1208,31 @@ function startTimer() {
                     remaining
                 );
 
-            timerElement.textContent =
-                currentSecond;
+            if (timerElement) {
 
-            const percentage =
-                (
-                    remaining /
-                    GAME_TIME
-                ) * 100;
+                timerElement.textContent =
+                    currentSecond;
+            }
 
-            gameProgressFill.style.width =
-                `${Math.max(
-                    0,
-                    percentage
-                )}%`;
+            if (gameProgressFill) {
+
+                gameProgressFill.style.width =
+                    `${Math.max(
+                        0,
+                        (remaining / GAME_TIME) * 100
+                    )}%`;
+            }
 
             if (
                 remaining <= 10
             ) {
 
-                timerBox.classList.add(
-                    "warning"
-                );
+                if (timerBox) {
+
+                    timerBox.classList.add(
+                        "warning"
+                    );
+                }
 
                 if (
                     currentSecond !==
@@ -1324,19 +1293,28 @@ function showQuestion() {
 
     answerLocked = false;
 
-    questionText.textContent =
-        currentQuestion.question;
+    if (questionText) {
 
-    questionCategory.textContent =
-        currentQuestion.category ||
-        "General Knowledge";
+        questionText.textContent =
+            currentQuestion.question;
+    }
 
-    questionNumber.textContent =
-        currentQuestionIndex + 1;
+    if (questionCategory) {
 
-    const shuffledOptions =
-        prepareOptions(
-            currentQuestion
+        questionCategory.textContent =
+            currentQuestion.category ||
+            "General";
+    }
+
+    if (questionNumber) {
+
+        questionNumber.textContent =
+            `Question ${currentQuestionIndex + 1}`;
+    }
+
+    const options =
+        shuffleArray(
+            currentQuestion.options.slice(0, 4)
         );
 
     answerButtons.forEach(
@@ -1351,7 +1329,7 @@ function showQuestion() {
             button.disabled = false;
 
             button.dataset.answer =
-                shuffledOptions[index];
+                options[index];
 
             const answerText =
                 button.querySelector(
@@ -1361,9 +1339,7 @@ function showQuestion() {
             if (answerText) {
 
                 answerText.textContent =
-                    shuffledOptions[
-                        index
-                    ];
+                    options[index];
             }
         }
     );
@@ -1371,20 +1347,20 @@ function showQuestion() {
 
 
 /* =========================================================
-   PREPARE OPTIONS
+   ANSWER
 ========================================================= */
 
-function prepareOptions(question) {
+function normalizeAnswer(value) {
 
-    return shuffleArray(
-        question.options.slice(0, 4)
-    );
+    return String(value)
+        .trim()
+        .toLowerCase()
+        .replace(
+            /\s+/g,
+            " "
+        );
 }
 
-
-/* =========================================================
-   ANSWER QUESTION
-========================================================= */
 
 function handleAnswer(button) {
 
@@ -1401,13 +1377,13 @@ function handleAnswer(button) {
 
     player.totalQuestions++;
 
-    const selectedAnswer =
-        button.dataset.answer;
-
     const currentQuestion =
         currentQuestions[
             currentQuestionIndex
         ];
+
+    const selectedAnswer =
+        button.dataset.answer;
 
     const correctAnswer =
         currentQuestion.answer;
@@ -1443,31 +1419,31 @@ function handleAnswer(button) {
 
         combo++;
 
-        if (
-            combo >
-            bestComboThisGame
-        ) {
+        bestComboThisGame =
+            Math.max(
+                bestComboThisGame,
+                combo
+            );
 
-            bestComboThisGame =
-                combo;
-        }
-
-        if (
-            combo >
-            player.bestCombo
-        ) {
-
-            player.bestCombo =
-                combo;
-        }
+        player.bestCombo =
+            Math.max(
+                player.bestCombo,
+                combo
+            );
 
         player.correct++;
 
-        scoreElement.textContent =
-            score;
+        if (scoreElement) {
 
-        comboElement.textContent =
-            combo;
+            scoreElement.textContent =
+                score;
+        }
+
+        if (comboElement) {
+
+            comboElement.textContent =
+                combo;
+        }
 
         playCorrectSound();
 
@@ -1491,8 +1467,11 @@ function handleAnswer(button) {
 
         combo = 0;
 
-        comboElement.textContent =
-            "0";
+        if (comboElement) {
+
+            comboElement.textContent =
+                "0";
+        }
 
         playWrongSound();
 
@@ -1531,22 +1510,6 @@ function handleAnswer(button) {
 
 
 /* =========================================================
-   ANSWER NORMALIZATION
-========================================================= */
-
-function normalizeAnswer(value) {
-
-    return String(value)
-        .trim()
-        .toLowerCase()
-        .replace(
-            /\s+/g,
-            " "
-        );
-}
-
-
-/* =========================================================
    END GAME
 ========================================================= */
 
@@ -1566,12 +1529,18 @@ function endGame() {
 
     answerLocked = true;
 
-    timerBox.classList.remove(
-        "warning"
-    );
+    if (timerBox) {
 
-    gameProgressFill.style.width =
-        "0%";
+        timerBox.classList.remove(
+            "warning"
+        );
+    }
+
+    if (gameProgressFill) {
+
+        gameProgressFill.style.width =
+            "0%";
+    }
 
     answerButtons.forEach(
         button => {
@@ -1611,9 +1580,6 @@ function endGame() {
             bestComboThisGame
         );
 
-    const oldLevel =
-        player.level;
-
     addXP(
         xpEarned
     );
@@ -1622,7 +1588,9 @@ function endGame() {
         calculateLevelFromXP();
 
     if (isDailyGame) {
-        markDailyPlayed();
+
+        player.dailyPlayedDate =
+            dateKey();
     }
 
     checkAchievements();
@@ -1641,14 +1609,13 @@ function endGame() {
 
     showResult(
         xpEarned,
-        oldBest,
-        oldLevel
+        oldBest
     );
 }
 
 
 /* =========================================================
-   XP CALCULATION
+   XP
 ========================================================= */
 
 function calculateXP(
@@ -1675,78 +1642,129 @@ function calculateXP(
 
 function showResult(
     xpEarned,
-    oldBest,
-    oldLevel
+    oldBest
 ) {
 
-    finalScore.textContent =
-        score;
+    if (finalScore) {
 
-    resultCorrect.textContent =
-        correctAnswers;
-
-    resultAnswered.textContent =
-        answeredQuestions;
-
-    resultBestCombo.textContent =
-        bestComboThisGame;
-
-    resultXP.textContent =
-        `+${xpEarned}`;
-
-    newBest.classList.toggle(
-        "hidden",
-        score <= oldBest
-    );
-
-    if (
-        score >= 25
-    ) {
-
-        resultIcon.textContent =
-            "🔥";
-
-        resultMessage.textContent =
-            "Absolutely flying!";
-
-    } else if (
-        score >= 20
-    ) {
-
-        resultIcon.textContent =
-            "🧠";
-
-        resultMessage.textContent =
-            "Sharp thinking!";
-
-    } else if (
-        score >= 10
-    ) {
-
-        resultIcon.textContent =
-            "⚡";
-
-        resultMessage.textContent =
-            "Nice run!";
-
-    } else {
-
-        resultIcon.textContent =
-            "💪";
-
-        resultMessage.textContent =
-            "Keep pushing!";
+        finalScore.textContent =
+            score;
     }
 
-    if (isDailyGame) {
+    if (resultCorrect) {
 
-        resultMessage.textContent =
-            score >= 20
-                ? "You crushed today's game!"
-                : "Daily game complete!";
+        resultCorrect.textContent =
+            correctAnswers;
     }
 
+    if (resultAnswered) {
+
+        resultAnswered.textContent =
+            answeredQuestions;
+    }
+
+    if (resultBestCombo) {
+
+        resultBestCombo.textContent =
+            bestComboThisGame;
+    }
+
+    if (resultXP) {
+
+        resultXP.textContent =
+            `+${xpEarned}`;
+    }
+
+    if (newBest) {
+
+        newBest.classList.toggle(
+            "hidden",
+            score <= oldBest
+        );
+    }
+
+    if (resultIcon) {
+
+        if (score >= 25) {
+
+            resultIcon.textContent =
+                "🔥";
+
+        } else if (score >= 20) {
+
+            resultIcon.textContent =
+                "🧠";
+
+        } else if (score >= 10) {
+
+            resultIcon.textContent =
+                "⚡";
+
+        } else {
+
+            resultIcon.textContent =
+                "💪";
+        }
+    }
+
+    if (resultMessage) {
+
+        if (isDailyGame) {
+
+            resultMessage.textContent =
+                score >= 20
+                    ? "You crushed today's game!"
+                    : "Daily game complete!";
+
+        } else if (score >= 25) {
+
+            resultMessage.textContent =
+                "Absolutely flying!";
+
+        } else if (score >= 20) {
+
+            resultMessage.textContent =
+                "Sharp thinking!";
+
+        } else if (score >= 10) {
+
+            resultMessage.textContent =
+                "Nice run!";
+
+        } else {
+
+            resultMessage.textContent =
+                "Keep pushing!";
+        }
+    }
+
+    /*
+     * If this was a challenge received from
+     * somebody else, compare the scores.
+     */
     updateChallengeResult();
+
+    /*
+     * If the player is not creating a challenge,
+     * return the normal result buttons.
+     */
+    if (!creatorMode) {
+
+        if (shareBtn) {
+
+            shareBtn.textContent =
+                "📤 Share My Score";
+        }
+
+        if (copyChallengeBtn) {
+
+            copyChallengeBtn.classList.add(
+                "hidden"
+            );
+        }
+
+        hideCreatorChallengeMessage();
+    }
 
     showScreen(
         "resultScreen"
@@ -1760,13 +1778,13 @@ function showResult(
 
 const ACHIEVEMENTS = {
 
-    first: {
-        name: "First Game",
+    first_game: {
+        name: "First Battle",
         condition: () =>
             player.battles >= 1
     },
 
-    double: {
+    double_digits: {
         name: "Double Digits",
         condition: () =>
             player.best >= 10
@@ -1796,8 +1814,8 @@ const ACHIEVEMENTS = {
             player.streak >= 7
     },
 
-    combo: {
-        name: "Combo Starter",
+    combo5: {
+        name: "Combo Master",
         condition: () =>
             player.bestCombo >= 5
     },
@@ -1809,13 +1827,13 @@ const ACHIEVEMENTS = {
     },
 
     level10: {
-        name: "Brain Master",
+        name: "Genius",
         condition: () =>
             player.level >= 10
     },
 
     games25: {
-        name: "Dedicated",
+        name: "Battle Veteran",
         condition: () =>
             player.battles >= 25
     }
@@ -1823,9 +1841,6 @@ const ACHIEVEMENTS = {
 
 
 function checkAchievements() {
-
-    let unlockedSomething =
-        false;
 
     Object.keys(
         ACHIEVEMENTS
@@ -1836,17 +1851,10 @@ function checkAchievements() {
 
         if (
             achievement.condition() &&
-            !player.achievements.includes(
-                id
-            )
+            !player.achievements.includes(id)
         ) {
 
-            player.achievements.push(
-                id
-            );
-
-            unlockedSomething =
-                true;
+            player.achievements.push(id);
 
             showToast(
                 "🏅",
@@ -1855,17 +1863,11 @@ function checkAchievements() {
         }
     });
 
-    if (unlockedSomething) {
-        savePlayer();
-    }
+    savePlayer();
 
     updateAchievementUI();
 }
 
-
-/* =========================================================
-   ACHIEVEMENT UI
-========================================================= */
 
 function updateAchievementUI() {
 
@@ -1885,9 +1887,7 @@ function updateAchievementUI() {
                 card.dataset.achievement;
 
             const unlocked =
-                player.achievements.includes(
-                    id
-                );
+                player.achievements.includes(id);
 
             card.classList.toggle(
                 "unlocked",
@@ -1921,7 +1921,7 @@ function updateAchievementUI() {
 
 function updateModeUI() {
 
-    const modes = {
+    const requirements = {
         classic: 1,
         hard: 5,
         speed: 7,
@@ -1941,16 +1941,12 @@ function updateModeUI() {
                     ".mode-status"
                 );
 
-            if (!status) {
-                return;
-            }
-
             const title =
                 card.querySelector(
                     "h3"
                 );
 
-            if (!title) {
+            if (!status || !title) {
                 return;
             }
 
@@ -1962,43 +1958,23 @@ function updateModeUI() {
             let mode =
                 "classic";
 
-            if (
-                name.includes("hard")
-            ) {
-
+            if (name.includes("hard")) {
                 mode = "hard";
-
-            } else if (
-                name.includes("speed")
-            ) {
-
+            } else if (name.includes("speed")) {
                 mode = "speed";
-
-            } else if (
-                name.includes("genius")
-            ) {
-
+            } else if (name.includes("genius")) {
                 mode = "genius";
-
-            } else if (
-                name.includes("elite")
-            ) {
-
+            } else if (name.includes("elite")) {
                 mode = "elite";
-
-            } else if (
-                name.includes("legendary")
-            ) {
-
+            } else if (name.includes("legendary")) {
                 mode = "legendary";
             }
 
             const requiredLevel =
-                modes[mode];
+                requirements[mode];
 
             const unlocked =
-                player.level >=
-                requiredLevel;
+                player.level >= requiredLevel;
 
             card.classList.toggle(
                 "unlocked",
@@ -2026,11 +2002,8 @@ function updateDailyUI() {
 
     if (dailyDate) {
 
-        const today =
-            new Date();
-
         dailyDate.textContent =
-            today.toLocaleDateString(
+            new Date().toLocaleDateString(
                 undefined,
                 {
                     weekday: "long",
@@ -2054,37 +2027,16 @@ function updateDailyUI() {
 
     if (startDailyBtn) {
 
-        const alreadyPlayed =
-            player.dailyPlayedDate ===
-            dateKey();
-
         startDailyBtn.textContent =
-            alreadyPlayed
+            player.dailyPlayedDate === dateKey()
                 ? "Play Daily Again"
-                : "Start Daily Game";
+                : "Start Daily Battle";
     }
 }
 
 
 /* =========================================================
-   MARK DAILY GAME
-========================================================= */
-
-function markDailyPlayed() {
-
-    if (!isDailyGame) {
-        return;
-    }
-
-    player.dailyPlayedDate =
-        dateKey();
-
-    savePlayer();
-}
-
-
-/* =========================================================
-   HOME / PROGRESS UI
+   PLAYER UI
 ========================================================= */
 
 function updatePlayerUI() {
@@ -2107,18 +2059,15 @@ function updatePlayerUI() {
     const percentage =
         Math.min(
             100,
-            (
-                currentXP /
-                requiredXP
-            ) * 100
+            (currentXP / requiredXP) * 100
         );
 
     const title =
         getLevelTitle(level);
 
-    if (headerLevel) {
+    if (playerLevel) {
 
-        headerLevel.textContent =
+        playerLevel.textContent =
             `LEVEL ${level}`;
     }
 
@@ -2146,51 +2095,45 @@ function updatePlayerUI() {
             level;
     }
 
+    if (homeLevelLabel) {
+
+        homeLevelLabel.textContent =
+            `LEVEL ${level}`;
+    }
+
     if (homeLevelTitle) {
 
         homeLevelTitle.textContent =
             title;
     }
 
-    if (xpCurrentLevel) {
+    if (homeXPText) {
 
-        xpCurrentLevel.textContent =
-            level;
-    }
-
-    if (xpText) {
-
-        xpText.textContent =
+        homeXPText.textContent =
             `${currentXP} / ${requiredXP} XP`;
     }
 
-    if (xpFill) {
+    if (homeXPBar) {
 
-        xpFill.style.width =
+        homeXPBar.style.width =
             `${percentage}%`;
     }
 
     const nextUnlock =
         getNextUnlock();
 
-    if (nextUnlockText) {
+    if (homeNextUnlock) {
 
-        if (nextUnlock) {
-
-            nextUnlockText.textContent =
-                `Next unlock: ${nextUnlock.name} at Level ${nextUnlock.level}.`;
-
-        } else {
-
-            nextUnlockText.textContent =
-                "You've unlocked every major mode. Keep climbing!";
-        }
+        homeNextUnlock.textContent =
+            nextUnlock
+                ? `Next unlock: ${nextUnlock.name} at Level ${nextUnlock.level}.`
+                : "You've unlocked every major mode. Keep climbing!";
     }
 
-    if (progressLevel) {
+    if (progressLevelLabel) {
 
-        progressLevel.textContent =
-            level;
+        progressLevelLabel.textContent =
+            `LEVEL ${level}`;
     }
 
     if (progressLevelTitle) {
@@ -2199,21 +2142,15 @@ function updatePlayerUI() {
             title;
     }
 
-    if (progressXP) {
-
-        progressXP.textContent =
-            `${player.xp} XP`;
-    }
-
     if (progressXPText) {
 
         progressXPText.textContent =
             `${currentXP} / ${requiredXP} XP`;
     }
 
-    if (progressXPFill) {
+    if (progressXPBar) {
 
-        progressXPFill.style.width =
+        progressXPBar.style.width =
             `${percentage}%`;
     }
 
@@ -2241,39 +2178,55 @@ function updatePlayerUI() {
             player.streak;
     }
 
-    if (progressBestCombo) {
+    if (progressQuestions) {
 
-        progressBestCombo.textContent =
-            player.bestCombo;
-    }
-
-    if (progressTotalXP) {
-
-        progressTotalXP.textContent =
-            player.xp;
+        progressQuestions.textContent =
+            player.totalQuestions;
     }
 
     if (progressNextUnlock) {
 
-        if (nextUnlock) {
-
-            progressNextUnlock.textContent =
-                `Next unlock: ${nextUnlock.name} at Level ${nextUnlock.level}.`;
-
-        } else {
-
-            progressNextUnlock.textContent =
-                "All major game modes unlocked.";
-        }
+        progressNextUnlock.textContent =
+            nextUnlock
+                ? `Next unlock: ${nextUnlock.name} at Level ${nextUnlock.level}.`
+                : "All major game modes unlocked.";
     }
 
     savePlayer();
 }
 
 
-/* =========================================================
-   UPDATE EVERYTHING
-========================================================= */
+function getNextUnlock() {
+
+    const levels =
+        Object.keys(
+            LEVEL_UNLOCKS
+        )
+        .map(Number)
+        .sort(
+            (a, b) => a - b
+        );
+
+    for (
+        const level of levels
+    ) {
+
+        if (
+            player.level <
+            level
+        ) {
+
+            return {
+                level,
+                name:
+                    LEVEL_UNLOCKS[level]
+            };
+        }
+    }
+
+    return null;
+}
+
 
 function updateAllUI() {
 
@@ -2289,220 +2242,183 @@ function updateAllUI() {
    CHALLENGE SYSTEM
 ========================================================= */
 
-function getChallengeURL() {
-
-    const base =
-        window.location.href
-            .split("#")[0];
-
-    return (
-        `${base}#challenge=${encodeURIComponent(
-            score
-        )}`
-    );
-}
-
-
-function getChallengeText() {
-
-    return (
-        `🧠 I scored ${score} on Brain Battle in 60 seconds!\n\n` +
-        `Can you beat me? 😏⚡\n\n` +
-        `Play my challenge:\n` +
-        `${getChallengeURL()}`
-    );
-}
-
-
-function createChallengeURL(
-    target
-) {
-
-    const base =
-        window.location.href
-            .split("#")[0];
-
-    return (
-        `${base}#challenge=${encodeURIComponent(
-            target
-        )}`
-    );
-}
+/*
+ * NEW CHALLENGE FORMAT:
+ *
+ * https://brain-battle-crrm.onrender.com/?challenge=18
+ *
+ * We also support the old:
+ *
+ * https://brain-battle-crrm.onrender.com/#challenge=18
+ */
 
 
 /* =========================================================
-   CHALLENGE CREATOR MESSAGE
+   CREATE CHALLENGE URL
 ========================================================= */
 
-function showCreatorChallengeMessage() {
+function createChallengeURL(target) {
 
-    if (!resultScreen) {
-        return;
-    }
+    const cleanBase =
+        window.location.href.split("#")[0].split("?")[0];
 
-    let creatorBox =
-        document.getElementById(
-            "challengeCreatorBox"
-        );
-
-    if (!creatorBox) {
-
-        creatorBox =
-            document.createElement(
-                "div"
-            );
-
-        creatorBox.id =
-            "challengeCreatorBox";
-
-        creatorBox.innerHTML = `
-            <div class="challenge-creator-inner">
-                <strong>⚔️ Challenge created!</strong>
-                <span>You scored <b id="creatorChallengeScore">${score}</b> points.</span>
-                <p>Send your challenge link to a friend and see if they can beat your score — or simply show them your score.</p>
-                <div class="challenge-creator-actions">
-                    <button id="creatorShareChallenge" type="button">
-                        ⚔️ Share Challenge
-                    </button>
-                    <button id="creatorCopyChallenge" type="button">
-                        🔗 Copy Challenge Link
-                    </button>
-                </div>
-            </div>
-        `;
-
-        const resultContent =
-            resultScreen.querySelector(
-                ".result-card"
-            ) ||
-            resultScreen.firstElementChild;
-
-        if (resultContent) {
-
-            resultContent.appendChild(
-                creatorBox
-            );
-
-        } else {
-
-            resultScreen.appendChild(
-                creatorBox
-            );
-        }
-
-        const creatorShare =
-            document.getElementById(
-                "creatorShareChallenge"
-            );
-
-        const creatorCopy =
-            document.getElementById(
-                "creatorCopyChallenge"
-            );
-
-        if (creatorShare) {
-
-            creatorShare.addEventListener(
-                "click",
-                shareChallenge
-            );
-        }
-
-        if (creatorCopy) {
-
-            creatorCopy.addEventListener(
-                "click",
-                copyChallenge
-            );
-        }
-    }
-
-    const creatorScore =
-        document.getElementById(
-            "creatorChallengeScore"
-        );
-
-    if (creatorScore) {
-
-        creatorScore.textContent =
-            score;
-    }
-
-    creatorBox.classList.remove(
-        "hidden"
+    return (
+        `${cleanBase}?challenge=${encodeURIComponent(
+            Math.floor(Number(target))
+        )}`
     );
 }
 
 
-function hideCreatorChallengeMessage() {
+function getChallengeURL(target) {
 
-    const creatorBox =
-        document.getElementById(
-            "challengeCreatorBox"
-        );
-
-    if (creatorBox) {
-
-        creatorBox.classList.add(
-            "hidden"
-        );
-    }
+    return createChallengeURL(target);
 }
 
 
 /* =========================================================
-   READ CHALLENGE FROM URL
+   CHALLENGE TEXT
+========================================================= */
+
+function getChallengeText(target) {
+
+    const url =
+        getChallengeURL(target);
+
+    return (
+        `🧠 I scored ${target} on Brain Battle in 60 seconds!\n\n` +
+        `Can you beat me? 😏⚡\n\n` +
+        `Play my challenge:\n` +
+        `${url}`
+    );
+}
+
+
+/* =========================================================
+   READ INCOMING CHALLENGE
 ========================================================= */
 
 function readChallengeFromURL() {
 
-    const hash =
-        window.location.hash;
+    let target = null;
 
+    /*
+     * First check the NEW format:
+     *
+     * ?challenge=18
+     */
+    try {
+
+        const params =
+            new URLSearchParams(
+                window.location.search
+            );
+
+        if (
+            params.has("challenge")
+        ) {
+
+            target =
+                Number(
+                    params.get("challenge")
+                );
+        }
+
+    } catch (error) {
+
+        console.warn(
+            "Could not read challenge query.",
+            error
+        );
+    }
+
+
+    /*
+     * If no new challenge was found,
+     * check the OLD format:
+     *
+     * #challenge=18
+     */
     if (
-        !hash ||
-        !hash.startsWith(
-            "#challenge="
-        )
+        target === null ||
+        !Number.isFinite(target)
     ) {
+
+        const hash =
+            window.location.hash;
+
+        if (
+            hash.startsWith(
+                "#challenge="
+            )
+        ) {
+
+            try {
+
+                target =
+                    Number(
+                        decodeURIComponent(
+                            hash.substring(
+                                "#challenge=".length
+                            )
+                        )
+                    );
+
+            } catch (error) {
+
+                console.warn(
+                    "Could not read old challenge link.",
+                    error
+                );
+            }
+        }
+    }
+
+
+    /*
+     * No challenge in the URL.
+     */
+    if (
+        target === null ||
+        !Number.isFinite(target) ||
+        target < 0
+    ) {
+
         return;
     }
 
-    const value =
-        decodeURIComponent(
-            hash.replace(
-                "#challenge=",
-                ""
-            )
-        );
 
-    const target =
-        Number(value);
+    /*
+     * Valid incoming challenge.
+     */
+    challengeTarget =
+        Math.floor(target);
 
-    if (
-        Number.isFinite(target) &&
-        target >= 0
-    ) {
+    challengeActive =
+        true;
 
-        challengeTarget =
-            Math.floor(target);
+    creatorMode =
+        false;
 
-        challengeActive =
-            true;
 
-        if (challengeTargetScore) {
+    if (challengeTargetScore) {
 
-            challengeTargetScore.textContent =
-                challengeTarget;
-        }
-
-        if (challengeModal) {
-
-            challengeModal.classList.remove(
-                "hidden"
-            );
-        }
+        challengeTargetScore.textContent =
+            challengeTarget;
     }
+
+
+    if (challengeModal) {
+
+        challengeModal.classList.remove(
+            "hidden"
+        );
+    }
+
+    console.log(
+        "⚔️ Incoming challenge:",
+        challengeTarget
+    );
 }
 
 
@@ -2513,12 +2429,18 @@ function readChallengeFromURL() {
 function acceptChallenge() {
 
     if (
-        challengeTarget === null
+        challengeTarget === null ||
+        !Number.isFinite(challengeTarget)
     ) {
+
         return;
     }
 
-    challengeActive = true;
+    creatorMode =
+        false;
+
+    challengeActive =
+        true;
 
     if (challengeModal) {
 
@@ -2527,13 +2449,20 @@ function acceptChallenge() {
         );
     }
 
+    /*
+     * Remove the challenge parameter from
+     * the address bar after accepting.
+     *
+     * The challengeTarget variable remains,
+     * so the game still knows the target.
+     */
+    cleanChallengeURL();
+
     initAudio();
 
     showChallengeBanner();
 
-    startGame(
-        "classic"
-    );
+    startGame("classic");
 }
 
 
@@ -2543,9 +2472,14 @@ function acceptChallenge() {
 
 function declineChallenge() {
 
-    challengeActive = false;
+    challengeActive =
+        false;
 
-    challengeTarget = null;
+    challengeTarget =
+        null;
+
+    creatorMode =
+        false;
 
     if (challengeModal) {
 
@@ -2554,9 +2488,32 @@ function declineChallenge() {
         );
     }
 
+    cleanChallengeURL();
+
+    showChallengeBanner();
+
     showToast(
         "🧠",
         "No worries. You can play normally."
+    );
+}
+
+
+/* =========================================================
+   CLEAN CHALLENGE URL
+========================================================= */
+
+function cleanChallengeURL() {
+
+    const cleanBase =
+        window.location.href
+            .split("#")[0]
+            .split("?")[0];
+
+    window.history.replaceState(
+        {},
+        document.title,
+        cleanBase
     );
 }
 
@@ -2572,8 +2529,9 @@ function showChallengeBanner() {
     }
 
     if (
-        challengeTarget === null ||
-        !challengeActive
+        creatorMode ||
+        !challengeActive ||
+        challengeTarget === null
     ) {
 
         challengeBanner.innerHTML =
@@ -2604,11 +2562,21 @@ function updateChallengeResult() {
         "";
 
     if (
-        challengeTarget === null ||
-        !challengeActive
+        creatorMode ||
+        !challengeActive ||
+        challengeTarget === null
     ) {
+
+        challengeResultBox.classList.add(
+            "hidden"
+        );
+
         return;
     }
+
+    challengeResultBox.classList.remove(
+        "hidden"
+    );
 
     let className =
         "draw";
@@ -2658,29 +2626,306 @@ function updateChallengeResult() {
 
 
 /* =========================================================
-   SHARE SCORE
+   CREATE CHALLENGE
+========================================================= */
+
+function createMyChallenge() {
+
+    if (
+        player.best <= 0
+    ) {
+
+        showToast(
+            "🧠",
+            "Play a game first to create your challenge."
+        );
+
+        return;
+    }
+
+    /*
+     * IMPORTANT:
+     *
+     * You are creating the challenge.
+     * You are NOT receiving one.
+     */
+    creatorMode =
+        true;
+
+    challengeActive =
+        false;
+
+    challengeTarget =
+        null;
+
+    score =
+        player.best;
+
+    if (finalScore) {
+
+        finalScore.textContent =
+            player.best;
+    }
+
+    if (resultCorrect) {
+
+        resultCorrect.textContent =
+            "—";
+    }
+
+    if (resultAnswered) {
+
+        resultAnswered.textContent =
+            "—";
+    }
+
+    if (resultBestCombo) {
+
+        resultBestCombo.textContent =
+            "—";
+    }
+
+    if (resultXP) {
+
+        resultXP.textContent =
+            "—";
+    }
+
+    if (newBest) {
+
+        newBest.classList.add(
+            "hidden"
+        );
+    }
+
+    if (resultMessage) {
+
+        resultMessage.textContent =
+            "Ready to challenge someone?";
+    }
+
+    if (resultIcon) {
+
+        resultIcon.textContent =
+            "⚔️";
+    }
+
+    showScreen(
+        "resultScreen"
+    );
+
+    showCreatorChallengeMessage();
+
+    showToast(
+        "⚔️",
+        "Challenge ready! Send the link to a friend."
+    );
+}
+
+
+/* =========================================================
+   CREATOR MESSAGE
+========================================================= */
+
+function showCreatorChallengeMessage() {
+
+    if (!challengeCreatorBox) {
+        return;
+    }
+
+    challengeCreatorBox.classList.remove(
+        "hidden"
+    );
+
+    if (challengeCreatorText) {
+
+        challengeCreatorText.textContent =
+            `You scored ${player.best} points. Send this challenge to a friend and see if they can beat you — or simply show them your score.`;
+    }
+
+    if (shareBtn) {
+
+        shareBtn.textContent =
+            "⚔️ Share Challenge";
+    }
+
+    if (copyChallengeBtn) {
+
+        copyChallengeBtn.classList.remove(
+            "hidden"
+        );
+    }
+
+    /*
+     * The normal "Share My Score" button becomes
+     * the challenge-sharing button while creator mode
+     * is active.
+     */
+}
+
+
+/* =========================================================
+   HIDE CREATOR MESSAGE
+========================================================= */
+
+function hideCreatorChallengeMessage() {
+
+    if (challengeCreatorBox) {
+
+        challengeCreatorBox.classList.add(
+            "hidden"
+        );
+    }
+}
+
+
+/* =========================================================
+   SHARE CHALLENGE
+========================================================= */
+
+async function shareChallenge() {
+
+    const target =
+        creatorMode
+            ? player.best
+            : challengeTarget;
+
+    if (
+        target === null ||
+        !Number.isFinite(target)
+    ) {
+
+        return;
+    }
+
+    const url =
+        getChallengeURL(target);
+
+    const text =
+        getChallengeText(target);
+
+    if (
+        navigator.share &&
+        typeof navigator.share === "function"
+    ) {
+
+        try {
+
+            await navigator.share({
+
+                title:
+                    "Brain Battle Challenge",
+
+                text:
+                    `🧠 I scored ${target} on Brain Battle. Can you beat me? 😏⚡`,
+
+                url:
+                    url
+            });
+
+            showToast(
+                "⚔️",
+                "Challenge shared!"
+            );
+
+            return;
+
+        } catch (error) {
+
+            /*
+             * Closing the share sheet is not an error
+             * that should show another toast.
+             */
+            if (
+                error &&
+                error.name === "AbortError"
+            ) {
+
+                return;
+            }
+        }
+    }
+
+    await copyText(
+        text
+    );
+
+    showToast(
+        "⚔️",
+        "Challenge link copied!"
+    );
+}
+
+
+/* =========================================================
+   COPY CHALLENGE
+========================================================= */
+
+async function copyChallenge() {
+
+    const target =
+        creatorMode
+            ? player.best
+            : challengeTarget;
+
+    if (
+        target === null ||
+        !Number.isFinite(target)
+    ) {
+
+        return;
+    }
+
+    const url =
+        getChallengeURL(target);
+
+    /*
+     * Copy the actual link prominently.
+     */
+    await copyText(
+        url
+    );
+
+    showToast(
+        "🔗",
+        "Challenge link copied!"
+    );
+}
+
+
+/* =========================================================
+   SHARE NORMAL SCORE
 ========================================================= */
 
 async function shareScore() {
+
+    /*
+     * If the player is currently creating
+     * a challenge, this button shares the challenge.
+     */
+    if (creatorMode) {
+
+        await shareChallenge();
+
+        return;
+    }
 
     const text =
         `🧠 I scored ${score} on Brain Battle in 60 seconds. Can you beat me? ⚡`;
 
     if (
         navigator.share &&
-        typeof navigator.share ===
-            "function"
+        typeof navigator.share === "function"
     ) {
 
         try {
 
             await navigator.share({
+
                 title:
                     "Brain Battle",
-                text,
-                url:
-                    window.location.href
-                        .split("#")[0]
+
+                text
             });
 
             showToast(
@@ -2694,8 +2939,7 @@ async function shareScore() {
 
             if (
                 error &&
-                error.name ===
-                    "AbortError"
+                error.name === "AbortError"
             ) {
 
                 return;
@@ -2703,68 +2947,13 @@ async function shareScore() {
         }
     }
 
-    await copyText(text);
+    await copyText(
+        text
+    );
 
     showToast(
         "✓",
         "Score copied!"
-    );
-}
-
-
-/* =========================================================
-   SHARE CHALLENGE
-========================================================= */
-
-async function shareChallenge() {
-
-    const text =
-        getChallengeText();
-
-    const url =
-        getChallengeURL();
-
-    if (
-        navigator.share &&
-        typeof navigator.share ===
-            "function"
-    ) {
-
-        try {
-
-            await navigator.share({
-                title:
-                    "Brain Battle Challenge",
-                text:
-                    `🧠 I scored ${score}. Can you beat me? 😏⚡`,
-                url
-            });
-
-            showToast(
-                "⚔️",
-                "Challenge shared!"
-            );
-
-            return;
-
-        } catch (error) {
-
-            if (
-                error &&
-                error.name ===
-                    "AbortError"
-            ) {
-
-                return;
-            }
-        }
-    }
-
-    await copyText(text);
-
-    showToast(
-        "⚔️",
-        "Challenge link copied!"
     );
 }
 
@@ -2808,6 +2997,9 @@ async function copyText(text) {
     textarea.style.position =
         "fixed";
 
+    textarea.style.left =
+        "-9999px";
+
     textarea.style.opacity =
         "0";
 
@@ -2823,41 +3015,87 @@ async function copyText(text) {
             "copy"
         );
 
-    } catch (copyError) {
+    } catch (error) {
 
         console.warn(
-            "Could not copy text.",
-            copyError
+            "Fallback copy failed.",
+            error
         );
-    }
 
-    textarea.remove();
+        return false;
+
+    } finally {
+
+        textarea.remove();
+    }
 
     return true;
 }
 
 
 /* =========================================================
-   COPY CHALLENGE BUTTON
+   CLEAR CHALLENGE
 ========================================================= */
 
-async function copyChallenge() {
+function clearChallenge() {
 
-    const text =
-        getChallengeText();
+    challengeActive =
+        false;
 
-    await copyText(text);
+    challengeTarget =
+        null;
 
-    showToast(
-        "⚔️",
-        "Challenge link copied!"
-    );
+    creatorMode =
+        false;
+
+    if (challengeModal) {
+
+        challengeModal.classList.add(
+            "hidden"
+        );
+    }
+
+    if (challengeBanner) {
+
+        challengeBanner.innerHTML =
+            "";
+    }
+
+    if (challengeResultBox) {
+
+        challengeResultBox.innerHTML =
+            "";
+
+        challengeResultBox.classList.add(
+            "hidden"
+        );
+    }
+
+    hideCreatorChallengeMessage();
+
+    if (shareBtn) {
+
+        shareBtn.textContent =
+            "📤 Share My Score";
+    }
+
+    if (copyChallengeBtn) {
+
+        copyChallengeBtn.classList.add(
+            "hidden"
+        );
+    }
+
+    cleanChallengeURL();
 }
 
 
 /* =========================================================
    TOAST
 ========================================================= */
+
+let toastTimeout = null;
+
 
 function showToast(
     icon,
@@ -2908,8 +3146,19 @@ if (startBtn) {
     startBtn.addEventListener(
         "click",
         () => {
+
             initAudio();
-            startGame("classic");
+
+            /*
+             * Starting a normal game from home
+             * should not accidentally become an
+             * incoming challenge.
+             */
+            clearChallenge();
+
+            startGame(
+                "classic"
+            );
         }
     );
 }
@@ -2944,8 +3193,18 @@ if (startDailyBtn) {
     startDailyBtn.addEventListener(
         "click",
         () => {
+
             initAudio();
-            startGame("daily");
+
+            /*
+             * Daily game is a normal game,
+             * not a friend challenge.
+             */
+            clearChallenge();
+
+            startGame(
+                "daily"
+            );
         }
     );
 }
@@ -2975,6 +3234,10 @@ if (levelsHomeBtn) {
 }
 
 
+/* =========================================================
+   SOUND BUTTON
+========================================================= */
+
 if (soundToggleBtn) {
 
     soundToggleBtn.addEventListener(
@@ -2984,50 +3247,22 @@ if (soundToggleBtn) {
 }
 
 
+/* =========================================================
+   CREATE CHALLENGE BUTTON
+========================================================= */
+
 if (challengeHomeBtn) {
 
     challengeHomeBtn.addEventListener(
         "click",
-        () => {
-
-            if (
-                player.best <= 0
-            ) {
-
-                showToast(
-                    "🧠",
-                    "Play a game first to create your challenge."
-                );
-
-                return;
-            }
-
-            challengeTarget =
-                player.best;
-
-            challengeActive =
-                true;
-
-            score =
-                player.best;
-
-            showScreen(
-                "resultScreen"
-            );
-
-            finalScore.textContent =
-                player.best;
-
-            showCreatorChallengeMessage();
-
-            showToast(
-                "⚔️",
-                "Challenge ready! Send the link to a friend."
-            );
-        }
+        createMyChallenge
     );
 }
 
+
+/* =========================================================
+   PLAY AGAIN
+========================================================= */
 
 if (playAgainBtn) {
 
@@ -3037,8 +3272,16 @@ if (playAgainBtn) {
 
             hideCreatorChallengeMessage();
 
+            /*
+             * If this player accepted somebody else's
+             * challenge, keep that challenge active.
+             *
+             * If this was a normal game or creator screen,
+             * simply play normally.
+             */
             if (
-                challengeActive
+                challengeActive &&
+                !creatorMode
             ) {
 
                 startGame(
@@ -3046,6 +3289,9 @@ if (playAgainBtn) {
                 );
 
             } else {
+
+                creatorMode =
+                    false;
 
                 startGame(
                     currentMode
@@ -3056,6 +3302,10 @@ if (playAgainBtn) {
 }
 
 
+/* =========================================================
+   RESULT HOME
+========================================================= */
+
 if (resultHomeBtn) {
 
     resultHomeBtn.addEventListener(
@@ -3064,8 +3314,6 @@ if (resultHomeBtn) {
 
             clearChallenge();
 
-            hideCreatorChallengeMessage();
-
             showScreen(
                 "homeScreen"
             );
@@ -3073,6 +3321,10 @@ if (resultHomeBtn) {
     );
 }
 
+
+/* =========================================================
+   SHARE BUTTON
+========================================================= */
 
 if (shareBtn) {
 
@@ -3083,6 +3335,10 @@ if (shareBtn) {
 }
 
 
+/* =========================================================
+   COPY CHALLENGE BUTTON
+========================================================= */
+
 if (copyChallengeBtn) {
 
     copyChallengeBtn.addEventListener(
@@ -3092,21 +3348,37 @@ if (copyChallengeBtn) {
 }
 
 
-if (levelUpClose) {
+/* =========================================================
+   LEVEL UP CLOSE
+========================================================= */
 
-    levelUpClose.addEventListener(
+const levelUpCloseBtn =
+    document.getElementById(
+        "closeLevelUpBtn"
+    );
+
+if (levelUpCloseBtn) {
+
+    levelUpCloseBtn.addEventListener(
         "click",
         () => {
 
-            levelUpModal.classList.add(
-                "hidden"
-            );
+            if (levelUpModal) {
+
+                levelUpModal.classList.add(
+                    "hidden"
+                );
+            }
 
             updateAllUI();
         }
     );
 }
 
+
+/* =========================================================
+   ACCEPT CHALLENGE BUTTON
+========================================================= */
 
 if (acceptChallengeBtn) {
 
@@ -3116,6 +3388,10 @@ if (acceptChallengeBtn) {
     );
 }
 
+
+/* =========================================================
+   DECLINE CHALLENGE BUTTON
+========================================================= */
 
 if (declineChallengeBtn) {
 
@@ -3127,7 +3403,7 @@ if (declineChallengeBtn) {
 
 
 /* =========================================================
-   ANSWER BUTTON EVENTS
+   ANSWER BUTTONS
 ========================================================= */
 
 answerButtons.forEach(
@@ -3171,6 +3447,35 @@ document
 
 
 /* =========================================================
+   BRAND HOME
+========================================================= */
+
+const brandHome =
+    document.getElementById(
+        "brandHome"
+    );
+
+if (brandHome) {
+
+    brandHome.addEventListener(
+        "click",
+        () => {
+
+            if (gameRunning) {
+                return;
+            }
+
+            clearChallenge();
+
+            showScreen(
+                "homeScreen"
+            );
+        }
+    );
+}
+
+
+/* =========================================================
    ESCAPE KEY
 ========================================================= */
 
@@ -3179,8 +3484,7 @@ document.addEventListener(
     event => {
 
         if (
-            event.key !==
-            "Escape"
+            event.key !== "Escape"
         ) {
             return;
         }
@@ -3213,24 +3517,7 @@ document.addEventListener(
 
 
 /* =========================================================
-   PAGE VISIBILITY
-========================================================= */
-
-document.addEventListener(
-    "visibilitychange",
-    () => {
-
-        /*
-         * The timer uses Date.now(),
-         * so leaving the tab does not
-         * pause the game.
-         */
-    }
-);
-
-
-/* =========================================================
-   PREVENT ACCIDENTAL PAGE EXIT
+   PREVENT ACCIDENTAL EXIT DURING GAME
 ========================================================= */
 
 window.addEventListener(
@@ -3248,35 +3535,6 @@ window.addEventListener(
     }
 );
 
-
-/* =========================================================
-   CHALLENGE RESULT CLEANUP
-========================================================= */
-
-function clearChallenge() {
-
-    challengeActive =
-        false;
-
-    challengeTarget =
-        null;
-
-    if (challengeBanner) {
-
-        challengeBanner.innerHTML =
-            "";
-    }
-
-    if (challengeResultBox) {
-
-        challengeResultBox.innerHTML =
-            "";
-    }
-
-    hideCreatorChallengeMessage();
-}
-
-
 /* =========================================================
    INITIALIZE
 ========================================================= */
@@ -3284,8 +3542,6 @@ function clearChallenge() {
 updateAllUI();
 
 loadQuestions();
-
-readChallengeFromURL();
 
 console.log(
     "🧠 Brain Battle initialized."
