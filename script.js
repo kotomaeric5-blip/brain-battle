@@ -3551,3 +3551,177 @@ console.log(
     "Player:",
     player
 );
+
+/* =========================================================
+   BRAIN BATTLE — GOOGLE ANALYTICS EVENTS
+   Added separately so the main game code stays untouched.
+========================================================= */
+
+(function () {
+
+    // Make sure Google Analytics is available
+    function bbTrack(eventName, parameters = {}) {
+        if (typeof gtag === "function") {
+            gtag("event", eventName, parameters);
+        }
+    }
+
+    // -------------------------------------------------------
+    // 1. GAME START
+    // -------------------------------------------------------
+
+    document.addEventListener("click", function (event) {
+
+        if (event.target.closest("#startBtn")) {
+            bbTrack("game_start");
+        }
+
+        // ---------------------------------------------------
+        // 2. DAILY CHALLENGE START
+        // ---------------------------------------------------
+
+        if (event.target.closest("#startDailyBtn")) {
+            bbTrack("daily_challenge_started");
+        }
+
+        // ---------------------------------------------------
+        // 3. CHALLENGE ACCEPTED
+        // ---------------------------------------------------
+
+        if (event.target.closest("#acceptChallengeBtn")) {
+            bbTrack("challenge_accepted");
+        }
+
+        // ---------------------------------------------------
+        // 4. CHALLENGE CREATED
+        // ---------------------------------------------------
+
+        if (event.target.closest("#challengeHomeBtn")) {
+            bbTrack("challenge_created");
+        }
+
+        // ---------------------------------------------------
+        // 5. SHARE / COPY
+        // ---------------------------------------------------
+
+        if (
+            event.target.closest("#shareBtn") ||
+            event.target.closest("#copyChallengeBtn")
+        ) {
+            bbTrack("share_clicked");
+        }
+
+    });
+
+
+    // -------------------------------------------------------
+    // 6. CHALLENGE OPENED
+    // -------------------------------------------------------
+
+    const params = new URLSearchParams(window.location.search);
+    const challengeScore = params.get("challenge");
+
+    if (challengeScore !== null) {
+
+        bbTrack("challenge_opened", {
+            target_score: Number(challengeScore)
+        });
+
+    }
+
+
+    // -------------------------------------------------------
+    // 7. TRACK QUESTIONS ANSWERED
+    // -------------------------------------------------------
+
+    document.addEventListener("click", function (event) {
+
+        const answerButton = event.target.closest(".answer-btn");
+
+        if (!answerButton) return;
+
+        bbTrack("question_answered");
+
+    });
+
+
+    // -------------------------------------------------------
+    // 8. DETECT GAME COMPLETION
+    // -------------------------------------------------------
+
+    let gameStarted = false;
+    let gameCompleted = false;
+
+    document.addEventListener("click", function (event) {
+
+        if (
+            event.target.closest("#startBtn") ||
+            event.target.closest("#playAgainBtn") ||
+            event.target.closest("#acceptChallengeBtn")
+        ) {
+
+            gameStarted = true;
+            gameCompleted = false;
+
+        }
+
+    });
+
+
+    // Watch for the result screen appearing
+    const resultScreen = document.querySelector("#resultScreen");
+
+    if (resultScreen) {
+
+        const observer = new MutationObserver(function () {
+
+            const isVisible =
+                !resultScreen.classList.contains("hidden") &&
+                resultScreen.style.display !== "none";
+
+            if (isVisible && gameStarted && !gameCompleted) {
+
+                gameCompleted = true;
+
+                const scoreElement =
+                    document.querySelector("#finalScore");
+
+                const score =
+                    scoreElement
+                        ? Number(scoreElement.textContent) || 0
+                        : 0;
+
+                bbTrack("game_complete", {
+                    score: score
+                });
+
+            }
+
+        });
+
+        observer.observe(resultScreen, {
+            attributes: true,
+            attributeFilter: ["class", "style"]
+        });
+
+    }
+
+
+    // -------------------------------------------------------
+    // 9. GAME ABANDONED
+    // -------------------------------------------------------
+
+    window.addEventListener("beforeunload", function () {
+
+        if (gameStarted && !gameCompleted) {
+
+            bbTrack("game_abandoned");
+
+        }
+
+    });
+
+
+    console.log("🧠 Brain Battle Analytics loaded.");
+
+})();
